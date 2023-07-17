@@ -1,0 +1,11 @@
+commit eef06396b0465151c45559c25b9a771acd2ad814
+tree 7089aba1be69db521b9f3698a8bac78f1fad35d2
+parent 630ff1130bc992b5fa346ce7d5fc79d8a8255ab5
+author Kenneth Heung <kenneth.heung@gmail.com> 2023-04-18 10:51:23 +0800
+committer GitHub <noreply@github.com> 2023-04-18 10:51:23 +0800
+
+    Update programService.js
+    
+    remove delete not needed
+
+:100644 100644 5f9bc20d33e312bd8a58a7f0bcfce9458d526e85 75143834ec77e968a363e2281b9d24878f65c5c0 M	src/service/programService.js

@@ -1,0 +1,190 @@
+Started by user [8mha:////4E8oVs03sj1YH4em3laSQuowEm2KCySaah+oudPp9rfXAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgZu/dLi1CL9pMScxGwA8cWNKsAAAAA=[0mBalasaheb Karjule
+Rebuilds build #[8mha:////4OOSWrEk+yjFEI7HTpU4C+WalQzbAD54PHwPqCqX3jkOAAAAvB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBmv9rPwkfafSzJwUMMslPznbOb8oFcwJyEmsTC1yLi0uyc8NKMpPCXPxc0xPzSuBKLcAAGQBBVbwAAAA[0m8
+Checking out git https://github.com/dictrigyn/vdn-tenant.git into /var/lib/jenkins/workspace/Build/DockCore/PlayerCustomProdVDNAgentBuild@script/463e8df029fe70aee8412cd760bce69cc71f161cbbc565f191f3c9d608875b3a to read Jenkinsfile
+The recommended git tool is: NONE
+using credential 6bd90daa-0e73-4858-a404-51bafc8c58df
+Cloning the remote Git repository
+Using shallow clone with depth 1
+Cloning repository https://github.com/dictrigyn/vdn-tenant.git
+ > git init /var/lib/jenkins/workspace/Build/DockCore/PlayerCustomProdVDNAgentBuild@script/463e8df029fe70aee8412cd760bce69cc71f161cbbc565f191f3c9d608875b3a # timeout=10
+Fetching upstream changes from https://github.com/dictrigyn/vdn-tenant.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+using GIT_ASKPASS to set credentials balasaheb-karjule
+ > git fetch --tags --force --progress --depth=1 -- https://github.com/dictrigyn/vdn-tenant.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/dictrigyn/vdn-tenant.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse origin/VDN_5.1.1_RC1^{commit} # timeout=10
+ > git rev-parse VDN_5.1.1_RC1^{commit} # timeout=10
+Checking out Revision 397e5144ae823170db836ef0ed5aa14dc1968425 (VDN_5.1.1_RC1)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 397e5144ae823170db836ef0ed5aa14dc1968425 # timeout=10
+Commit message: "contains all doc changes"
+First time build. Skipping changelog.
+Loading library deploy-conf@heads/shared-lib
+Attempting to resolve heads/shared-lib from remote references...
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git ls-remote -- https://github.com/project-sunbird/sunbird-devops.git # timeout=10
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/Build/DockCore/PlayerCustomProdVDNAgentBuild@libs/4e97b83e3fc5b39f9821d141786befe5af9f202ab969e808576bfd142e651f32/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/project-sunbird/sunbird-devops.git # timeout=10
+Using shallow fetch with depth 1
+Fetching upstream changes from https://github.com/project-sunbird/sunbird-devops.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --no-tags --force --progress --depth=1 -- https://github.com/project-sunbird/sunbird-devops.git +refs/heads/*:refs/remotes/origin/* refs/heads/shared-lib # timeout=10
+Checking out Revision 778da7ce7f97efd003eed98071921a837d209343 (778da7ce7f97efd003eed98071921a837d209343)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 778da7ce7f97efd003eed98071921a837d209343 # timeout=10
+Commit message: "fix: move variables to be accessible across both try blocks"
+ > git rev-list --no-walk 778da7ce7f97efd003eed98071921a837d209343 # timeout=10
+[8mha:////4DQMr9HgZVT9PBJ/vAJi4Vz+S03++WP2KBVOc+uUyzRvAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4Aoeah8JJKqMG1BfT93bVJkTto+Gn3BHZHMo+rKR83FkAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4IJkq0/Oqi5HTXNkdYmVvoV+xxfIsxxRtAxl++k7ApLKAAAAqx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgYF/eT83ILSktQi/bKUPFUjl6zUvOzMvGIgKzE9Na9EHwCP5+K11QAAAA==[0mvdn-jenkins-agent in /var/lib/jenkins/workspace/Build/DockCore/PlayerCustomProdVDNAgentBuild
+[8mha:////4I38JWpeOPl46roEAsfiKE5jl2R8yAwBxi/2BN73OS9sAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4KtNVHI7rD8Xme7RMP80ju20S2oPIiY4U48HgQk9fNPWAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] ansiColor
+[8mha:////4D1F1+bpfnSSiE3BhzbX8wKLrqbf1TiuUjCNI3kyo1QtAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] {
+[8mha:////4PtbLq/5M7+raEMGsWTcLXNiMB2GguF0A0YvYqN8SuLyAAAAqx+LCAAAAAAAAP9b85aBtbiIQSujNKU4P0+vIKc0PTOvWC8xrzgzOT8nv0gvMbkkEyjhCKb88ktSdwVsu2efuqidiYHRh4EDIu2ZUsIg5JOVWJaon5OYl64fXFKUmZduXVHEIAU1ODk/rzg/J1XPGUKDDGKAAEYmBoaKghIGFYuUNFMLM0sT3bSUJFNdE0MDc10LS4M0XeOURCMTg2QLC0sTEwBK6tGGrwAAAA==[0m
+[8mha:////4B2nVl1zwxUr4xTVJ4gNK1/4Kd2STXGtKJfEY5CRpiHIAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] timestamps
+[8mha:////4H9DBS9ZtGeYRmyGvGETQoNXch7OnhARRzxHuvU5kwN+AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] {
+[8mha:////4AuhRRWp2fXe1T5jtjocJtK++ePD9DH0TE1qihhCqXLaAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BSEm1igLJwhJCGmj/9skpZ04EVfjDgQqMWHJkm3Jes8X1CnCkaLjrcXOY9Ke92F0JfGJYncNNPGWLlwTJgqWSztJMva0VEnZwiJWwUrA2qIOlDy6DBvRqrtqgkLXnHMs20FA5c0AD2CikLOK+VvmCNvbaBLhj/MXAHOfge2K959f/QbB16AVwAAAAA==[0m[Pipeline] stage
+[8mha:////4JjuQGJFJefjKnSlxXbHyXAIaKA50yHKAnOImG+ooD3XAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDJUJUtJYbXmBiY5xYd8G+kFS8iK/xBwKRqNhqZ6XVPF9Q5gQHSl42DtuAuQ6yi72fmhwotZdIg2zoLGvCTNFJ7QZN1h1n1MQO5ogCFgqWDutIOaBnWKnG3E0VDfrqxGna9gqKYG/wAKEmM5vEXxgTrK+9zYQ/z18BjB2D2DEU283nWL4Bsam+msEAAAA=[0m[Pipeline] { (Checkout)
+[8mha:////4Egcskj6pLf5Jd0/XM+FWAuPTbsmuKF1wNdG0mVSmlhBAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCakRFa6XhBSYxxo5159gOTsWL+Bp/IBCJii1WO9vM8wXrGODIQaNV1BuKrUHvRj0vzBz6q+OMli/YMkV2ChuVG+7UacGGk4IlRQkrARtFreNoSCfYCivvsnKSdHVOYf4OAkrTDfCAQszmJEP6whRgdxu7yPTz/BXA5BOU9f5TtX8D0loxuL4AAAA=[0m[Pipeline] checkout
+[2023-07-11T10:23:29.174Z] The recommended git tool is: NONE
+[2023-07-11T10:23:29.180Z] using credential 6bd90daa-0e73-4858-a404-51bafc8c58df
+[2023-07-11T10:23:29.185Z] Cloning the remote Git repository
+[2023-07-11T10:23:29.185Z] Using shallow clone with depth 1
+[2023-07-11T10:23:29.188Z] Cloning repository https://github.com/dictrigyn/vdn-tenant.git
+[2023-07-11T10:23:29.188Z]  > git init /var/lib/jenkins/workspace/Build/DockCore/PlayerCustomProdVDNAgentBuild # timeout=10
+[2023-07-11T10:23:29.195Z] Fetching upstream changes from https://github.com/dictrigyn/vdn-tenant.git
+[2023-07-11T10:23:29.195Z]  > git --version # timeout=10
+[2023-07-11T10:23:29.198Z]  > git --version # 'git version 2.17.1'
+[2023-07-11T10:23:29.198Z] using GIT_ASKPASS to set credentials balasaheb-karjule
+[2023-07-11T10:23:29.198Z]  > git fetch --tags --progress --depth=1 -- https://github.com/dictrigyn/vdn-tenant.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+[2023-07-11T10:23:51.005Z] Avoid second fetch
+[2023-07-11T10:23:51.018Z] Checking out Revision 397e5144ae823170db836ef0ed5aa14dc1968425 (VDN_5.1.1_RC1)
+[2023-07-11T10:23:51.000Z]  > git config remote.origin.url https://github.com/dictrigyn/vdn-tenant.git # timeout=10
+[2023-07-11T10:23:51.002Z]  > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+[2023-07-11T10:23:51.007Z]  > git rev-parse origin/VDN_5.1.1_RC1^{commit} # timeout=10
+[2023-07-11T10:23:51.013Z]  > git rev-parse VDN_5.1.1_RC1^{commit} # timeout=10
+[2023-07-11T10:23:51.019Z]  > git config core.sparsecheckout # timeout=10
+[2023-07-11T10:23:51.020Z]  > git checkout -f 397e5144ae823170db836ef0ed5aa14dc1968425 # timeout=10
+[2023-07-11T10:23:53.649Z] Commit message: "contains all doc changes"
+[8mha:////4KS5HcH0Lk7kSB0rID8HuT51MLcIfX2KVzYX9gupKvSrAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICtIgqreWGF5jYGCfWnbEdkooX8TX+QCASFVusdraZ5wuWKcKRo8XWUOcoNQ6D7+20cODYXTwP2PIZG6bE3qA0g2Rt6hklZwNzihIWAlaGGs/Jkc2wFq26q8orstUpx+k7CCidvsEDCjGZs4r5C2OEzbXXienn+SuAMWQod9tP7cMbEQkck74AAAA=[0m[Pipeline] echo
+[2023-07-11T10:23:53.663Z] [1m[33mdiksha_tenant_tag specified, checkout from tag: VDN_5.1.1_RC1[0m
+[8mha:////4Lw++M25Z0aHO2Y8PKJrbLkMJ3gtqfhoaAihtpb0MW2SAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICokRUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDudt+ah/eUDgHir4AAAA=[0m[Pipeline] checkout
+[2023-07-11T10:23:53.675Z] The recommended git tool is: NONE
+[2023-07-11T10:23:53.680Z] using credential 6bd90daa-0e73-4858-a404-51bafc8c58df
+[2023-07-11T10:23:53.686Z] Fetching changes from the remote Git repository
+[2023-07-11T10:23:53.693Z] Using shallow fetch with depth 1
+[2023-07-11T10:23:53.684Z]  > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/Build/DockCore/PlayerCustomProdVDNAgentBuild/.git # timeout=10
+[2023-07-11T10:23:53.688Z]  > git config remote.origin.url https://github.com/dictrigyn/vdn-tenant.git # timeout=10
+[2023-07-11T10:23:53.696Z] Fetching upstream changes from https://github.com/dictrigyn/vdn-tenant.git
+[2023-07-11T10:23:53.696Z]  > git --version # timeout=10
+[2023-07-11T10:23:53.698Z]  > git --version # 'git version 2.17.1'
+[2023-07-11T10:23:53.698Z] using GIT_ASKPASS to set credentials balasaheb-karjule
+[2023-07-11T10:23:53.699Z]  > git fetch --tags --progress --depth=1 -- https://github.com/dictrigyn/vdn-tenant.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+[2023-07-11T10:23:54.976Z] Checking out Revision 397e5144ae823170db836ef0ed5aa14dc1968425 (VDN_5.1.1_RC1)
+[2023-07-11T10:23:54.964Z]  > git rev-parse origin/VDN_5.1.1_RC1^{commit} # timeout=10
+[2023-07-11T10:23:54.974Z]  > git rev-parse VDN_5.1.1_RC1^{commit} # timeout=10
+[2023-07-11T10:23:54.977Z]  > git config core.sparsecheckout # timeout=10
+[2023-07-11T10:23:54.981Z]  > git checkout -f 397e5144ae823170db836ef0ed5aa14dc1968425 # timeout=10
+[2023-07-11T10:23:55.917Z] Commit message: "contains all doc changes"
+[8mha:////4CzHmxzm2O58kXzYkV2lTtflDV38LathTW1OUUTiyH+fAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICEh2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyt32U/vwBpeuRsW+AAAA[0m[Pipeline] checkout
+[2023-07-11T10:23:55.933Z] The recommended git tool is: NONE
+[2023-07-11T10:23:55.938Z] using credential private_repo_credentials
+[2023-07-11T10:23:55.945Z] Fetching changes from the remote Git repository
+[2023-07-11T10:23:55.949Z] Using shallow fetch with depth 1
+[2023-07-11T10:23:55.943Z]  > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/Build/DockCore/PlayerCustomProdVDNAgentBuild/.git # timeout=10
+[2023-07-11T10:23:55.946Z]  > git config remote.origin.url https://github.com/ocisunbird/vdn-tenant.git # timeout=10
+[2023-07-11T10:23:55.950Z] Fetching upstream changes from https://github.com/ocisunbird/vdn-tenant.git
+[2023-07-11T10:23:55.951Z]  > git --version # timeout=10
+[2023-07-11T10:23:55.953Z]  > git --version # 'git version 2.17.1'
+[2023-07-11T10:23:55.953Z] using GIT_ASKPASS to set credentials 
+[2023-07-11T10:23:55.954Z]  > git fetch --tags --progress --depth=1 -- https://github.com/ocisunbird/vdn-tenant.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+[2023-07-11T10:23:57.890Z] Checking out Revision 397e5144ae823170db836ef0ed5aa14dc1968425 (refs/tags/VDN_5.1.1_RC1)
+[2023-07-11T10:23:57.909Z] Commit message: "contains all doc changes"
+[2023-07-11T10:23:57.909Z] First time build. Skipping changelog.
+[2023-07-11T10:23:57.884Z]  > git rev-parse refs/remotes/origin/refs/tags/VDN_5.1.1_RC1^{commit} # timeout=10
+[2023-07-11T10:23:57.888Z]  > git rev-parse refs/tags/VDN_5.1.1_RC1^{commit} # timeout=10
+[2023-07-11T10:23:57.891Z]  > git config core.sparsecheckout # timeout=10
+[2023-07-11T10:23:57.892Z]  > git checkout -f 397e5144ae823170db836ef0ed5aa14dc1968425 # timeout=10
+[8mha:////4EXpX2SRlGvvE0yX9loHpOGrndqLTd4QjeNSNvGNRH1mAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICBRWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyt32U/vwBtafXdy+AAAA[0m[Pipeline] echo
+[2023-07-11T10:23:58.039Z] [1m[33mdiksha_tenant_tag specified, building from tag: VDN_5.1.1_RC1[0m
+[8mha:////4DMAVmYYUiRFFtp4Nb2V98rZ30Ea02r+55we3vIJkqUyAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICDQ2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyt32U/vwBhXMcPe+AAAA[0m[Pipeline] echo
+[2023-07-11T10:23:58.068Z] build_tag: VDN_5.1.1_RC1_
+[8mha:////4FuqGL7H5rhD3zUhrYNX2MMIzqZZy5EzImQOFlkRis4xAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICFQWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BgGX7wu+AAAA[0m[Pipeline] }
+[8mha:////4K2z6BYzhKtFDH89bzfH4G5+y6dKsPtlfsBLkSk40DAMAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRHQhR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Qb3eCbP8B+RyEnL0AAAA=[0m[Pipeline] // stage
+[8mha:////4BYGjQAtnwVUxZSR7sT0lZSMaaMMm49GY/lqZ5P/VVbRAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjOhCiorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxJah2Ow+x/INuSc/fMEAAAA=[0m[Pipeline] stage
+[8mha:////4JbTIQc4TNyZvja2cyCZcZauRrbCDPwAMBW155X9/usoAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogU2BDqxBp14QShCSFp9H9JUtKJE3E17kCgEhMeLNuS9Z4vqIKHhrxmVmFvMHSGDW7UObFEvr84SszSmXWEgZxirUotSXWca0tRwayihAWHpcLOUTCoI6y4FXdRO4G6PkWftwOH0sgbPKDgmRyFj98yeVhfRxkIf5y/AJiGCOV2n223+TyrN7xWSV3CAAAA[0m[Pipeline] { (Build)
+[8mha:////4A5QXVEQy4mWcke2B9HF/UX3JLvu+/vwtLYut3cclwJmAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICtIgqreWGF5jYGCfWnbEdkooX8TX+QCASFVusdraZ5wuWKcKRo8XWUOcoNQ6D7+20cODYXTwP2PIZG6bE3qA0g2Rt6hklZwNzihIWAlaGGs/Jkc2wFq26q8orstUpx+k7CCidvsEDCjGZs4r5C2OEzbXXienn+SuAMWQo99tP7cIbaOP4NL4AAAA=[0m[Pipeline] echo
+[2023-07-11T10:23:58.213Z] [1m[33mSetting build_number to lastSuccessfulBuild to copy metadata.json[0m
+[8mha:////4NSZ2PypxEX+iWEwelmmv3JTAFEqo4UCQMk5u0Pyq3OjAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKC0iIqWisNLzCJMXasO8d2cCpexNf4A4FIVGyx2tlmni9YxwBHDhqtot5QbA16N+p5YebQXx1ntHzBlimyU9io3HCnTgs2nBQsKUpYCdgoah1HQzrBVlh5l5WTpKtzCvN3EFCaboAHFGI2JxnSF6YAu9vYRaaf568AJp+grPefqv0bq7DVH74AAAA=[0m[Pipeline] copyArtifacts
+[2023-07-11T10:23:58.249Z] Due to the Copy artifact compatibility mode, set as migration, the build can reach the project ArtifactUpload/DockPreproduction/Core/PlayerVDNAgentBuild.
+[2023-07-11T10:23:58.249Z]  But in Production mode, this will not be the case anymore.
+[2023-07-11T10:23:58.249Z]  Please consider adding the CopyArtifactPermission on the project you want to copy.
+[2023-07-11T10:23:58.257Z] Copied 1 artifact from "[8mha:////4Lusk1DmKeogLVa2pm+RwRsCmE1Caire0UiXuiITQOTPAAAAvR+LCAAAAAAAAP9djEEOwUAUhp8KB7AUZ+jsbESkWBCNNBH2YzraYTJv8vpG9BquwcYhHMcdUDv/5v/yLb77CzoVwaAMeYUuVugqtDpe1F6TNe60RtbD8e0xvvpnBNESula7gssU2oEsQy89yrMUVrpCbJiMK0YXgv5fbvb7bwx+a0UAF/+BCcNKHHEvEmJzkIq33qLMGzVHdcpIe8I8KDboGjtD0g1kVtaadvN1UmjH02BsLt4tgb3v0AAAAA==[0mArtifactUpload » DockPreproduction » Core » PlayerVDNAgentBuild" build number [8mha:////4IiBmCiy1lhUlFB5FRvk095xZiLgXjDCWQAu3UoP/UaFAAAAwB+LCAAAAAAAAP9djEEOwUAUhp8KB7AUZzBhYSNd0C5IpGki7EdnjGEyb/L6KlzDNdg4hOO4A9qdf/N/+Rbf4w2dkmBwqFSJfligL9Hp4eIaNDnrTxmynsT3Z3wLrwiiJXSd9oYPK2hX5Bh6q6M8S+GkN2LNZL2ZXgj6f7mk+V8MmrUigEv4QsSQiSPuxIzY7mXBm+BQqlqlWJxy0oFQVQVb9LVNkHQNuZNXTds0mxnteV5Zp8RoLD69KEhD0wAAAA==[0m12
+[8mha:////4M8wzzeGzbYR3YTlfx1Ck+XqU8WgBgNWuleCl+JRiJYgAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDudt+ah/e6oHOBr4AAAA=[0m[Pipeline] sh
+[2023-07-11T10:23:58.538Z] + pwd
+[8mha:////4FpcnbsuJIAqHAjq2dGY5uOQRnZ2ChHOhqhIjj+h/vPbAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCEB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyt32U/vwBi0Xj0m+AAAA[0m[Pipeline] sh
+[2023-07-11T10:23:58.816Z] + jq -r .image_tag metadata.json
+[8mha:////4KjbaRyCdQ452ERUwgeHJThU44G3BXA8oK44nw6EhzX6AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCkKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO62n9qHN2wmlFC+AAAA[0m[Pipeline] sh
+[2023-07-11T10:23:59.095Z] + jq -r .node_name metadata.json
+[8mha:////4LfgIAGqN7pUWNO1pCbywwNf/e6ANSnZfliQtuvOmN3yAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCKGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO62n9qHN691uXu+AAAA[0m[Pipeline] sh
+[2023-07-11T10:23:59.372Z] + jq -r .image_name metadata.json
+[8mha:////4Pp8v1OuEQjPD/g4veUV3vAUOKKuldWbqDDdirxKRSuyAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCaCgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO62n9qHN+5EomK+AAAA[0m[Pipeline] sh
+[2023-07-11T10:23:59.649Z] + jq -r .commit_hash metadata.json
+[8mha:////4EZcbX8Dtx3IP3XTF+2JQeH1B1DqNZSCZckvQHZgDlbOAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCqJAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO62n9qHNyFYOuW+AAAA[0m[Pipeline] sh
+[2023-07-11T10:23:59.930Z] + bash build.sh haryana_tentant_bcff0762b8_7 vdn-jenkins-agent bom.ocir.io/bmzbbujw9kal/diksha-odev creation-player VDN_5.1.1_RC1_ bcff0762b8
+[2023-07-11T10:24:00.186Z] #1 [internal] load .dockerignore
+[2023-07-11T10:24:00.186Z] #1 transferring context: 2B done
+[2023-07-11T10:24:00.186Z] #1 DONE 0.0s
+[2023-07-11T10:24:00.186Z] 
+[2023-07-11T10:24:00.186Z] #2 [internal] load build definition from Dockerfile
+[2023-07-11T10:24:00.186Z] #2 transferring dockerfile: 183B done
+[2023-07-11T10:24:00.186Z] #2 DONE 0.0s
+[2023-07-11T10:24:00.186Z] 
+[2023-07-11T10:24:00.186Z] #3 [internal] load metadata for bom.ocir.io/bmzbbujw9kal/diksha-odev/creation-player:haryana_tentant_bcff0762b8_7
+[2023-07-11T10:24:00.186Z] #3 DONE 0.0s
+[2023-07-11T10:24:00.186Z] 
+[2023-07-11T10:24:00.186Z] #4 [1/3] FROM bom.ocir.io/bmzbbujw9kal/diksha-odev/creation-player:haryana_tentant_bcff0762b8_7
+[2023-07-11T10:24:00.186Z] #4 DONE 0.1s
+[2023-07-11T10:24:00.186Z] 
+[2023-07-11T10:24:00.186Z] #5 [internal] load build context
+[2023-07-11T10:24:04.385Z] #5 transferring context: 765.18MB 4.3s done
+[2023-07-11T10:24:04.385Z] #5 DONE 4.3s
+[2023-07-11T10:24:04.385Z] 
+[2023-07-11T10:24:04.385Z] #6 [2/3] COPY ./tenants /home/sunbird/app_dist/tenant/
+[2023-07-11T10:24:19.215Z] #6 DONE 13.9s
+[2023-07-11T10:24:19.215Z] 
+[2023-07-11T10:24:19.215Z] #7 [3/3] WORKDIR /home/sunbird/app_dist
+[2023-07-11T10:24:19.215Z] #7 DONE 0.0s
+[2023-07-11T10:24:19.215Z] 
+[2023-07-11T10:24:19.215Z] #8 exporting to image
+[2023-07-11T10:24:19.215Z] #8 exporting layers
+[2023-07-11T10:24:22.482Z] #8 exporting layers 4.1s done
+[2023-07-11T10:24:22.482Z] #8 writing image sha256:1bb09d554facd617d3ff42e48a79d322cb855ae513f055f7ef2bbba6025e60be done
+[2023-07-11T10:24:22.482Z] #8 naming to bom.ocir.io/bmzbbujw9kal/diksha-odev/creation-player:haryana_tentant_bcff0762b8_7_VDN_5.1.1_RC1_ done
+[2023-07-11T10:24:22.482Z] #8 DONE 4.1s
+[8mha:////4FCh00pwPGCKfoWW1UAvzF8xcWTpmV8zkKuDFkHbC/AXAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKC6BCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7Bi+/ICu+AAAA[0m[Pipeline] }
+[8mha:////4BGaQmsjdABAmgvb2DA+UymY44Cty9QUtRea5TC8sabeAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICokIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AE0Dqn4vgAAAA==[0m[Pipeline] // stage
+[8mha:////4F4avn3n3UlL7u++ygFstaqMTK9qNdq+sEwq5Gl2D/FWAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjRIOEqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFjKLabz7F8A/208wfBAAAA[0m[Pipeline] stage
+[8mha:////4PH+ls5Eh/M/HlWoOxyFZz+Hit3psLVgx+uJ2uymuIn1AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+2YMO4MIAAAA=[0m[Pipeline] { (ArchiveArtifacts)
+[8mha:////4Gpn9xnEB/mkB9qFYnxB5PtHYHStBHxJKX5hXPC52iulAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikRJR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3favo5XL4AAAA=[0m[Pipeline] archiveArtifacts
+[2023-07-11T10:24:22.538Z] Archiving artifacts
+[8mha:////4K6HHczSC5/jpe/xIM4vzS5kh5AVM82OqfRjm6uOX3f0AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7Bij33Ma+AAAA[0m[Pipeline] }
+[8mha:////4EdewLMCSutBQrleFnQLbpC2k4obGxBa0cE2PEgo6T/fAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbNzd1iZS+AAAA[0m[Pipeline] // stage
+[8mha:////4JciSIzStUbnjcqLLc7exdthboL42kFgU+Umu5CwN88GAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpkBASoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/uBNn+AwUzexm9AAAA[0m[Pipeline] }
+[8mha:////4GqwKb/oZ/BHQeM5V7qRlrj8JA1schT4DK1VAr9tDW/9AAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIUFhSOlW2GxhNEiDGQ2cVkESpP5NW8g4zMWPmr/17zXm+sU8SRo1Otpc5Tqr3qw+Dmp0aO3TXwqFq+qJopcbCqsmPFjT0tWLFYLMtyrDQ2lurAyZMTbHVrHqYIhlxxlji7g0bumzueyPRcFhPlC1PE7jY0ienX+RvA1PeCfF8KsvIDJAektL0AAAA=[0m[Pipeline] // timestamps
+[8mha:////4O8CqWPe1k/J9jjPXCbrZBKYIfIunFUL55FCgUQ32NDlAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpkBASoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/uBdnuA2Og80G9AAAA[0m[Pipeline] }
+[8mha:////4H6MLyOjGMd2cHQdsVguX5Vy463kj5as4eVAwArXd2ErAAAAqh+LCAAAAAAAAP9b85aBtbiIQSujNKU4P0+vIKc0PTOvWC8xrzgzOT8nv0gvMbkkEyjhCKb88ktSdwVsu2efuqidiYHRh4EDIu2ZUsIg5JOVWJaon5OYl64fXFKUmZduXVHEIAU1ODk/rzg/J1XPGUKDDGKAAEYmBoaKghIGlWQzi2SjpOQUXVPjpFRdEwsDC92klBQTINfUzMQyOc3A2CANAB3kYxWvAAAA[0m
+[8mha:////4DT9oV2rSNn1Lf7NhopbnenTLS+8R1kmsHnLjT1l+KCeAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpEAVCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9AGnYmuW9AAAA[0m[Pipeline] // ansiColor
+[8mha:////4P65zaEVXlcBa6vvLAlHjJW+Bm7T0xT4nRXk1KiP2WKaAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiJY0DlWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyci/Iyg82uoiCvQAAAA==[0m[Pipeline] }
+[8mha:////4LDly4mrMvuWqF4yMK8kaYH8plTHikcZBTQuz+HLYsIDAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRgg5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77eCbPcBJQaMIb0AAAA=[0m[Pipeline] // node
+[8mha:////4Pjnpth0et6h17XLLQdc9hehOOpGZYjMDykEJgjU3TPlAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkxM04uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0g35eCrPwAY0wrEb0AAAA=[0m[Pipeline] End of Pipeline
+Triggering a new build of [8mha:////4AmDMdSjgXwA5vt0nSefA/MPxKddiaOrHN2H+P5Gx7FRAAAAxx+LCAAAAAAAAP9djT0OgkAUhJ8YPYClsfECbGejFAYLTNCQGA+wwsrfum/zeBi5htfQxkN4HO8gwUqmmcnky8zzA6OKYJ7VSYXGjdFUqJW7w0TpoLGKdG7KPbKCnwYOwI1g1uP/0IX3eHl3+3bA2cJYK5NyFsKwJs0wCQt5lUJLk4oDU27SZTs37c35P+//2jasGAJR4EmsifOzjPloNcqkqzYYlxEpS5jUMedoutZHUl2ItGwU+XXFeIlaRnwBhnCWeP0AAAA=[0mArtifactUpload » DockPreproduction » Core » PlayerCustomProd #9
+Finished: SUCCESS

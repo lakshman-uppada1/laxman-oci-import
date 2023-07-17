@@ -1,0 +1,160 @@
+Started by an SCM change
+Checking out git https://github.com/project-sunbird/sunbird-learning-platform.git into /var/lib/jenkins/workspace/Build/DockCore/CassandraTrigger@script/be25e2c44c363ef7afac4abe5078f50ac40f8e2559ed93515870d88a5abc4392 to read Jenkinsfile.trigger
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Using shallow clone with depth 1
+Cloning repository https://github.com/project-sunbird/sunbird-learning-platform.git
+ > git init /var/lib/jenkins/workspace/Build/DockCore/CassandraTrigger@script/be25e2c44c363ef7afac4abe5078f50ac40f8e2559ed93515870d88a5abc4392 # timeout=10
+Fetching upstream changes from https://github.com/project-sunbird/sunbird-learning-platform.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress --depth=1 -- https://github.com/project-sunbird/sunbird-learning-platform.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/project-sunbird/sunbird-learning-platform.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+Seen branch in repository origin/SB-26316
+Seen branch in repository origin/SB-29785
+Seen branch in repository origin/clean-4.2.0
+Seen branch in repository origin/cleanup-5.4.0
+Seen branch in repository origin/collection-publish
+Seen branch in repository origin/csp-migration
+Seen branch in repository origin/dependabot/maven/platform-core/audit-history/com.fasterxml.jackson.core-jackson-databind-2.12.7.1
+Seen branch in repository origin/dependabot/maven/platform-core/audit-history/com.google.code.gson-gson-2.8.9
+Seen branch in repository origin/dependabot/maven/platform-core/audit-history/org.springframework-spring-beans-5.2.20.RELEASE
+Seen branch in repository origin/dependabot/maven/platform-core/audit-history/org.springframework-spring-core-5.2.22.RELEASE
+Seen branch in repository origin/dependabot/maven/platform-core/audit-history/spring.version-5.2.7.RELEASE
+Seen branch in repository origin/dependabot/maven/platform-core/graph-engine/module/graph-common/com.typesafe.akka-akka-actor_2.11-2.4.17
+Seen branch in repository origin/dependabot/maven/platform-core/graph-engine/module/graph-core/commons-io-commons-io-2.7
+Seen branch in repository origin/dependabot/maven/platform-core/graph-engine/module/graph-dac-api/org.neo4j.procedure-apoc-4.3.0.7
+Seen branch in repository origin/dependabot/maven/platform-core/graph-engine/org.springframework-spring-beans-5.2.20.RELEASE
+Seen branch in repository origin/dependabot/maven/platform-core/graph-engine/org.springframework-spring-core-5.2.22.RELEASE
+Seen branch in repository origin/dependabot/maven/platform-core/graph-engine/spring.version-5.2.7.RELEASE
+Seen branch in repository origin/dependabot/maven/platform-core/platform-common/com.fasterxml.jackson.core-jackson-databind-2.12.7.1
+Seen branch in repository origin/dependabot/maven/platform-core/platform-common/commons-io-commons-io-2.7
+Seen branch in repository origin/dependabot/maven/platform-core/unit-tests/junit-junit-4.13.1
+Seen branch in repository origin/dependabot/maven/platform-jobs/samza/course-batch-updater/com.fasterxml.jackson.core-jackson-databind-2.9.10.7
+Seen branch in repository origin/dependabot/maven/platform-jobs/samza/course-certificate-generator/com.fasterxml.jackson.core-jackson-databind-2.9.10.7
+Seen branch in repository origin/dependabot/maven/platform-jobs/samza/merge-user-courses/com.fasterxml.jackson.core-jackson-databind-2.12.7.1
+Seen branch in repository origin/dependabot/maven/platform-jobs/samza/mvc-processor-indexer/io.netty-netty-all-4.1.42.Final
+Seen branch in repository origin/dependabot/maven/platform-jobs/samza/publish-pipeline/com.fasterxml.jackson.core-jackson-databind-2.12.7.1
+Seen branch in repository origin/dependabot/maven/platform-modules/assessment-manager/commons-fileupload-commons-fileupload-1.5
+Seen branch in repository origin/dependabot/maven/platform-modules/assessment-manager/commons-io-commons-io-2.7
+Seen branch in repository origin/dependabot/maven/platform-modules/assessment-manager/io.netty-netty-all-4.1.42.Final
+Seen branch in repository origin/dependabot/maven/platform-modules/assessment-manager/org.apache.httpcomponents-httpclient-4.5.13
+Seen branch in repository origin/dependabot/maven/platform-modules/assessment-manager/org.neo4j.procedure-apoc-4.4.0.14
+Seen branch in repository origin/dependabot/maven/platform-modules/common/commons-collections-commons-collections-3.2.2
+Seen branch in repository origin/dependabot/maven/platform-modules/common/commons-fileupload-commons-fileupload-1.5
+Seen branch in repository origin/dependabot/maven/platform-modules/common/commons-io-commons-io-2.7
+Seen branch in repository origin/dependabot/maven/platform-modules/common/org.apache.tika-tika-core-1.22
+Seen branch in repository origin/dependabot/maven/platform-modules/content-manager/org.neo4j.procedure-apoc-4.4.0.14
+Seen branch in repository origin/dependabot/maven/platform-modules/ekstep-framework/commons-io-commons-io-2.7
+Seen branch in repository origin/dependabot/maven/platform-modules/ekstep-framework/io.netty-netty-all-4.1.42.Final
+Seen branch in repository origin/dependabot/maven/platform-modules/ekstep-framework/org.apache.httpcomponents-httpclient-4.5.13
+Seen branch in repository origin/dependabot/maven/platform-modules/ekstep-framework/org.apache.tika-tika-core-1.22
+Seen branch in repository origin/dependabot/maven/platform-modules/ekstep-framework/org.neo4j.procedure-apoc-3.4.0.4
+Seen branch in repository origin/dependabot/maven/platform-modules/manager/commons-fileupload-commons-fileupload-1.5
+Seen branch in repository origin/dependabot/maven/platform-modules/manager/commons-io-commons-io-2.7
+Seen branch in repository origin/dependabot/maven/platform-modules/manager/io.netty-netty-all-4.1.42.Final
+Seen branch in repository origin/dependabot/maven/platform-modules/manager/org.apache.httpcomponents-httpclient-4.5.13
+Seen branch in repository origin/dependabot/maven/platform-modules/manager/org.apache.tika-tika-core-1.22
+Seen branch in repository origin/dependabot/maven/platform-modules/manager/org.neo4j.procedure-apoc-4.4.0.14
+Seen branch in repository origin/dependabot/maven/platform-modules/service/commons-io-commons-io-2.7
+Seen branch in repository origin/dependabot/maven/platform-modules/service/org.apache.httpcomponents-httpclient-4.5.13
+Seen branch in repository origin/dependabot/maven/platform-modules/sunbird-framework/commons-fileupload-commons-fileupload-1.5
+Seen branch in repository origin/dependabot/maven/platform-modules/sunbird-framework/commons-io-commons-io-2.7
+Seen branch in repository origin/dependabot/maven/platform-modules/sunbird-framework/io.netty-netty-all-4.1.42.Final
+Seen branch in repository origin/dependabot/maven/platform-modules/sunbird-framework/org.apache.httpcomponents-httpclient-4.5.13
+Seen branch in repository origin/dependabot/maven/platform-modules/sunbird-framework/org.apache.tika-tika-core-1.22
+Seen branch in repository origin/dependabot/maven/platform-modules/sunbird-framework/org.neo4j.procedure-apoc-4.4.0.14
+Seen branch in repository origin/dependabot/maven/platform-tests/org.springframework-spring-beans-5.2.20.RELEASE
+Seen branch in repository origin/dependabot/maven/platform-tests/org.springframework-spring-core-5.2.22.RELEASE
+Seen branch in repository origin/dependabot/maven/platform-tests/spring.version-5.2.7.RELEASE
+Seen branch in repository origin/dependabot/maven/platform-tools/cassandra-extension/transaction-event-handler/ch.qos.logback-logback-core-1.2.9
+Seen branch in repository origin/dependabot/maven/platform-tools/cassandra-extension/transaction-event-handler/com.fasterxml.jackson.core-jackson-databind-2.12.7.1
+Seen branch in repository origin/dependabot/maven/platform-tools/cassandra-extension/transaction-event-handler/org.apache.cassandra-cassandra-all-3.11.12
+Seen branch in repository origin/dependabot/maven/platform-tools/spikes/sync-tool/io.netty-netty-all-4.1.42.Final
+Seen branch in repository origin/dependabot/maven/platform-tools/spikes/sync-tool/org.apache.logging.log4j-log4j-api-2.17.1
+Seen branch in repository origin/dependabot/maven/platform-tools/spikes/sync-tool/org.apache.logging.log4j-log4j-core-2.17.1
+Seen branch in repository origin/dependabot/maven/platform-tools/spikes/sync-tool/org.neo4j.procedure-apoc-4.4.0.14
+Seen branch in repository origin/dependabot/maven/searchIndex-platform/module/mvcsearchindex-elasticsearch/org.elasticsearch-elasticsearch-7.14.0
+Seen branch in repository origin/dependabot/maven/searchIndex-platform/module/searchindex-common/org.apache.httpcomponents-httpclient-4.5.13
+Seen branch in repository origin/dependabot/maven/searchIndex-platform/module/searchindex-elasticsearch/org.apache.httpcomponents-httpclient-4.5.13
+Seen branch in repository origin/dependabot/maven/searchIndex-platform/module/searchindex-elasticsearch/org.elasticsearch-elasticsearch-6.8.17
+Seen branch in repository origin/dependabot/maven/searchIndex-platform/org.springframework-spring-beans-5.2.20.RELEASE
+Seen branch in repository origin/dependabot/maven/searchIndex-platform/org.springframework-spring-core-5.2.22.RELEASE
+Seen branch in repository origin/dependabot/maven/searchIndex-platform/spring.version-5.2.7.RELEASE
+Seen branch in repository origin/devcon-2020
+Seen branch in repository origin/gcp
+Seen branch in repository origin/inquiry-bb
+Seen branch in repository origin/kn-802
+Seen branch in repository origin/knowlg-bb
+Seen branch in repository origin/knowlg-bb-csp
+Seen branch in repository origin/knowlg-friday
+Seen branch in repository origin/loadtest-release-2.10
+Seen branch in repository origin/log4j-fix
+Seen branch in repository origin/master
+Seen branch in repository origin/neo4j-4-upgrade
+Seen branch in repository origin/org-target-enhancement
+Seen branch in repository origin/pramodkvarma-patch-1
+Seen branch in repository origin/release-1.15_RC8
+Seen branch in repository origin/release-2.10.0
+Seen branch in repository origin/release-2.10.1
+Seen branch in repository origin/release-2.10.2
+Seen branch in repository origin/release-2.6.0
+Seen branch in repository origin/release-2.6.0-k8s
+Seen branch in repository origin/release-2.6.5
+Seen branch in repository origin/release-2.7.0
+Seen branch in repository origin/release-2.8.0
+Seen branch in repository origin/release-2.9.0
+Seen branch in repository origin/release-3.0.0
+Seen branch in repository origin/release-3.0.1
+Seen branch in repository origin/release-3.1.0
+Seen branch in repository origin/release-3.2.0
+Seen branch in repository origin/release-3.2.5
+Seen branch in repository origin/release-3.3.0
+Seen branch in repository origin/release-3.4.0
+Seen branch in repository origin/release-3.4.1
+Seen branch in repository origin/release-3.5.0
+Seen branch in repository origin/release-3.6.0
+Seen branch in repository origin/release-3.7.0
+Seen branch in repository origin/release-3.8.0
+Seen branch in repository origin/release-3.9.0
+Seen branch in repository origin/release-4.0.0
+Seen branch in repository origin/release-4.1.0
+Seen branch in repository origin/release-4.10.0
+Seen branch in repository origin/release-4.10.1
+Seen branch in repository origin/release-4.2.0
+Seen branch in repository origin/release-4.3.0
+Seen branch in repository origin/release-4.4.0
+Seen branch in repository origin/release-4.4.1
+Seen branch in repository origin/release-4.5.0
+Seen branch in repository origin/release-4.6.0
+Seen branch in repository origin/release-4.7.0
+Seen branch in repository origin/release-4.8.0
+Seen branch in repository origin/release-4.8.1
+Seen branch in repository origin/release-4.8.5
+Seen branch in repository origin/release-4.9.0
+Seen branch in repository origin/release-4.9.1
+Seen branch in repository origin/release-5.0.0
+Seen branch in repository origin/release-5.0.0-knowlg
+Seen branch in repository origin/release-5.1.0
+Seen branch in repository origin/release-5.1.0-knowlg
+Seen branch in repository origin/release-5.2.0
+Seen branch in repository origin/release-5.2.0-knowlg
+Seen branch in repository origin/release-5.2.0-vdn
+Seen branch in repository origin/release-5.2.1
+Seen branch in repository origin/release-5.2.2
+Seen branch in repository origin/release-5.4.0
+Seen branch in repository origin/release-5.4.0-knowlg
+Seen branch in repository origin/telemetry-beta
+Seen 135 remote branches
+ > git show-ref --tags -d # timeout=10
+Multiple candidate revisions
+Checking out Revision 751bfe061b329defd53f24a4023b411f4227049e (refs/tags/release-1.6, refs/tags/tag-1.6)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 751bfe061b329defd53f24a4023b411f4227049e # timeout=10
+Commit message: "move reference_definition to domain model definitions"
+First time build. Skipping changelog.
+ERROR: /var/lib/jenkins/workspace/Build/DockCore/CassandraTrigger@script/be25e2c44c363ef7afac4abe5078f50ac40f8e2559ed93515870d88a5abc4392/Jenkinsfile.trigger not found
+Finished: FAILURE

@@ -1,0 +1,105 @@
+Started by an SCM change
+Checking out git https://github.com/project-sunbird/sunbird-utils.git into /var/lib/jenkins/workspace/Build/DockCore/CassandraDecrypt@script/4e7b93885ec7394cc734faa046a0107f5af9518f2dd534e70c78bf6213fb87f0 to read Jenkinsfile.decrypt
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Using shallow clone with depth 1
+Cloning repository https://github.com/project-sunbird/sunbird-utils.git
+ > git init /var/lib/jenkins/workspace/Build/DockCore/CassandraDecrypt@script/4e7b93885ec7394cc734faa046a0107f5af9518f2dd534e70c78bf6213fb87f0 # timeout=10
+Fetching upstream changes from https://github.com/project-sunbird/sunbird-utils.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress --depth=1 -- https://github.com/project-sunbird/sunbird-utils.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/project-sunbird/sunbird-utils.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+Seen branch in repository origin/dependabot/maven/decryption-util/com.fasterxml.jackson.core-jackson-databind-2.12.7.1
+Seen branch in repository origin/dependabot/maven/decryption-util/org.apache.httpcomponents-httpclient-4.5.13
+Seen branch in repository origin/dependabot/maven/externalId-migration-util/com.fasterxml.jackson.core-jackson-databind-2.12.7.1
+Seen branch in repository origin/dependabot/maven/externalId-migration-util/org.apache.httpcomponents-httpclient-4.5.13
+Seen branch in repository origin/dependabot/maven/groups-service-util/com.fasterxml.jackson.core-jackson-databind-2.12.7.1
+Seen branch in repository origin/dependabot/maven/groups-service-util/org.apache.httpcomponents-httpclient-4.5.13
+Seen branch in repository origin/dependabot/maven/notification-sdk/com.fasterxml.jackson.core-jackson-databind-2.12.7.1
+Seen branch in repository origin/dependabot/maven/notification-sdk/junit-junit-4.13.1
+Seen branch in repository origin/dependabot/maven/notification-sdk/org.apache.httpcomponents-httpclient-4.5.13
+Seen branch in repository origin/dependabot/maven/notification-sdk/org.apache.logging.log4j-log4j-api-2.16.0
+Seen branch in repository origin/dependabot/maven/notification-sdk/org.apache.logging.log4j-log4j-core-2.16.0
+Seen branch in repository origin/dependabot/maven/state-validate-util/com.fasterxml.jackson.core-jackson-databind-2.12.7.1
+Seen branch in repository origin/dependabot/maven/state-validate-util/org.apache.httpcomponents-httpclient-4.5.13
+Seen branch in repository origin/dependabot/maven/sunbird-cache-utils/junit-junit-4.13.1
+Seen branch in repository origin/dependabot/maven/sunbird-cache-utils/org.apache.logging.log4j-log4j-api-2.16.0
+Seen branch in repository origin/dependabot/maven/sunbird-cache-utils/org.apache.logging.log4j-log4j-core-2.16.0
+Seen branch in repository origin/dependabot/maven/sunbird-cassandra-migration/cassandra-migration/junit-junit-4.13.1
+Seen branch in repository origin/dependabot/maven/sunbird-cassandra-migration/cassandra-trigger/com.fasterxml.jackson.core-jackson-databind-2.12.7.1
+Seen branch in repository origin/dependabot/maven/sunbird-cassandra-migration/cassandra-trigger/junit-junit-4.13.1
+Seen branch in repository origin/dependabot/maven/sunbird-cassandra-utils/com.fasterxml.jackson.core-jackson-databind-2.12.7.1
+Seen branch in repository origin/dependabot/maven/sunbird-es-utils/junit-junit-4.13.1
+Seen branch in repository origin/dependabot/maven/sunbird-es-utils/org.apache.logging.log4j-log4j-api-2.16.0
+Seen branch in repository origin/dependabot/maven/sunbird-es-utils/org.apache.logging.log4j-log4j-core-2.16.0
+Seen branch in repository origin/dependabot/maven/sunbird-notification/com.fasterxml.jackson.core-jackson-databind-2.12.7.1
+Seen branch in repository origin/dependabot/maven/sunbird-notification/junit-junit-4.13.1
+Seen branch in repository origin/dependabot/maven/sunbird-notification/org.apache.httpcomponents-httpclient-4.5.13
+Seen branch in repository origin/dependabot/maven/sunbird-platform-core/actor-core/com.fasterxml.jackson.core-jackson-databind-2.12.7.1
+Seen branch in repository origin/dependabot/maven/sunbird-platform-core/actor-core/io.netty-netty-codec-4.1.68.Final
+Seen branch in repository origin/dependabot/maven/sunbird-platform-core/actor-util/com.fasterxml.jackson.core-jackson-databind-2.12.7.1
+Seen branch in repository origin/dependabot/maven/sunbird-platform-core/actor-util/junit-junit-4.13.1
+Seen branch in repository origin/dependabot/maven/sunbird-platform-core/common-util/com.fasterxml.jackson.core-jackson-databind-2.12.7.1
+Seen branch in repository origin/dependabot/maven/sunbird-platform-core/common-util/junit-junit-4.13.1
+Seen branch in repository origin/dependabot/maven/sunbird-platform-core/common-util/org.apache.httpcomponents-httpclient-4.5.13
+Seen branch in repository origin/dependabot/maven/sunbird-platform-core/common-util/org.apache.kafka-kafka-clients-0.10.2.2
+Seen branch in repository origin/dependabot/maven/sunbird-platform-core/common-util/org.apache.logging.log4j-log4j-api-2.16.0
+Seen branch in repository origin/dependabot/maven/sunbird-platform-core/common-util/org.apache.logging.log4j-log4j-core-2.17.1
+Seen branch in repository origin/dependabot/maven/sunbird-platform-core/common-util/org.apache.tika-tika-core-1.22
+Seen branch in repository origin/dependabot/maven/sunbird-platform-core/common-util/org.jboss.resteasy-resteasy-client-3.14.0.Final
+Seen branch in repository origin/dependabot/maven/user-declaration-util/com.fasterxml.jackson.core-jackson-databind-2.12.7.1
+Seen branch in repository origin/dependabot/maven/user-declaration-util/org.apache.httpcomponents-httpclient-4.5.13
+Seen branch in repository origin/dependabot/maven/user-feed-migration-util/com.fasterxml.jackson.core-jackson-databind-2.12.7.1
+Seen branch in repository origin/loadtest-release-2.10
+Seen branch in repository origin/loadtest-release-2.6.0
+Seen branch in repository origin/loadtest-release-2.7.0
+Seen branch in repository origin/master
+Seen branch in repository origin/release-1.14.0
+Seen branch in repository origin/release-1.14.1
+Seen branch in repository origin/release-2.0.0
+Seen branch in repository origin/release-2.0.1
+Seen branch in repository origin/release-2.10.0
+Seen branch in repository origin/release-2.4.0
+Seen branch in repository origin/release-2.5.0
+Seen branch in repository origin/release-2.6.0
+Seen branch in repository origin/release-2.6.5
+Seen branch in repository origin/release-2.7.0
+Seen branch in repository origin/release-2.8.0
+Seen branch in repository origin/release-2.8.1
+Seen branch in repository origin/release-2.9.0
+Seen branch in repository origin/release-3.0.0
+Seen branch in repository origin/release-3.1.0
+Seen branch in repository origin/release-3.2.0
+Seen branch in repository origin/release-3.3.0
+Seen branch in repository origin/release-3.4.0
+Seen branch in repository origin/release-3.6.0
+Seen branch in repository origin/release-3.7.0
+Seen branch in repository origin/release-3.8.0
+Seen branch in repository origin/release-3.9.0
+Seen branch in repository origin/release-4.0.0
+Seen branch in repository origin/release-4.10.0
+Seen branch in repository origin/release-4.2.0
+Seen branch in repository origin/release-4.3.0
+Seen branch in repository origin/release-4.4.0
+Seen branch in repository origin/release-4.5.0
+Seen branch in repository origin/release-4.6.0
+Seen branch in repository origin/release-4.7.0
+Seen branch in repository origin/release-4.8.0
+Seen branch in repository origin/release-4.9.0
+Seen branch in repository origin/release-5.2.0
+Seen branch in repository origin/release-lms-2.4.0
+Seen branch in repository origin/release-lms-2.5.0
+Seen 80 remote branches
+ > git show-ref --tags -d # timeout=10
+Multiple candidate revisions
+Checking out Revision b3c527cedc1a582e7b68448cb3f5a09b51411b81 (refs/tags/R-1.0.1)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f b3c527cedc1a582e7b68448cb3f5a09b51411b81 # timeout=10
+Commit message: "Issue # SB-794 Developement : Sunbird Staging : Mail triggered to the creator on rejecting a content contains an invalid text "smiley face" ."
+First time build. Skipping changelog.
+ERROR: /var/lib/jenkins/workspace/Build/DockCore/CassandraDecrypt@script/4e7b93885ec7394cc734faa046a0107f5af9518f2dd534e70c78bf6213fb87f0/Jenkinsfile.decrypt not found
+Finished: FAILURE

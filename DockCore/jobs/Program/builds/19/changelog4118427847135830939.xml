@@ -1,0 +1,11 @@
+commit d6deba6b16b2fbbbd4c9048e4e49e5ac7ed7a243
+tree 3711596716d60a5cbfa4114930216d0bb0e755ab
+parent e787664bf8a459f9a097eb7f09b65c8fac23867c
+author Kenneth Heung <kenneth.heung@gmail.com> 2023-04-18 09:35:27 +0800
+committer GitHub <noreply@github.com> 2023-04-18 09:35:27 +0800
+
+    Update programService.js
+    
+    get into getUserRegistryDetails
+
+:100644 100644 1a2126dc74ddedacf0ab5d25d5989977db92c236 167bb5d89d0c0f74e72ca6320a298403a5023198 M	src/service/programService.js

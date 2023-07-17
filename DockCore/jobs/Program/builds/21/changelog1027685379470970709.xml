@@ -1,0 +1,11 @@
+commit 934a9fa043d99ad2a08c156f807ef361e3901e62
+tree 06400de50c7acb3973100972293d1585007c2359
+parent 4546587fcde693c4c075fc01af286757023b5387
+author Kenneth Heung <kenneth.heung@gmail.com> 2023-04-18 10:23:14 +0800
+committer GitHub <noreply@github.com> 2023-04-18 10:23:14 +0800
+
+    Update programService.js
+    
+    fix non axios reqHeaders problem
+
+:100644 100644 e9e2e31cd5d50228dd0f8ee499d0a75f1c20c1b4 2b9d1c41a1c3cfb7a30317c4673e31c7f774891d M	src/service/programService.js

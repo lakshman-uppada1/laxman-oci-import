@@ -1,0 +1,19 @@
+Started by an SCM change
+Checking out git https://github.com/project-sunbird/knowledge-mw-service.git into /var/lib/jenkins/workspace/Build/DockCore/KnowledgeMW@script/844129a95efb70fb0e1b49063905d1d9c57b75f3787c3094eeb5a7f69fa96b0c to read Jenkinsfile
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/project-sunbird/knowledge-mw-service.git
+ > git init /var/lib/jenkins/workspace/Build/DockCore/KnowledgeMW@script/844129a95efb70fb0e1b49063905d1d9c57b75f3787c3094eeb5a7f69fa96b0c # timeout=10
+Fetching upstream changes from https://github.com/project-sunbird/knowledge-mw-service.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/project-sunbird/knowledge-mw-service.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/project-sunbird/knowledge-mw-service.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/release-5.1.0^{commit} # timeout=10
+ > git rev-parse refs/heads/release-5.1.0^{commit} # timeout=10
+ERROR: Couldn't find any revision to build. Verify the repository and branch configuration for this job.
+ERROR: Maximum checkout retry attempts reached, aborting
+Finished: FAILURE

@@ -1,0 +1,19 @@
+Started by an SCM change
+Checking out git https://github.com/project-sunbird/open-saber.git into /var/lib/jenkins/workspace/Build/DockCore/DockOpensaber@script/27477387297a7329b7c630b3d6160e806a903c590252900f20c7ca4caabe47ca to read Jenkinsfile
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/project-sunbird/open-saber.git
+ > git init /var/lib/jenkins/workspace/Build/DockCore/DockOpensaber@script/27477387297a7329b7c630b3d6160e806a903c590252900f20c7ca4caabe47ca # timeout=10
+Fetching upstream changes from https://github.com/project-sunbird/open-saber.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/project-sunbird/open-saber.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/project-sunbird/open-saber.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/${dock_sprint_branch}^{commit} # timeout=10
+ > git rev-parse refs/heads/${dock_sprint_branch}^{commit} # timeout=10
+ERROR: Couldn't find any revision to build. Verify the repository and branch configuration for this job.
+ERROR: Maximum checkout retry attempts reached, aborting
+Finished: FAILURE

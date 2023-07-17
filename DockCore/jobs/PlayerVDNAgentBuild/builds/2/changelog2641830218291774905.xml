@@ -1,0 +1,55 @@
+commit 78587ed3cc728978865324b5d8450fda554c4a17
+tree 48c37e08e34cf3285bb16a94d3fac518930ead6b
+parent 6f23726140a0a9f1573a9c3d45602c9084b5c671
+author Kenneth Heung <kenneth.heung@gmail.com> 2023-04-21 19:16:10 +0800
+committer GitHub <noreply@github.com> 2023-04-21 19:16:10 +0800
+
+    Update build.sh
+    
+    to pick up CCS in fixed location
+
+:100755 100755 81e03650019ec9205f4291eb06dc0dbd55e97cb5 7c6a31910b94c28e11150c9327ff9747c0c9a22d M	build.sh
+commit b5f97f74fa1aa292bdcbea07591ccbb3a41830b8
+tree 38036eba046280c08ab4fceaacd25101c4a4b03c
+parent 8fa2da7d6a1fc917ccaea499966dd7df96588fc4
+author Kenneth Heung <kenneth.heung@gmail.com> 2023-04-14 07:59:00 +0800
+committer GitHub <noreply@github.com> 2023-04-14 07:59:00 +0800
+
+    Update content-uploader.component.ts
+    
+    temporary workaround for upload video
+
+:100644 100644 c70e112f8e660fc17aceb7df03900bfaeff2b268 afb31bbdf6bba673c4e1df7c53071506466096cd M	src/app/client/src/app/modules/sourcing/components/content-uploader/content-uploader.component.ts
+commit 8fa2da7d6a1fc917ccaea499966dd7df96588fc4
+tree fa3a510b4ea211f88babc149f10b01d32e9068af
+parent b0d4f7b345dc5af640a115e173321d2189dd9f86
+author Kenneth Heung <kenneth.heung@gmail.com> 2023-04-12 11:24:58 +0800
+committer GitHub <noreply@github.com> 2023-04-12 11:24:58 +0800
+
+    Update contentEditorProxy.js
+    
+    add the publish v4 api
+
+:100644 100644 2e8048429d6e106c58e52f0ddd1019d6d979b873 297f902ed2a4528d662b7bc722747e05e366dd51 M	src/app/proxy/contentEditorProxy.js
+commit b0d4f7b345dc5af640a115e173321d2189dd9f86
+tree 5e1722f0f46872100e6b5f0c9c37bdd4210b2239
+parent eb76aea6436e8800e9c20a6b37eda9553b01e745
+author Kenneth Heung <kenneth.heung@gmail.com> 2023-04-12 11:22:43 +0800
+committer GitHub <noreply@github.com> 2023-04-12 11:22:43 +0800
+
+    Update package.json
+    
+    update client cloud service from 1.0.3 to 2.0.4
+
+:100644 100644 108fae9c31a6c1a59552c9cf0c5a8ea8cac84196 b6a2555c245444025b6434ff50ad598b415b74f1 M	src/app/package.json
+commit eb76aea6436e8800e9c20a6b37eda9553b01e745
+tree cbf97ea84f9eb912f3303dde0ec1b240266368b7
+parent e9b2a591e527e78813bade10f8f202ee1c92a035
+author Kenneth Heung <kenneth.heung@gmail.com> 2023-04-12 11:21:09 +0800
+committer GitHub <noreply@github.com> 2023-04-12 11:21:09 +0800
+
+    Update whitelistApis.js
+    
+    add v4 publish
+
+:100644 100644 9cf4ce7e04f58277b2b9113025c3abd4424d380c 26cc0a868e34e0d0ded601979df1427d4d2ebd45 M	src/app/helpers/whitelistApis.js

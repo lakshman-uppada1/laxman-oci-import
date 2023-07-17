@@ -1,0 +1,813 @@
+Started by user [8mha:////4E5phgWBGqc8ILTgA7w3fYcHUfkIzk5UUdNjfVb+JpqnAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZe/dLi1CL97NS8vNSSDABKWPXzwgAAAA==[0mKenneth Heung
+Replayed [8mha:////4JISLan1iqxvSwXs6zWKryaPs5I5+7ehJD7vzxqwBIuSAAAAqx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZV/az8JH2n0sycFDDLJT852zm/KBXMCchJrEwt0jfWBwALsaBG2gAAAA==[0m#3
+[8mha:////4DQMr9HgZVT9PBJ/vAJi4Vz+S03++WP2KBVOc+uUyzRvAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4Aoeah8JJKqMG1BfT93bVJkTto+Gn3BHZHMo+rKR83FkAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4IJkq0/Oqi5HTXNkdYmVvoV+xxfIsxxRtAxl++k7ApLKAAAAqx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgYF/eT83ILSktQi/bKUPFUjl6zUvOzMvGIgKzE9Na9EHwCP5+K11QAAAA==[0mvdn-jenkins-agent in /var/lib/jenkins/workspace/Build/DockCore/Player
+[8mha:////4I38JWpeOPl46roEAsfiKE5jl2R8yAwBxi/2BN73OS9sAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4KtNVHI7rD8Xme7RMP80ju20S2oPIiY4U48HgQk9fNPWAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] ansiColor
+[8mha:////4D1F1+bpfnSSiE3BhzbX8wKLrqbf1TiuUjCNI3kyo1QtAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] {
+[8mha:////4Lna3+mxlo5bBJnMCCLv5xSBtG/Q8tUocBgwY7sEYh/zAAAAqx+LCAAAAAAAAP9b85aBtbiIQSujNKU4P0+vIKc0PTOvWC8xrzgzOT8nv0gvMbkkEyjhCKb88ktSdwVsu2efuqidiYHRh4EDIu2ZUsIg5JOVWJaon5OYl64fXFKUmZduXVHEIAU1ODk/rzg/J1XPGUKDDGKAAEYmBoaKghIGlaRUQ5OkJOMUXVMzI2Ndk5Q0C11LAyNzXVNDE5M0wxRzSzMjIwBkZWZerwAAAA==[0m
+[8mha:////4B2nVl1zwxUr4xTVJ4gNK1/4Kd2STXGtKJfEY5CRpiHIAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] timestamps
+[8mha:////4H9DBS9ZtGeYRmyGvGETQoNXch7OnhARRzxHuvU5kwN+AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] {
+[8mha:////4AuhRRWp2fXe1T5jtjocJtK++ePD9DH0TE1qihhCqXLaAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BSEm1igLJwhJCGmj/9skpZ04EVfjDgQqMWHJkm3Jes8X1CnCkaLjrcXOY9Ke92F0JfGJYncNNPGWLlwTJgqWSztJMva0VEnZwiJWwUrA2qIOlDy6DBvRqrtqgkLXnHMs20FA5c0AD2CikLOK+VvmCNvbaBLhj/MXAHOfge2K959f/QbB16AVwAAAAA==[0m[Pipeline] stage
+[8mha:////4JjuQGJFJefjKnSlxXbHyXAIaKA50yHKAnOImG+ooD3XAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDJUJUtJYbXmBiY5xYd8G+kFS8iK/xBwKRqNhqZ6XVPF9Q5gQHSl42DtuAuQ6yi72fmhwotZdIg2zoLGvCTNFJ7QZN1h1n1MQO5ogCFgqWDutIOaBnWKnG3E0VDfrqxGna9gqKYG/wAKEmM5vEXxgTrK+9zYQ/z18BjB2D2DEU283nWL4Bsam+msEAAAA=[0m[Pipeline] { (Checkout)
+[8mha:////4Egcskj6pLf5Jd0/XM+FWAuPTbsmuKF1wNdG0mVSmlhBAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCakRFa6XhBSYxxo5159gOTsWL+Bp/IBCJii1WO9vM8wXrGODIQaNV1BuKrUHvRj0vzBz6q+OMli/YMkV2ChuVG+7UacGGk4IlRQkrARtFreNoSCfYCivvsnKSdHVOYf4OAkrTDfCAQszmJEP6whRgdxu7yPTz/BXA5BOU9f5TtX8D0loxuL4AAAA=[0m[Pipeline] echo
+[2023-04-10T13:10:37.530Z] [1m[32mFound environment variable named hub_org with value as: bom.ocir.io/bmzbbujw9kal/diksha-odev[0m
+[8mha:////4FGo73fj0nWsm5ViHjpbJx008NdECG5+lEwfwMy5+G4AAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICtIgqreWGF5jYGCfWnbEdkooX8TX+QCASFVusdraZ5wuWKcKRo8XWUOcoNQ6D7+20cODYXTwP2PIZG6bE3qA0g2Rt6hklZwNzihIWAlaGGs/Jkc2wFq26q8orstUpx+k7CCidvsEDCjGZs4r5C2OEzbXXienn+SuAMYQM5W7/qe0bsgYiW74AAAA=[0m[Pipeline] }
+[8mha:////4LfZWAdBDhLJffEqqPZRnnIOliNQp4MqmxBm3XXRF/2YAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRokKIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsTZPsP6C1U670AAAA=[0m[Pipeline] // stage
+[8mha:////4GFa94/s9RZvOQ4HCf3D5/fcsbsMDXCzpWFCV8tNLP+/AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREgUSoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHaCbC/It7vuAyX3kfC9AAAA[0m[Pipeline] checkout
+[2023-04-10T13:10:37.606Z] The recommended git tool is: NONE
+[2023-04-10T13:10:38.714Z] No credentials specified
+[2023-04-10T13:10:38.717Z] Cloning the remote Git repository
+[2023-04-10T13:10:38.736Z] Cloning repository https://github.com/ocisunbird/creation-portal.git
+[2023-04-10T13:10:38.781Z]  > git init /var/lib/jenkins/workspace/Build/DockCore/Player # timeout=10
+[2023-04-10T13:10:38.804Z] Fetching upstream changes from https://github.com/ocisunbird/creation-portal.git
+[2023-04-10T13:10:38.805Z]  > git --version # timeout=10
+[2023-04-10T13:10:38.816Z]  > git --version # 'git version 2.17.1'
+[2023-04-10T13:10:38.816Z]  > git fetch --tags --progress -- https://github.com/ocisunbird/creation-portal.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+[2023-04-10T13:11:05.903Z] Avoid second fetch
+[2023-04-10T13:11:05.912Z] Checking out Revision 7dda6aeb2e0d68789ce858d79d1a17eb1c547316 (origin/oci-510-vdn)
+[2023-04-10T13:11:05.888Z]  > git config remote.origin.url https://github.com/ocisunbird/creation-portal.git # timeout=10
+[2023-04-10T13:11:05.892Z]  > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+[2023-04-10T13:11:05.906Z]  > git rev-parse origin/oci-510-vdn^{commit} # timeout=10
+[2023-04-10T13:11:05.918Z]  > git config core.sparsecheckout # timeout=10
+[2023-04-10T13:11:05.925Z]  > git checkout -f 7dda6aeb2e0d68789ce858d79d1a17eb1c547316 # timeout=10
+[2023-04-10T13:11:10.163Z] Commit message: "added oci specific variables"
+[2023-04-10T13:11:10.166Z]  > git rev-list --no-walk 7dda6aeb2e0d68789ce858d79d1a17eb1c547316 # timeout=10
+[8mha:////4Op+p6doFpXIF2hlLHZ5LyjcDTCLciGf/ASp82VjoGtsAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRBRISoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHaCbC/It7vuA2TGium9AAAA[0m[Pipeline] sh
+[2023-04-10T13:11:10.547Z] + git rev-parse --short HEAD
+[8mha:////4JMFLfMHLpvnzRFCdtDvnbiDjJGs6Jnc7ICSV7lgmB7EAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRDUJCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QX5dtd9AKeVp8K9AAAA[0m[Pipeline] sh
+[2023-04-10T13:11:10.905Z] + echo oci-510-vdn_7dda6aeb2e_4
+[8mha:////4PRfNkJCN9/bb4ZbYFvcIc3fJswQye+rd39ZJli0Lw9DAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRFUiIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2AmyvSDf7roP5qS8270AAAA=[0m[Pipeline] echo
+[2023-04-10T13:11:10.920Z] build_tag: oci-510-vdn_7dda6aeb2e_4
+[8mha:////4E0KNaHLx5KvRdPRGOibQymU0PuY5mq+Rgu1cFmgfwEoAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjukiIitZywwtMYowT6y7YF5KKF/E1/oAhEhVb7ay0mucLyhThQNHJzmLvMTVeDmF0ucmJYn8JNMmOzrIhTBSs1HbS1NrjgprYwhJRwErB2mITKHl0DBvVmbupgkFXnTjmba+g8O0NHiBUNrOJ/IU5wvY6tonw5/krgHlgEDVDsas/x/INHPRjt8EAAAA=[0m[Pipeline] stage
+[8mha:////4BaQay6E+ZPNUESaoyQXlhWRR04ir/pTd8qjqT0S23cxAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] { (Build)
+[8mha:////4Dj+WcVvPaqbh2fzaN3zDBjTLm7hFmE8wIsqxAMM8zU5AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICdAilorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYI5e6Qa78dPhmQ9Da+AAAA[0m[Pipeline] sh
+[2023-04-10T13:11:11.220Z] + ./build.sh oci-510-vdn_7dda6aeb2e_4 vdn-jenkins-agent bom.ocir.io/bmzbbujw9kal/diksha-odev https://dockstorage.blob.core.windows.net/sunbird-content-dock/artefacts/editor/content-editor-iframe-3.3.0.zip https://dockstorage.blob.core.windows.net/sunbird-content-dock/artefacts/editor/collection-editor-iframe-3.3.0.zip https://dockstorage.blob.core.windows.net/sunbird-content-dock/artefacts/editor/generic-editor-iframe-3.3.0.zip
+[2023-04-10T13:11:12.151Z] Downloading and installing node v14.18.1...
+[2023-04-10T13:11:12.151Z] Downloading https://nodejs.org/dist/v14.18.1/node-v14.18.1-linux-x64.tar.xz...
+[2023-04-10T13:11:12.151Z] ################################################                          66.9%######################################################################## 100.0%
+[2023-04-10T13:11:12.151Z] Computing checksum with sha256sum
+[2023-04-10T13:11:12.408Z] Checksums matched!
+[2023-04-10T13:11:14.306Z] Now using node v14.18.1 (npm v6.14.15)
+[2023-04-10T13:11:14.306Z] Creating default alias: [0;32mdefault[0m [0;90m->[0m [0;32m14.18.1[0m ([0;90m->[0m [0;32mv14.18.1[0m)
+[2023-04-10T13:11:14.868Z] Now using node v14.18.1 (npm v6.14.15)
+[2023-04-10T13:11:15.439Z] 
+[2023-04-10T13:11:15.439Z] > player@5.1.0 preinstall /var/lib/jenkins/workspace/Build/DockCore/Player/src/app
+[2023-04-10T13:11:15.439Z] > npm install ./libs/sb_logger_util_v2 && npm install ./libs/sb_telemetry_util && npm install ./libs/sb_api_interceptor && npm install ./libs/sb_cache_manager
+[2023-04-10T13:11:15.439Z] 
+[2023-04-10T13:11:16.813Z] npm WARN deprecated log4js@4.5.1: 4.x is no longer supported. Please upgrade to 6.x or higher.
+[2023-04-10T13:11:17.070Z] npm WARN deprecated date-format@2.1.0: 2.x is no longer supported. Please upgrade to 4.x or higher.
+[2023-04-10T13:11:17.070Z] npm WARN deprecated streamroller@1.0.6: 1.x is no longer supported. Please upgrade to 3.x or higher.
+[2023-04-10T13:11:38.964Z] 
+[2023-04-10T13:11:38.964Z] > fibers@4.0.3 install /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/node_modules/fibers
+[2023-04-10T13:11:38.964Z] > node build.js || nodejs build.js
+[2023-04-10T13:11:38.964Z] 
+[2023-04-10T13:11:38.964Z] make: Entering directory '/var/lib/jenkins/workspace/Build/DockCore/Player/src/app/node_modules/fibers/build'
+[2023-04-10T13:11:38.965Z]   CXX(target) Release/obj.target/fibers/src/fibers.o
+[2023-04-10T13:11:38.965Z]   CXX(target) Release/obj.target/fibers/src/coroutine.o
+[2023-04-10T13:11:38.965Z]   CC(target) Release/obj.target/fibers/src/libcoro/coro.o
+[2023-04-10T13:11:38.965Z]   SOLINK_MODULE(target) Release/obj.target/fibers.node
+[2023-04-10T13:11:38.965Z]   COPY Release/fibers.node
+[2023-04-10T13:11:38.965Z] make: Leaving directory '/var/lib/jenkins/workspace/Build/DockCore/Player/src/app/node_modules/fibers/build'
+[2023-04-10T13:11:38.965Z] Installed in `/var/lib/jenkins/workspace/Build/DockCore/Player/src/app/node_modules/fibers/bin/linux-x64-83-glibc/fibers.node`
+[2023-04-10T13:11:38.965Z] 
+[2023-04-10T13:11:38.965Z] > canvas@2.6.1 install /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/node_modules/canvas
+[2023-04-10T13:11:38.965Z] > node-pre-gyp install --fallback-to-build
+[2023-04-10T13:11:38.965Z] 
+[2023-04-10T13:11:38.965Z] node-pre-gyp WARN Using request for node-pre-gyp https download 
+[2023-04-10T13:11:42.247Z] [canvas] Success: "/var/lib/jenkins/workspace/Build/DockCore/Player/src/app/node_modules/canvas/build/Release/canvas.node" is installed via remote
+[2023-04-10T13:11:42.247Z] 
+[2023-04-10T13:11:42.247Z] > iltorb@2.4.5 install /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/node_modules/iltorb
+[2023-04-10T13:11:42.248Z] > node ./scripts/install.js || node-gyp rebuild
+[2023-04-10T13:11:42.248Z] 
+[2023-04-10T13:11:42.248Z] info looking for cached prebuild @ /var/lib/jenkins/.npm/_prebuilds/c57c4d-iltorb-v2.4.5-node-v83-linux-x64.tar.gz
+[2023-04-10T13:11:42.248Z] http request GET https://github.com/nstepien/iltorb/releases/download/v2.4.5/iltorb-v2.4.5-node-v83-linux-x64.tar.gz
+[2023-04-10T13:11:42.248Z] http 404 https://github.com/nstepien/iltorb/releases/download/v2.4.5/iltorb-v2.4.5-node-v83-linux-x64.tar.gz
+[2023-04-10T13:11:42.248Z] WARN install No prebuilt binaries found (target=14.18.1 runtime=node arch=x64 libc= platform=linux)
+[2023-04-10T13:11:42.503Z] make: Entering directory '/var/lib/jenkins/workspace/Build/DockCore/Player/src/app/node_modules/iltorb/build'
+[2023-04-10T13:11:42.503Z]   CC(target) Release/obj.target/iltorb/brotli/c/common/dictionary.o
+[2023-04-10T13:11:42.759Z]   CC(target) Release/obj.target/iltorb/brotli/c/common/transform.o
+[2023-04-10T13:11:42.759Z]   CC(target) Release/obj.target/iltorb/brotli/c/dec/bit_reader.o
+[2023-04-10T13:11:42.759Z]   CC(target) Release/obj.target/iltorb/brotli/c/dec/decode.o
+[2023-04-10T13:11:43.686Z]   CC(target) Release/obj.target/iltorb/brotli/c/dec/huffman.o
+[2023-04-10T13:11:43.686Z]   CC(target) Release/obj.target/iltorb/brotli/c/dec/state.o
+[2023-04-10T13:11:43.686Z]   CC(target) Release/obj.target/iltorb/brotli/c/enc/backward_references.o
+[2023-04-10T13:11:46.201Z]   CC(target) Release/obj.target/iltorb/brotli/c/enc/backward_references_hq.o
+[2023-04-10T13:11:47.136Z]   CC(target) Release/obj.target/iltorb/brotli/c/enc/bit_cost.o
+[2023-04-10T13:11:47.392Z]   CC(target) Release/obj.target/iltorb/brotli/c/enc/block_splitter.o
+[2023-04-10T13:11:47.955Z]   CC(target) Release/obj.target/iltorb/brotli/c/enc/brotli_bit_stream.o
+[2023-04-10T13:11:48.517Z]   CC(target) Release/obj.target/iltorb/brotli/c/enc/cluster.o
+[2023-04-10T13:11:49.080Z]   CC(target) Release/obj.target/iltorb/brotli/c/enc/compress_fragment.o
+[2023-04-10T13:11:50.010Z]   CC(target) Release/obj.target/iltorb/brotli/c/enc/compress_fragment_two_pass.o
+[2023-04-10T13:11:50.939Z]   CC(target) Release/obj.target/iltorb/brotli/c/enc/dictionary_hash.o
+[2023-04-10T13:11:50.939Z]   CC(target) Release/obj.target/iltorb/brotli/c/enc/encode.o
+[2023-04-10T13:11:51.867Z]   CC(target) Release/obj.target/iltorb/brotli/c/enc/encoder_dict.o
+[2023-04-10T13:11:52.126Z]   CC(target) Release/obj.target/iltorb/brotli/c/enc/entropy_encode.o
+[2023-04-10T13:11:52.126Z]   CC(target) Release/obj.target/iltorb/brotli/c/enc/histogram.o
+[2023-04-10T13:11:52.382Z]   CC(target) Release/obj.target/iltorb/brotli/c/enc/literal_cost.o
+[2023-04-10T13:11:52.639Z]   CC(target) Release/obj.target/iltorb/brotli/c/enc/memory.o
+[2023-04-10T13:11:52.639Z]   CC(target) Release/obj.target/iltorb/brotli/c/enc/metablock.o
+[2023-04-10T13:11:53.201Z]   CC(target) Release/obj.target/iltorb/brotli/c/enc/static_dict.o
+[2023-04-10T13:11:53.457Z]   CC(target) Release/obj.target/iltorb/brotli/c/enc/utf8_util.o
+[2023-04-10T13:11:53.457Z]   CXX(target) Release/obj.target/iltorb/src/common/allocator.o
+[2023-04-10T13:11:54.019Z]   CXX(target) Release/obj.target/iltorb/src/common/stream_coder.o
+[2023-04-10T13:11:54.276Z]   CXX(target) Release/obj.target/iltorb/src/dec/stream_decode.o
+[2023-04-10T13:11:54.839Z]   CXX(target) Release/obj.target/iltorb/src/dec/stream_decode_worker.o
+[2023-04-10T13:11:55.399Z]   CXX(target) Release/obj.target/iltorb/src/enc/stream_encode.o
+[2023-04-10T13:11:55.961Z]   CXX(target) Release/obj.target/iltorb/src/enc/stream_encode_worker.o
+[2023-04-10T13:11:56.535Z]   CXX(target) Release/obj.target/iltorb/src/iltorb.o
+[2023-04-10T13:11:57.096Z]   SOLINK_MODULE(target) Release/obj.target/iltorb.node
+[2023-04-10T13:11:57.096Z]   COPY Release/iltorb.node
+[2023-04-10T13:11:57.096Z]   COPY ../build/bindings/iltorb.node
+[2023-04-10T13:11:57.096Z]   TOUCH Release/obj.target/action_after_build.stamp
+[2023-04-10T13:11:57.096Z] make: Leaving directory '/var/lib/jenkins/workspace/Build/DockCore/Player/src/app/node_modules/iltorb/build'
+[2023-04-10T13:11:57.096Z] 
+[2023-04-10T13:11:57.096Z] > snappy@6.3.5 install /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/node_modules/snappy
+[2023-04-10T13:11:57.096Z] > prebuild-install || node-gyp rebuild
+[2023-04-10T13:11:57.096Z] 
+[2023-04-10T13:11:58.984Z] 
+[2023-04-10T13:11:58.984Z] > core-js@2.6.12 postinstall /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/node_modules/core-js
+[2023-04-10T13:11:58.984Z] > node -e "try{require('./postinstall')}catch(e){}"
+[2023-04-10T13:11:58.984Z] 
+[2023-04-10T13:11:59.242Z] 
+[2023-04-10T13:11:59.242Z] > ejs@2.7.4 postinstall /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/node_modules/ejs
+[2023-04-10T13:11:59.242Z] > node ./postinstall.js
+[2023-04-10T13:11:59.242Z] 
+[2023-04-10T13:11:59.242Z] 
+[2023-04-10T13:11:59.242Z] > sinon@4.5.0 postinstall /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/node_modules/sinon
+[2023-04-10T13:11:59.242Z] > node scripts/support-sinon.js
+[2023-04-10T13:11:59.242Z] 
+[2023-04-10T13:11:59.497Z] [32mHave some ❤️ for Sinon? You can support the project via Open Collective:[22m[39m
+[2023-04-10T13:11:59.497Z]  > [96m[1mhttps://opencollective.com/sinon/donate
+[2023-04-10T13:11:59.497Z] [0m
+[2023-04-10T13:12:00.062Z] npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules/fsevents):
+[2023-04-10T13:12:00.062Z] npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+[2023-04-10T13:12:00.062Z] 
+[2023-04-10T13:12:00.062Z] + sb_logger_util_v2@1.0.0
+[2023-04-10T13:12:00.062Z] added 1232 packages from 1788 contributors and audited 1242 packages in 44.478s
+[2023-04-10T13:12:00.624Z] 
+[2023-04-10T13:12:00.624Z] 18 packages are looking for funding
+[2023-04-10T13:12:00.624Z]   run `npm fund` for details
+[2023-04-10T13:12:00.624Z] 
+[2023-04-10T13:12:00.624Z] found 179 vulnerabilities (11 low, 61 moderate, 85 high, 22 critical)
+[2023-04-10T13:12:00.624Z]   run `npm audit fix` to fix them, or `npm audit` for details
+[2023-04-10T13:12:10.563Z] npm WARN grunt-karma@0.12.2 requires a peer of grunt@>=0.4.x but none is installed. You must install peer dependencies yourself.
+[2023-04-10T13:12:10.563Z] npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules/fsevents):
+[2023-04-10T13:12:10.563Z] npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+[2023-04-10T13:12:10.563Z] 
+[2023-04-10T13:12:10.563Z] + sb_telemetry_util@1.0.0
+[2023-04-10T13:12:10.563Z] removed 3 packages, updated 42 packages and audited 1239 packages in 9.595s
+[2023-04-10T13:12:11.125Z] 
+[2023-04-10T13:12:11.125Z] 18 packages are looking for funding
+[2023-04-10T13:12:11.125Z]   run `npm fund` for details
+[2023-04-10T13:12:11.125Z] 
+[2023-04-10T13:12:11.125Z] found 173 vulnerabilities (11 low, 58 moderate, 82 high, 22 critical)
+[2023-04-10T13:12:11.125Z]   run `npm audit fix` to fix them, or `npm audit` for details
+[2023-04-10T13:12:19.209Z] npm WARN grunt-karma@0.12.2 requires a peer of grunt@>=0.4.x but none is installed. You must install peer dependencies yourself.
+[2023-04-10T13:12:19.209Z] npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules/fsevents):
+[2023-04-10T13:12:19.209Z] npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+[2023-04-10T13:12:19.209Z] 
+[2023-04-10T13:12:19.209Z] + sb_api_interceptor@1.0.0
+[2023-04-10T13:12:19.209Z] updated 2 packages and audited 1239 packages in 6.549s
+[2023-04-10T13:12:19.209Z] 
+[2023-04-10T13:12:19.209Z] 18 packages are looking for funding
+[2023-04-10T13:12:19.209Z]   run `npm fund` for details
+[2023-04-10T13:12:19.209Z] 
+[2023-04-10T13:12:19.209Z] found 173 vulnerabilities (11 low, 58 moderate, 82 high, 22 critical)
+[2023-04-10T13:12:19.209Z]   run `npm audit fix` to fix them, or `npm audit` for details
+[2023-04-10T13:12:24.495Z] npm WARN grunt-karma@0.12.2 requires a peer of grunt@>=0.4.x but none is installed. You must install peer dependencies yourself.
+[2023-04-10T13:12:24.495Z] npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules/fsevents):
+[2023-04-10T13:12:24.495Z] npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+[2023-04-10T13:12:24.495Z] 
+[2023-04-10T13:12:24.495Z] + sb_cache_manager@1.0.0
+[2023-04-10T13:12:24.495Z] updated 4 packages and audited 1239 packages in 5.458s
+[2023-04-10T13:12:24.495Z] 
+[2023-04-10T13:12:24.495Z] 18 packages are looking for funding
+[2023-04-10T13:12:24.495Z]   run `npm fund` for details
+[2023-04-10T13:12:24.495Z] 
+[2023-04-10T13:12:24.495Z] found 173 vulnerabilities (11 low, 58 moderate, 82 high, 22 critical)
+[2023-04-10T13:12:24.495Z]   run `npm audit fix` to fix them, or `npm audit` for details
+[2023-04-10T13:12:29.737Z] npm WARN deprecated uuid@3.1.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+[2023-04-10T13:12:29.737Z] npm WARN deprecated azure-storage@2.10.2: Please note: newer packages @azure/storage-blob, @azure/storage-queue and @azure/storage-file are available as of November 2019 and @azure/data-tables is available as of June 2021. While the legacy azure-storage package will continue to receive critical bug fixes, we strongly encourage you to upgrade. Migration guide can be found: https://github.com/Azure/azure-sdk-for-js/blob/main/sdk/storage/MigrationGuide.md
+[2023-04-10T13:12:51.613Z] npm WARN notsup Unsupported engine for client-cloud-services@1.0.3: wanted: {"node":">=14.19.0","npm":">=6.14.16"} (current: {"node":"14.18.1","npm":"6.14.15"})
+[2023-04-10T13:12:51.613Z] npm WARN notsup Not compatible with your version of node/npm: client-cloud-services@1.0.3
+[2023-04-10T13:12:51.613Z] npm WARN grunt-karma@0.12.2 requires a peer of grunt@>=0.4.x but none is installed. You must install peer dependencies yourself.
+[2023-04-10T13:12:51.613Z] npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules/fsevents):
+[2023-04-10T13:12:51.613Z] npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+[2023-04-10T13:12:51.613Z] 
+[2023-04-10T13:12:51.613Z] added 292 packages from 124 contributors, updated 1 package and audited 1531 packages in 93.324s
+[2023-04-10T13:12:51.613Z] 
+[2023-04-10T13:12:51.613Z] 22 packages are looking for funding
+[2023-04-10T13:12:51.613Z]   run `npm fund` for details
+[2023-04-10T13:12:51.613Z] 
+[2023-04-10T13:12:51.613Z] found 190 vulnerabilities (11 low, 62 moderate, 93 high, 24 critical)
+[2023-04-10T13:12:51.613Z]   run `npm audit fix` to fix them, or `npm audit` for details
+[2023-04-10T13:12:51.613Z] 
+[2023-04-10T13:12:51.613Z] > player@5.1.0 deploy /var/lib/jenkins/workspace/Build/DockCore/Player/src/app
+[2023-04-10T13:12:51.613Z] > gulp deploy
+[2023-04-10T13:12:51.613Z] 
+[2023-04-10T13:12:51.613Z] [18:42:49] Using gulpfile ~/workspace/Build/DockCore/Player/src/app/gulpfile.js
+[2023-04-10T13:12:51.613Z] [18:42:49] Starting 'deploy'...
+[2023-04-10T13:12:51.613Z] [18:42:49] Starting 'clean:app:dist'...
+[2023-04-10T13:12:51.613Z] [18:42:49] Finished 'clean:app:dist' after 10 ms
+[2023-04-10T13:12:51.613Z] [18:42:49] Starting 'clean:editors'...
+[2023-04-10T13:12:51.613Z] [18:42:49] Finished 'clean:editors' after 3.91 ms
+[2023-04-10T13:12:51.613Z] [18:42:49] Starting 'download:content:editor'...
+[2023-04-10T13:12:51.613Z] [18:42:49] Starting 'download:collection:editor'...
+[2023-04-10T13:12:51.613Z] [18:42:49] Starting 'download:generic:editor'...
+[2023-04-10T13:12:51.613Z] [gulp] Downloading https://dockstorage.blob.core.windows.net/sunbird-content-dock/artefacts/editor/content-editor-iframe-3.3.0.zip...[gulp] Downloading https://dockstorage.blob.core.windows.net/sunbird-content-dock/artefacts/editor/generic-editor-iframe-3.3.0.zip...[gulp] Downloading https://dockstorage.blob.core.windows.net/sunbird-content-dock/artefacts/editor/collection-editor-iframe-3.3.0.zip... Done
+[2023-04-10T13:12:51.613Z]  Done
+[2023-04-10T13:12:51.613Z]  Done
+[2023-04-10T13:12:51.613Z] [18:42:51] Finished 'download:generic:editor' after 1.39 s
+[2023-04-10T13:12:51.613Z] [18:42:51] Finished 'download:collection:editor' after 1.45 s
+[2023-04-10T13:12:51.613Z] [18:42:51] Finished 'download:content:editor' after 1.47 s
+[2023-04-10T13:12:51.613Z] [18:42:51] Starting 'gzip:editors'...
+[2023-04-10T13:12:51.613Z] [18:42:51] Finished 'gzip:editors' after 480 ms
+[2023-04-10T13:12:51.613Z] [18:42:51] Starting 'build-resource-bundles'...
+[2023-04-10T13:12:51.868Z] 
+[2023-04-10T13:12:51.868Z] 
+[2023-04-10T13:12:51.868Z] [18:42:51] Finished 'build-resource-bundles' after 260 ms
+[2023-04-10T13:12:51.869Z] [18:42:51] Starting 'client:install'...
+[2023-04-10T13:20:13.352Z] 
+[2023-04-10T13:20:13.352Z] > husky@0.14.3 install /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/client/node_modules/husky
+[2023-04-10T13:20:13.352Z] > node ./bin/install.js
+[2023-04-10T13:20:13.352Z] 
+[2023-04-10T13:20:13.352Z] husky
+[2023-04-10T13:20:13.352Z] CI detected, skipping Git hooks installation
+[2023-04-10T13:20:13.352Z] 
+[2023-04-10T13:20:13.352Z] > core-js@3.8.3 postinstall /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/client/node_modules/@angular-devkit/build-angular/node_modules/core-js
+[2023-04-10T13:20:13.352Z] > node -e "try{require('./postinstall')}catch(e){}"
+[2023-04-10T13:20:13.352Z] 
+[2023-04-10T13:20:13.352Z] 
+[2023-04-10T13:20:13.352Z] > core-js@2.6.12 postinstall /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/client/node_modules/core-js
+[2023-04-10T13:20:13.352Z] > node -e "try{require('./postinstall')}catch(e){}"
+[2023-04-10T13:20:13.352Z] 
+[2023-04-10T13:20:13.352Z] 
+[2023-04-10T13:20:13.352Z] > core-js@3.21.1 postinstall /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/client/node_modules/epubjs/node_modules/core-js
+[2023-04-10T13:20:13.352Z] > node -e "try{require('./postinstall')}catch(e){}"
+[2023-04-10T13:20:13.352Z] 
+[2023-04-10T13:20:13.352Z] 
+[2023-04-10T13:20:13.352Z] > highlight.js@9.18.5 postinstall /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/client/node_modules/highlight.js
+[2023-04-10T13:20:13.352Z] > node deprecated.js
+[2023-04-10T13:20:13.352Z] 
+[2023-04-10T13:20:13.352Z] [41m[37m-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*[0m
+[2023-04-10T13:20:13.352Z] [1m[37m
+[2023-04-10T13:20:13.352Z]   Verion 9 of Highlight.js has reached EOL.  It will no longer
+[2023-04-10T13:20:13.352Z]   be supported or receive security updates in the future.
+[2023-04-10T13:20:13.352Z]   Please upgrade to version 10 or encourage your indirect
+[2023-04-10T13:20:13.352Z]   dependencies to do so.
+[2023-04-10T13:20:13.352Z] 
+[2023-04-10T13:20:13.352Z]   For more info:
+[2023-04-10T13:20:13.352Z]   [34m
+[2023-04-10T13:20:13.352Z]   https://github.com/highlightjs/highlight.js/issues/2877
+[2023-04-10T13:20:13.352Z]   https://github.com/highlightjs/highlight.js/blob/master/VERSION_10_UPGRADE.md
+[2023-04-10T13:20:13.352Z]  [41m[37m
+[2023-04-10T13:20:13.352Z] -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*[0m
+[2023-04-10T13:20:13.352Z] 
+[2023-04-10T13:20:13.352Z] > @angular/cli@11.2.19 postinstall /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/client/node_modules/@angular/cli
+[2023-04-10T13:20:13.352Z] > node ./bin/postinstall/script.js
+[2023-04-10T13:20:13.352Z] 
+[2023-04-10T13:20:13.352Z] 
+[2023-04-10T13:20:13.352Z] > @compodoc/compodoc@1.1.11 postinstall /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/client/node_modules/@compodoc/compodoc
+[2023-04-10T13:20:13.352Z] > opencollective-postinstall || exit 0
+[2023-04-10T13:20:13.352Z] 
+[2023-04-10T13:20:13.352Z] 
+[2023-04-10T13:20:13.353Z] > ngx-infinite-scroll@6.9.1 postinstall /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/client/node_modules/ngx-infinite-scroll
+[2023-04-10T13:20:13.353Z] > opencollective-postinstall || exit 0
+[2023-04-10T13:20:13.353Z] 
+[2023-04-10T13:20:13.353Z] added 2285 packages from 1975 contributors and audited 2303 packages in 434.466s
+[2023-04-10T13:20:13.353Z] 
+[2023-04-10T13:20:13.353Z] 115 packages are looking for funding
+[2023-04-10T13:20:13.353Z]   run `npm fund` for details
+[2023-04-10T13:20:13.353Z] 
+[2023-04-10T13:20:13.353Z] found 182 vulnerabilities (9 low, 54 moderate, 88 high, 31 critical)
+[2023-04-10T13:20:13.353Z]   run `npm audit fix` to fix them, or `npm audit` for details
+[2023-04-10T13:20:13.353Z] 
+[2023-04-10T13:20:13.353Z] npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.3.2 (node_modules/@angular/compiler-cli/node_modules/fsevents):
+[2023-04-10T13:20:13.353Z] npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.3.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+[2023-04-10T13:20:13.353Z] npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.3.2 (node_modules/watchpack/node_modules/fsevents):
+[2023-04-10T13:20:13.353Z] npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.3.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+[2023-04-10T13:20:13.353Z] npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.3.2 (node_modules/rollup/node_modules/fsevents):
+[2023-04-10T13:20:13.353Z] npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.3.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+[2023-04-10T13:20:13.353Z] npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules/fsevents):
+[2023-04-10T13:20:13.353Z] npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+[2023-04-10T13:20:13.353Z] npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.3.2 (node_modules/karma/node_modules/fsevents):
+[2023-04-10T13:20:13.353Z] npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.3.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+[2023-04-10T13:20:13.353Z] npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.3.2 (node_modules/@compodoc/compodoc/node_modules/fsevents):
+[2023-04-10T13:20:13.353Z] npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.3.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+[2023-04-10T13:20:13.353Z] 
+[2023-04-10T13:20:13.353Z] 
+[2023-04-10T13:20:13.353Z] [18:50:07] Finished 'client:install' after 7.25 min
+[2023-04-10T13:20:13.353Z] [18:50:07] Starting 'client:dist'...
+[2023-04-10T13:26:04.839Z] 
+[2023-04-10T13:26:04.839Z] > src@1.7.0 build /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/client
+[2023-04-10T13:26:04.839Z] > node --max_old_space_size=8096 ./node_modules/@angular/cli/bin/ng build --prod --deploy-url dist/
+[2023-04-10T13:26:04.839Z] 
+[2023-04-10T13:26:04.839Z] 
+[2023-04-10T13:26:04.839Z] Initial Chunk Files                        | Names                |      Size
+[2023-04-10T13:26:04.839Z] main-es5.b0fabea7488abbd61eb1.js           | main                 |   5.37 MB
+[2023-04-10T13:26:04.840Z] main-es2015.b0fabea7488abbd61eb1.js        | main                 |   4.92 MB
+[2023-04-10T13:26:04.840Z] scripts.9df5b2a40f5b1d4adae7.js            | scripts              |   1.76 MB
+[2023-04-10T13:26:04.840Z] styles.8318e1b69d05af5cc6de.css            | styles               |   1.07 MB
+[2023-04-10T13:26:04.840Z] polyfills-es5.fc0dfaa43f8b88ee92d1.js      | polyfills-es5        | 153.53 kB
+[2023-04-10T13:26:04.840Z] polyfills-es2015.8e26aea9b94808c725d7.js   | polyfills            |  57.44 kB
+[2023-04-10T13:26:04.840Z] semanticTreePicker.be32e6676132609b697e.js | semanticTreePicker   |   8.01 kB
+[2023-04-10T13:26:04.840Z] runtime-es2015.669b8366bc6af7b549b4.js     | runtime              |   2.85 kB
+[2023-04-10T13:26:04.840Z] runtime-es5.669b8366bc6af7b549b4.js        | runtime              |   2.84 kB
+[2023-04-10T13:26:04.840Z] 
+[2023-04-10T13:26:04.840Z] | Initial ES5 Total    |   8.37 MB
+[2023-04-10T13:26:04.840Z] | Initial ES2015 Total |   7.83 MB
+[2023-04-10T13:26:04.840Z] 
+[2023-04-10T13:26:04.840Z] Lazy Chunk Files                           | Names                |      Size
+[2023-04-10T13:26:04.840Z] 7-es5.e937655697af3080dc50.js              | -                    |   2.11 MB
+[2023-04-10T13:26:04.840Z] 7-es2015.e937655697af3080dc50.js           | -                    |   2.08 MB
+[2023-04-10T13:26:04.840Z] 2-es5.c760333b50a747bc37d5.js              | -                    | 724.36 kB
+[2023-04-10T13:26:04.840Z] 2-es2015.c760333b50a747bc37d5.js           | -                    | 723.02 kB
+[2023-04-10T13:26:04.840Z] 24-es5.1a02f25505481eb3694d.js             | -                    | 669.53 kB
+[2023-04-10T13:26:04.840Z] 24-es2015.1a02f25505481eb3694d.js          | -                    | 659.92 kB
+[2023-04-10T13:26:04.840Z] 20-es5.b0664adb885cc838e943.js             | -                    | 433.06 kB
+[2023-04-10T13:26:04.840Z] 20-es2015.b0664adb885cc838e943.js          | -                    | 428.94 kB
+[2023-04-10T13:26:04.840Z] 13-es5.d705b092264785484406.js             | -                    | 289.73 kB
+[2023-04-10T13:26:04.840Z] 13-es2015.d705b092264785484406.js          | -                    | 284.44 kB
+[2023-04-10T13:26:04.840Z] 23-es5.489a804089b7985e28c4.js             | -                    | 186.55 kB
+[2023-04-10T13:26:04.840Z] 23-es2015.489a804089b7985e28c4.js          | -                    | 181.52 kB
+[2023-04-10T13:26:04.840Z] 21-es5.27cd217893c0e325b2f5.js             | -                    | 153.23 kB
+[2023-04-10T13:26:04.840Z] 21-es2015.27cd217893c0e325b2f5.js          | -                    | 150.14 kB
+[2023-04-10T13:26:04.840Z] 10-es5.7bbe8c8b1e101d34b508.js             | -                    |  91.92 kB
+[2023-04-10T13:26:04.840Z] 10-es2015.7bbe8c8b1e101d34b508.js          | -                    |  88.51 kB
+[2023-04-10T13:26:04.840Z] 12-es5.164d7abab7e1f9c7e584.js             | -                    |  71.61 kB
+[2023-04-10T13:26:04.840Z] 12-es2015.164d7abab7e1f9c7e584.js          | -                    |  69.81 kB
+[2023-04-10T13:26:04.840Z] 22-es5.55c3f60ab3828e48a83f.js             | -                    |  68.78 kB
+[2023-04-10T13:26:04.840Z] 22-es2015.55c3f60ab3828e48a83f.js          | -                    |  67.04 kB
+[2023-04-10T13:26:04.840Z] 11-es5.8d7715e0a18d695bd593.js             | -                    |  66.96 kB
+[2023-04-10T13:26:04.840Z] 11-es2015.8d7715e0a18d695bd593.js          | -                    |  64.78 kB
+[2023-04-10T13:26:04.840Z] 28-es5.a8d1b079e9262717dc77.js             | -                    |  63.65 kB
+[2023-04-10T13:26:04.840Z] 28-es2015.a8d1b079e9262717dc77.js          | -                    |  62.12 kB
+[2023-04-10T13:26:04.840Z] 3-es5.c85ac990b31ac48f68ba.js              | -                    |  59.25 kB
+[2023-04-10T13:26:04.840Z] 4-es5.42c0e8a2941dcefc6d34.js              | -                    |  58.36 kB
+[2023-04-10T13:26:04.840Z] 3-es2015.c85ac990b31ac48f68ba.js           | -                    |  58.22 kB
+[2023-04-10T13:26:04.840Z] 4-es2015.42c0e8a2941dcefc6d34.js           | -                    |  54.91 kB
+[2023-04-10T13:26:04.840Z] 14-es5.5cad9ebf198bf493c0d8.js             | -                    |  46.91 kB
+[2023-04-10T13:26:04.840Z] 9-es5.072e201d465c4ea5b6b3.js              | -                    |  45.38 kB
+[2023-04-10T13:26:04.840Z] 14-es2015.5cad9ebf198bf493c0d8.js          | -                    |  45.27 kB
+[2023-04-10T13:26:04.840Z] 1-es5.ccd2396804f5f5fb8a52.js              | -                    |  44.90 kB
+[2023-04-10T13:26:04.840Z] 9-es2015.072e201d465c4ea5b6b3.js           | -                    |  44.31 kB
+[2023-04-10T13:26:04.840Z] 1-es2015.ccd2396804f5f5fb8a52.js           | -                    |  41.38 kB
+[2023-04-10T13:26:04.840Z] 8-es5.26de2a8363b6622d31ec.js              | -                    |  39.86 kB
+[2023-04-10T13:26:04.840Z] 8-es2015.26de2a8363b6622d31ec.js           | -                    |  36.75 kB
+[2023-04-10T13:26:04.840Z] 25-es5.3c8af19d7e83384891f3.js             | -                    |  36.28 kB
+[2023-04-10T13:26:04.840Z] common-es5.768f627a1002c02bb5e8.js         | common               |  36.18 kB
+[2023-04-10T13:26:04.840Z] 25-es2015.3c8af19d7e83384891f3.js          | -                    |  34.90 kB
+[2023-04-10T13:26:04.840Z] common-es2015.768f627a1002c02bb5e8.js      | common               |  34.79 kB
+[2023-04-10T13:26:04.840Z] 26-es5.86e0e8ff0cec7ac9b717.js             | -                    |  26.25 kB
+[2023-04-10T13:26:04.840Z] 26-es2015.86e0e8ff0cec7ac9b717.js          | -                    |  25.31 kB
+[2023-04-10T13:26:04.840Z] 6-es5.13917554ed2909d01ba0.js              | -                    |  24.67 kB
+[2023-04-10T13:26:04.840Z] 6-es2015.13917554ed2909d01ba0.js           | -                    |  23.49 kB
+[2023-04-10T13:26:04.840Z] 15-es5.49872ad62c0e284897c9.js             | -                    |  19.09 kB
+[2023-04-10T13:26:04.840Z] 15-es2015.49872ad62c0e284897c9.js          | -                    |  18.11 kB
+[2023-04-10T13:26:04.840Z] 29-es5.8e22210d3141689ad7c5.js             | -                    |  15.95 kB
+[2023-04-10T13:26:04.840Z] 29-es2015.8e22210d3141689ad7c5.js          | -                    |  14.63 kB
+[2023-04-10T13:26:04.840Z] 27-es5.3a759a6bb6fabe005186.js             | -                    |   8.17 kB
+[2023-04-10T13:26:04.840Z] 27-es2015.3a759a6bb6fabe005186.js          | -                    |   7.36 kB
+[2023-04-10T13:26:04.840Z] 
+[2023-04-10T13:26:04.840Z] Build at: 2023-04-10T13:25:52.686Z - Hash: 81ddcb77d472289ac2ea - Time: 341523ms
+[2023-04-10T13:26:04.840Z] 
+[2023-04-10T13:26:04.840Z] - Generating browser application bundles...
+[2023-04-10T13:26:04.840Z] ✔ Browser application bundle generation complete.
+[2023-04-10T13:26:04.840Z] - Generating ES5 bundles for differential loading...
+[2023-04-10T13:26:04.840Z] ✔ ES5 bundle generation complete.
+[2023-04-10T13:26:04.840Z] - Copying assets...
+[2023-04-10T13:26:04.840Z] ✔ Copying assets complete.
+[2023-04-10T13:26:04.840Z] - Generating index html...
+[2023-04-10T13:26:04.840Z] ✔ Index html generation complete.
+[2023-04-10T13:26:04.840Z] 
+[2023-04-10T13:26:04.840Z] Warning: Circular dependency detected:
+[2023-04-10T13:26:04.840Z] src/app/modules/contribute/services/program-components/program-components.service.ts -> src/app/modules/sourcing/components/collection/collection.component.ts -> src/app/modules/core/index.ts -> src/app/modules/core/services/index.ts -> src/app/modules/core/services/content-helper/content-helper.service.ts -> src/app/modules/contribute/services/program-components/program-components.service.ts
+[2023-04-10T13:26:04.840Z] 
+[2023-04-10T13:26:04.840Z] Warning: Circular dependency detected:
+[2023-04-10T13:26:04.840Z] src/app/modules/core/components/data-driven-filter/data-driven-filter.component.ts -> src/app/modules/core/services/index.ts -> src/app/modules/core/services/content-helper/content-helper.service.ts -> src/app/modules/core/index.ts -> src/app/modules/core/components/index.ts -> src/app/modules/core/components/data-driven-filter/data-driven-filter.component.ts
+[2023-04-10T13:26:04.840Z] 
+[2023-04-10T13:26:04.840Z] Warning: Circular dependency detected:
+[2023-04-10T13:26:04.840Z] src/app/modules/core/components/flag-content/flag-content.component.ts -> src/app/modules/core/services/index.ts -> src/app/modules/core/services/content-helper/content-helper.service.ts -> src/app/modules/core/index.ts -> src/app/modules/core/components/index.ts -> src/app/modules/core/components/flag-content/flag-content.component.ts
+[2023-04-10T13:26:04.840Z] 
+[2023-04-10T13:26:04.840Z] Warning: Circular dependency detected:
+[2023-04-10T13:26:04.840Z] src/app/modules/core/components/index.ts -> src/app/modules/core/components/main-header/main-header.component.ts -> src/app/modules/core/services/index.ts -> src/app/modules/core/services/content-helper/content-helper.service.ts -> src/app/modules/core/index.ts -> src/app/modules/core/components/index.ts
+[2023-04-10T13:26:04.840Z] 
+[2023-04-10T13:26:04.840Z] Warning: Circular dependency detected:
+[2023-04-10T13:26:04.840Z] src/app/modules/core/components/main-footer/main-footer.component.ts -> src/app/modules/core/services/index.ts -> src/app/modules/core/services/content-helper/content-helper.service.ts -> src/app/modules/core/index.ts -> src/app/modules/core/components/index.ts -> src/app/modules/core/components/main-footer/main-footer.component.ts
+[2023-04-10T13:26:04.840Z] 
+[2023-04-10T13:26:04.840Z] Warning: Circular dependency detected:
+[2023-04-10T13:26:04.840Z] src/app/modules/core/components/main-header/main-header.component.ts -> src/app/modules/core/services/index.ts -> src/app/modules/core/services/content-helper/content-helper.service.ts -> src/app/modules/core/index.ts -> src/app/modules/core/components/index.ts -> src/app/modules/core/components/main-header/main-header.component.ts
+[2023-04-10T13:26:04.840Z] 
+[2023-04-10T13:26:04.840Z] Warning: Circular dependency detected:
+[2023-04-10T13:26:04.840Z] src/app/modules/core/components/main-menu/main-menu.component.ts -> src/app/modules/core/services/index.ts -> src/app/modules/core/services/content-helper/content-helper.service.ts -> src/app/modules/core/index.ts -> src/app/modules/core/components/index.ts -> src/app/modules/core/components/main-menu/main-menu.component.ts
+[2023-04-10T13:26:04.840Z] 
+[2023-04-10T13:26:04.840Z] Warning: Circular dependency detected:
+[2023-04-10T13:26:04.840Z] src/app/modules/core/components/prominent-filter/prominent-filter.component.ts -> src/app/modules/core/services/index.ts -> src/app/modules/core/services/content-helper/content-helper.service.ts -> src/app/modules/core/index.ts -> src/app/modules/core/components/index.ts -> src/app/modules/core/components/prominent-filter/prominent-filter.component.ts
+[2023-04-10T13:26:04.840Z] 
+[2023-04-10T13:26:04.840Z] Warning: Circular dependency detected:
+[2023-04-10T13:26:04.840Z] src/app/modules/core/components/search/search.component.ts -> src/app/modules/core/services/index.ts -> src/app/modules/core/services/content-helper/content-helper.service.ts -> src/app/modules/core/index.ts -> src/app/modules/core/components/index.ts -> src/app/modules/core/components/search/search.component.ts
+[2023-04-10T13:26:04.840Z] 
+[2023-04-10T13:26:04.840Z] Warning: Circular dependency detected:
+[2023-04-10T13:26:04.840Z] src/app/modules/core/guard/auth-gard.service.ts -> src/app/modules/core/services/index.ts -> src/app/modules/core/services/content-helper/content-helper.service.ts -> src/app/modules/core/index.ts -> src/app/modules/core/guard/index.ts -> src/app/modules/core/guard/auth-gard.service.ts
+[2023-04-10T13:26:04.840Z] 
+[2023-04-10T13:26:04.840Z] Warning: Circular dependency detected:
+[2023-04-10T13:26:04.840Z] src/app/modules/core/guard/index.ts -> src/app/modules/core/guard/auth-gard.service.ts -> src/app/modules/core/services/index.ts -> src/app/modules/core/services/content-helper/content-helper.service.ts -> src/app/modules/core/index.ts -> src/app/modules/core/guard/index.ts
+[2023-04-10T13:26:04.840Z] 
+[2023-04-10T13:26:04.840Z] Warning: Circular dependency detected:
+[2023-04-10T13:26:04.840Z] src/app/modules/core/index.ts -> src/app/modules/core/services/index.ts -> src/app/modules/core/services/content-helper/content-helper.service.ts -> src/app/modules/core/index.ts
+[2023-04-10T13:26:04.840Z] 
+[2023-04-10T13:26:04.840Z] Warning: Circular dependency detected:
+[2023-04-10T13:26:04.840Z] src/app/modules/core/interceptor/index.ts -> src/app/modules/core/interceptor/session-expiry.interceptor.ts -> src/app/modules/core/services/index.ts -> src/app/modules/core/services/content-helper/content-helper.service.ts -> src/app/modules/core/index.ts -> src/app/modules/core/interceptor/index.ts
+[2023-04-10T13:26:04.840Z] 
+[2023-04-10T13:26:04.840Z] Warning: Circular dependency detected:
+[2023-04-10T13:26:04.840Z] src/app/modules/core/interceptor/session-expiry.interceptor.ts -> src/app/modules/core/services/index.ts -> src/app/modules/core/services/content-helper/content-helper.service.ts -> src/app/modules/core/index.ts -> src/app/modules/core/interceptor/index.ts -> src/app/modules/core/interceptor/session-expiry.interceptor.ts
+[2023-04-10T13:26:04.840Z] 
+[2023-04-10T13:26:04.840Z] Warning: Circular dependency detected:
+[2023-04-10T13:26:04.840Z] src/app/modules/core/services/content-helper/content-helper.service.ts -> src/app/modules/core/index.ts -> src/app/modules/core/services/index.ts -> src/app/modules/core/services/content-helper/content-helper.service.ts
+[2023-04-10T13:26:04.840Z] 
+[2023-04-10T13:26:04.840Z] Warning: Circular dependency detected:
+[2023-04-10T13:26:04.841Z] src/app/modules/core/services/index.ts -> src/app/modules/core/services/content-helper/content-helper.service.ts -> src/app/modules/core/index.ts -> src/app/modules/core/services/index.ts
+[2023-04-10T13:26:04.841Z] 
+[2023-04-10T13:26:04.841Z] Warning: Circular dependency detected:
+[2023-04-10T13:26:04.841Z] src/app/modules/program/services/index.ts -> src/app/modules/program/services/program-telemetry/program-telemetry.service.ts -> src/app/modules/core/index.ts -> src/app/modules/core/services/index.ts -> src/app/modules/core/services/content-helper/content-helper.service.ts -> src/app/modules/contribute/services/program-components/program-components.service.ts -> src/app/modules/sourcing/components/collection/collection.component.ts -> src/app/modules/sourcing/services/index.ts -> src/app/modules/sourcing/services/helper.service.ts -> src/app/modules/program/services/index.ts
+[2023-04-10T13:26:04.841Z] 
+[2023-04-10T13:26:04.841Z] Warning: Circular dependency detected:
+[2023-04-10T13:26:04.841Z] src/app/modules/program/services/program-components/program-components.service.ts -> src/app/modules/sourcing/components/collection/collection.component.ts -> src/app/modules/core/index.ts -> src/app/modules/core/services/index.ts -> src/app/modules/core/services/content-helper/content-helper.service.ts -> src/app/modules/contribute/services/program-components/program-components.service.ts -> src/app/modules/sourcing/components/content-uploader/content-uploader.component.ts -> src/app/modules/program/services/program-components/program-components.service.ts
+[2023-04-10T13:26:04.841Z] 
+[2023-04-10T13:26:04.841Z] Warning: Circular dependency detected:
+[2023-04-10T13:26:04.841Z] src/app/modules/program/services/program-telemetry/program-telemetry.service.ts -> src/app/modules/core/index.ts -> src/app/modules/core/services/index.ts -> src/app/modules/core/services/content-helper/content-helper.service.ts -> src/app/modules/contribute/services/program-components/program-components.service.ts -> src/app/modules/sourcing/components/collection/collection.component.ts -> src/app/modules/sourcing/services/index.ts -> src/app/modules/sourcing/services/helper.service.ts -> src/app/modules/program/services/index.ts -> src/app/modules/program/services/program-telemetry/program-telemetry.service.ts
+[2023-04-10T13:26:04.841Z] 
+[2023-04-10T13:26:04.841Z] Warning: Circular dependency detected:
+[2023-04-10T13:26:04.841Z] src/app/modules/public/index.ts -> src/app/modules/public/services/index.ts -> src/app/modules/public/services/public-player/public-player.service.ts -> src/app/modules/core/index.ts -> src/app/modules/core/services/index.ts -> src/app/modules/core/services/content-helper/content-helper.service.ts -> src/app/modules/contribute/services/program-components/program-components.service.ts -> src/app/modules/sourcing/components/collection/collection.component.ts -> src/app/modules/sourcing/services/index.ts -> src/app/modules/sourcing/services/quml-player/quml-player.service.ts -> src/app/modules/public/index.ts
+[2023-04-10T13:26:04.841Z] 
+[2023-04-10T13:26:04.841Z] Warning: Circular dependency detected:
+[2023-04-10T13:26:04.841Z] src/app/modules/public/services/index.ts -> src/app/modules/public/services/public-player/public-player.service.ts -> src/app/modules/core/index.ts -> src/app/modules/core/services/index.ts -> src/app/modules/core/services/content-helper/content-helper.service.ts -> src/app/modules/contribute/services/program-components/program-components.service.ts -> src/app/modules/sourcing/components/collection/collection.component.ts -> src/app/modules/sourcing/services/index.ts -> src/app/modules/sourcing/services/quml-player/quml-player.service.ts -> src/app/modules/public/index.ts -> src/app/modules/public/services/index.ts
+[2023-04-10T13:26:04.841Z] 
+[2023-04-10T13:26:04.841Z] Warning: Circular dependency detected:
+[2023-04-10T13:26:04.841Z] src/app/modules/public/services/public-player/public-player.service.ts -> src/app/modules/core/index.ts -> src/app/modules/core/services/index.ts -> src/app/modules/core/services/content-helper/content-helper.service.ts -> src/app/modules/contribute/services/program-components/program-components.service.ts -> src/app/modules/sourcing/components/collection/collection.component.ts -> src/app/modules/sourcing/services/index.ts -> src/app/modules/sourcing/services/quml-player/quml-player.service.ts -> src/app/modules/public/index.ts -> src/app/modules/public/services/index.ts -> src/app/modules/public/services/public-player/public-player.service.ts
+[2023-04-10T13:26:04.841Z] 
+[2023-04-10T13:26:04.841Z] Warning: Circular dependency detected:
+[2023-04-10T13:26:04.841Z] src/app/modules/sourcing/components/collection/collection.component.ts -> src/app/modules/core/index.ts -> src/app/modules/core/services/index.ts -> src/app/modules/core/services/content-helper/content-helper.service.ts -> src/app/modules/contribute/services/program-components/program-components.service.ts -> src/app/modules/sourcing/components/collection/collection.component.ts
+[2023-04-10T13:26:04.841Z] 
+[2023-04-10T13:26:04.841Z] Warning: Circular dependency detected:
+[2023-04-10T13:26:04.841Z] src/app/modules/sourcing/components/content-editor/content-editor.component.ts -> src/app/modules/core/index.ts -> src/app/modules/core/services/index.ts -> src/app/modules/core/services/content-helper/content-helper.service.ts -> src/app/modules/contribute/services/program-components/program-components.service.ts -> src/app/modules/sourcing/components/content-uploader/content-uploader.component.ts -> src/app/modules/program/services/program-components/program-components.service.ts -> src/app/modules/sourcing/components/content-editor/content-editor.component.ts
+[2023-04-10T13:26:04.841Z] 
+[2023-04-10T13:26:04.841Z] Warning: Circular dependency detected:
+[2023-04-10T13:26:04.841Z] src/app/modules/sourcing/components/content-uploader/content-uploader.component.ts -> src/app/modules/core/index.ts -> src/app/modules/core/services/index.ts -> src/app/modules/core/services/content-helper/content-helper.service.ts -> src/app/modules/contribute/services/program-components/program-components.service.ts -> src/app/modules/sourcing/components/content-uploader/content-uploader.component.ts
+[2023-04-10T13:26:04.841Z] 
+[2023-04-10T13:26:04.841Z] Warning: Circular dependency detected:
+[2023-04-10T13:26:04.841Z] src/app/modules/sourcing/components/dashboard/dashboard.component.ts -> src/app/modules/core/index.ts -> src/app/modules/core/services/index.ts -> src/app/modules/core/services/content-helper/content-helper.service.ts -> src/app/modules/contribute/services/program-components/program-components.service.ts -> src/app/modules/sourcing/components/dashboard/dashboard.component.ts
+[2023-04-10T13:26:04.841Z] 
+[2023-04-10T13:26:04.841Z] Warning: Circular dependency detected:
+[2023-04-10T13:26:04.841Z] src/app/modules/sourcing/components/question-list/question-list.component.ts -> src/app/modules/core/index.ts -> src/app/modules/core/services/index.ts -> src/app/modules/core/services/content-helper/content-helper.service.ts -> src/app/modules/contribute/services/program-components/program-components.service.ts -> src/app/modules/sourcing/components/content-uploader/content-uploader.component.ts -> src/app/modules/program/services/program-components/program-components.service.ts -> src/app/modules/sourcing/components/question-list/question-list.component.ts
+[2023-04-10T13:26:04.841Z] 
+[2023-04-10T13:26:04.841Z] Warning: Circular dependency detected:
+[2023-04-10T13:26:04.841Z] src/app/modules/sourcing/components/question-set-editor/question-set-editor.component.ts -> src/app/modules/core/index.ts -> src/app/modules/core/services/index.ts -> src/app/modules/core/services/content-helper/content-helper.service.ts -> src/app/modules/contribute/services/program-components/program-components.service.ts -> src/app/modules/sourcing/components/content-uploader/content-uploader.component.ts -> src/app/modules/program/services/program-components/program-components.service.ts -> src/app/modules/sourcing/components/question-set-editor/question-set-editor.component.ts
+[2023-04-10T13:26:04.841Z] 
+[2023-04-10T13:26:04.841Z] Warning: Circular dependency detected:
+[2023-04-10T13:26:04.841Z] src/app/modules/sourcing/services/bulk-job/bulk-job.service.ts -> src/app/modules/core/index.ts -> src/app/modules/core/services/index.ts -> src/app/modules/core/services/content-helper/content-helper.service.ts -> src/app/modules/contribute/services/program-components/program-components.service.ts -> src/app/modules/sourcing/components/content-uploader/content-uploader.component.ts -> src/app/modules/sourcing/services/bulk-job/bulk-job.service.ts
+[2023-04-10T13:26:04.841Z] 
+[2023-04-10T13:26:04.841Z] Warning: Circular dependency detected:
+[2023-04-10T13:26:04.841Z] src/app/modules/sourcing/services/collection-hierarchy/collection-hierarchy.service.ts -> src/app/modules/core/index.ts -> src/app/modules/core/services/index.ts -> src/app/modules/core/services/content-helper/content-helper.service.ts -> src/app/modules/contribute/services/program-components/program-components.service.ts -> src/app/modules/sourcing/components/collection/collection.component.ts -> src/app/modules/sourcing/services/index.ts -> src/app/modules/sourcing/services/collection-hierarchy/collection-hierarchy.service.ts
+[2023-04-10T13:26:04.841Z] 
+[2023-04-10T13:26:04.841Z] Warning: Circular dependency detected:
+[2023-04-10T13:26:04.841Z] src/app/modules/sourcing/services/helper.service.ts -> src/app/modules/core/index.ts -> src/app/modules/core/services/index.ts -> src/app/modules/core/services/content-helper/content-helper.service.ts -> src/app/modules/contribute/services/program-components/program-components.service.ts -> src/app/modules/sourcing/components/collection/collection.component.ts -> src/app/modules/sourcing/services/index.ts -> src/app/modules/sourcing/services/helper.service.ts
+[2023-04-10T13:26:04.841Z] 
+[2023-04-10T13:26:04.841Z] Warning: Circular dependency detected:
+[2023-04-10T13:26:04.841Z] src/app/modules/sourcing/services/index.ts -> src/app/modules/sourcing/services/sourcing/sourcing.service.ts -> src/app/modules/core/index.ts -> src/app/modules/core/services/index.ts -> src/app/modules/core/services/content-helper/content-helper.service.ts -> src/app/modules/contribute/services/program-components/program-components.service.ts -> src/app/modules/sourcing/components/collection/collection.component.ts -> src/app/modules/sourcing/services/index.ts
+[2023-04-10T13:26:04.841Z] 
+[2023-04-10T13:26:04.841Z] Warning: Circular dependency detected:
+[2023-04-10T13:26:04.841Z] src/app/modules/sourcing/services/itemset/itemset.service.ts -> src/app/modules/core/index.ts -> src/app/modules/core/services/index.ts -> src/app/modules/core/services/content-helper/content-helper.service.ts -> src/app/modules/contribute/services/program-components/program-components.service.ts -> src/app/modules/sourcing/components/content-uploader/content-uploader.component.ts -> src/app/modules/program/services/program-components/program-components.service.ts -> src/app/modules/sourcing/components/question-list/question-list.component.ts -> src/app/modules/sourcing/services/itemset/itemset.service.ts
+[2023-04-10T13:26:04.841Z] 
+[2023-04-10T13:26:04.841Z] Warning: Circular dependency detected:
+[2023-04-10T13:26:04.841Z] src/app/modules/sourcing/services/quml-player/quml-player.service.ts -> src/app/modules/public/index.ts -> src/app/modules/public/services/index.ts -> src/app/modules/public/services/public-player/public-player.service.ts -> src/app/modules/core/index.ts -> src/app/modules/core/services/index.ts -> src/app/modules/core/services/content-helper/content-helper.service.ts -> src/app/modules/contribute/services/program-components/program-components.service.ts -> src/app/modules/sourcing/components/collection/collection.component.ts -> src/app/modules/sourcing/services/index.ts -> src/app/modules/sourcing/services/quml-player/quml-player.service.ts
+[2023-04-10T13:26:04.841Z] 
+[2023-04-10T13:26:04.841Z] Warning: Circular dependency detected:
+[2023-04-10T13:26:04.841Z] src/app/modules/sourcing/services/sourcing/sourcing.service.ts -> src/app/modules/core/index.ts -> src/app/modules/core/services/index.ts -> src/app/modules/core/services/content-helper/content-helper.service.ts -> src/app/modules/contribute/services/program-components/program-components.service.ts -> src/app/modules/sourcing/components/collection/collection.component.ts -> src/app/modules/sourcing/services/index.ts -> src/app/modules/sourcing/services/sourcing/sourcing.service.ts
+[2023-04-10T13:26:04.841Z] 
+[2023-04-10T13:26:04.841Z] Warning: Circular dependency detected:
+[2023-04-10T13:26:04.841Z] src/app/service/CsLibInitializer/cs-lib-initializer.service.ts -> src/app/modules/core/index.ts -> src/app/modules/core/services/index.ts -> src/app/modules/core/services/content-helper/content-helper.service.ts -> src/app/modules/contribute/services/program-components/program-components.service.ts -> src/app/modules/sourcing/components/collection/collection.component.ts -> src/app/modules/sourcing/services/index.ts -> src/app/modules/sourcing/services/quml-player/quml-player.service.ts -> src/app/service/CsLibInitializer/cs-lib-initializer.service.ts
+[2023-04-10T13:26:04.841Z] 
+[2023-04-10T13:26:04.841Z] Warning: ./src/app/modules/shared-feature/components/textbook-list/textbook-list.component.scss
+[2023-04-10T13:26:04.841Z] Module Warning (from ./node_modules/postcss-loader/dist/cjs.js):
+[2023-04-10T13:26:04.841Z] Warning
+[2023-04-10T13:26:04.841Z] 
+[2023-04-10T13:26:04.841Z] (192:3) autoprefixer: Second Autoprefixer control comment was ignored. Autoprefixer applies control comment to whole block, not to next rules.
+[2023-04-10T13:26:04.841Z] 
+[2023-04-10T13:26:04.841Z] Warning: ./src/app/modules/sourcing/components/collection/collection.component.scss
+[2023-04-10T13:26:04.841Z] Module Warning (from ./node_modules/postcss-loader/dist/cjs.js):
+[2023-04-10T13:26:04.841Z] Warning
+[2023-04-10T13:26:04.841Z] 
+[2023-04-10T13:26:04.841Z] (385:3) autoprefixer: Second Autoprefixer control comment was ignored. Autoprefixer applies control comment to whole block, not to next rules.
+[2023-04-10T13:26:04.841Z] 
+[2023-04-10T13:26:04.841Z] Warning: ./node_modules/moment/min/moment.min.js
+[2023-04-10T13:26:04.841Z] Module not found: Error: Can't resolve './locale' in '/var/lib/jenkins/workspace/Build/DockCore/Player/src/app/client/node_modules/moment/min'
+[2023-04-10T13:26:04.841Z] resolve './locale' in '/var/lib/jenkins/workspace/Build/DockCore/Player/src/app/client/node_modules/moment/min'
+[2023-04-10T13:26:04.841Z]   using description file: /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/client/node_modules/moment/package.json (relative path: ./min)
+[2023-04-10T13:26:04.841Z]     Field 'browser' doesn't contain a valid alias configuration
+[2023-04-10T13:26:04.841Z]     using description file: /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/client/node_modules/moment/package.json (relative path: ./min/locale)
+[2023-04-10T13:26:04.841Z]       as directory
+[2023-04-10T13:26:04.841Z]         /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/client/node_modules/moment/min/locale doesn't exist
+[2023-04-10T13:26:04.841Z] [/var/lib/jenkins/workspace/Build/DockCore/Player/src/app/client/node_modules/moment/min/locale]
+[2023-04-10T13:26:04.841Z]  @ ./node_modules/moment/min/moment.min.js
+[2023-04-10T13:26:04.841Z]  @ ./node_modules/common-form-elements-web-v9/fesm2015/common-form-elements-web-v9.js
+[2023-04-10T13:26:04.841Z]  @ ./src/app/app.module.ngfactory.js
+[2023-04-10T13:26:04.841Z]  @ ./src/main.ts
+[2023-04-10T13:26:04.841Z]  @ multi ./src/main.ts
+[2023-04-10T13:26:04.841Z] 
+[2023-04-10T13:26:04.842Z] Warning: /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/client/src/app/modules/sourcing/components/question-preview/question-preview.component.scss exceeded maximum budget. Budget 6.00 kB was not met by 934 bytes with a total of 6.91 kB.
+[2023-04-10T13:26:04.842Z] 
+[2023-04-10T13:26:04.842Z] Warning: /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/client/src/app/modules/sourcing/components/chapter-list/chapter-list.component.scss exceeded maximum budget. Budget 6.00 kB was not met by 152 bytes with a total of 6.15 kB.
+[2023-04-10T13:26:04.842Z] 
+[2023-04-10T13:26:04.842Z] Warning: /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/client/src/app/modules/sourcing/components/recursive-tree/recursive-tree.component.scss exceeded maximum budget. Budget 6.00 kB was not met by 500 bytes with a total of 6.49 kB.
+[2023-04-10T13:26:04.842Z] 
+[2023-04-10T13:26:04.842Z] Warning: /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/client/src/app/modules/dashboard/components/data-chart/data-chart.component.scss exceeded maximum budget. Budget 6.00 kB was not met by 52 bytes with a total of 6.05 kB.
+[2023-04-10T13:26:04.842Z] 
+[2023-04-10T13:26:04.842Z] Warning: /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/client/src/app/modules/sourcing/components/question-creation/question-creation.component.scss exceeded maximum budget. Budget 6.00 kB was not met by 855 bytes with a total of 6.83 kB.
+[2023-04-10T13:26:04.842Z] 
+[2023-04-10T13:26:04.842Z] Warning: /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/client/src/app/modules/sourcing/components/mcq-creation/mcq-creation.component.scss exceeded maximum budget. Budget 6.00 kB was not met by 1.78 kB with a total of 7.78 kB.
+[2023-04-10T13:26:04.842Z] 
+[2023-04-10T13:26:04.842Z] Warning: /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/client/src/app/modules/sourcing/components/ckeditor-tool/ckeditor-tool.component.scss exceeded maximum budget. Budget 6.00 kB was not met by 620 bytes with a total of 6.61 kB.
+[2023-04-10T13:26:04.842Z] 
+[2023-04-10T13:26:04.842Z] Warning: /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/client/src/app/modules/sourcing/components/content-uploader/content-uploader.component.scss exceeded maximum budget. Budget 6.00 kB was not met by 1.19 kB with a total of 7.19 kB.
+[2023-04-10T13:26:04.842Z] 
+[2023-04-10T13:26:04.842Z] Warning: /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/client/src/app/modules/sourcing/components/collection/collection.component.scss exceeded maximum budget. Budget 6.00 kB was not met by 1.29 kB with a total of 7.29 kB.
+[2023-04-10T13:26:04.842Z] 
+[2023-04-10T13:26:04.842Z] Warning: /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/client/src/app/modules/sourcing/components/mvc-library/mvc-library.component.scss exceeded maximum budget. Budget 6.00 kB was not met by 13.29 kB with a total of 19.29 kB.
+[2023-04-10T13:26:04.842Z] 
+[2023-04-10T13:26:04.842Z] Warning: /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/client/src/app/modules/sourcing/components/mvc-list/mvc-list.component.scss exceeded maximum budget. Budget 6.00 kB was not met by 13.29 kB with a total of 19.29 kB.
+[2023-04-10T13:26:04.842Z] 
+[2023-04-10T13:26:04.842Z] Warning: /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/client/src/app/modules/sourcing/components/mvc-filter/mvc-filter.component.scss exceeded maximum budget. Budget 6.00 kB was not met by 13.29 kB with a total of 19.29 kB.
+[2023-04-10T13:26:04.842Z] 
+[2023-04-10T13:26:04.842Z] Warning: /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/client/src/app/modules/sourcing/components/mvc-player/mvc-player.component.scss exceeded maximum budget. Budget 6.00 kB was not met by 13.29 kB with a total of 19.29 kB.
+[2023-04-10T13:26:04.842Z] 
+[2023-04-10T13:26:04.842Z] Warning: /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/client/src/app/modules/public/module/signup/components/signup/signup.component.scss exceeded maximum budget. Budget 6.00 kB was not met by 254 bytes with a total of 6.25 kB.
+[2023-04-10T13:26:04.842Z] 
+[2023-04-10T13:26:04.842Z] Warning: /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/client/src/app/app.module.ngfactory.js depends on 'angular-inport'. CommonJS or AMD dependencies can cause optimization bailouts.
+[2023-04-10T13:26:04.842Z] For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+[2023-04-10T13:26:04.842Z] 
+[2023-04-10T13:26:04.842Z] Warning: /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/client/src/app/app.module.ngfactory.js depends on 'angular-inport/dist/utils/viewport-ruler'. CommonJS or AMD dependencies can cause optimization bailouts.
+[2023-04-10T13:26:04.842Z] For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+[2023-04-10T13:26:04.842Z] 
+[2023-04-10T13:26:04.842Z] Warning: /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/client/src/app/app.module.ngfactory.js depends on 'angular-inport/dist/utils/scroll-observable'. CommonJS or AMD dependencies can cause optimization bailouts.
+[2023-04-10T13:26:04.842Z] For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+[2023-04-10T13:26:04.842Z] 
+[2023-04-10T13:26:04.842Z] Warning: /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/client/src/app/app.module.ngfactory.js depends on 'ng2-cache-service/dist/src/services/cache.service'. CommonJS or AMD dependencies can cause optimization bailouts.
+[2023-04-10T13:26:04.842Z] For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+[2023-04-10T13:26:04.842Z] 
+[2023-04-10T13:26:04.842Z] Warning: /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/client/src/app/app.module.ngfactory.js depends on 'ng2-cache-service/dist/src/services/storage/session-storage/cache-session-storage.service'. CommonJS or AMD dependencies can cause optimization bailouts.
+[2023-04-10T13:26:04.842Z] For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+[2023-04-10T13:26:04.842Z] 
+[2023-04-10T13:26:04.842Z] Warning: /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/client/src/app/app.module.ngfactory.js depends on 'ngx-device-detector'. CommonJS or AMD dependencies can cause optimization bailouts.
+[2023-04-10T13:26:04.842Z] For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+[2023-04-10T13:26:04.842Z] 
+[2023-04-10T13:26:04.842Z] Warning: /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/client/node_modules/video.js/dist/video.es.js depends on 'global/document'. CommonJS or AMD dependencies can cause optimization bailouts.
+[2023-04-10T13:26:04.842Z] For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+[2023-04-10T13:26:04.842Z] 
+[2023-04-10T13:26:04.842Z] Warning: /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/client/node_modules/video.js/dist/video.es.js depends on 'mux.js/lib/tools/parse-sidx'. CommonJS or AMD dependencies can cause optimization bailouts.
+[2023-04-10T13:26:04.842Z] For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+[2023-04-10T13:26:04.842Z] 
+[2023-04-10T13:26:04.842Z] Warning: /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/client/node_modules/epubjs/src/book.js depends on 'event-emitter'. CommonJS or AMD dependencies can cause optimization bailouts.
+[2023-04-10T13:26:04.842Z] For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+[2023-04-10T13:26:04.842Z] 
+[2023-04-10T13:26:04.842Z] Warning: /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/client/node_modules/epubjs/src/section.js depends on 'xmldom'. CommonJS or AMD dependencies can cause optimization bailouts.
+[2023-04-10T13:26:04.842Z] For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+[2023-04-10T13:26:04.842Z] 
+[2023-04-10T13:26:04.842Z] Warning: /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/client/node_modules/video.js/dist/video.es.js depends on 'videojs-vtt.js'. CommonJS or AMD dependencies can cause optimization bailouts.
+[2023-04-10T13:26:04.842Z] For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+[2023-04-10T13:26:04.842Z] 
+[2023-04-10T13:26:04.842Z] Warning: /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/client/node_modules/video.js/dist/video.es.js depends on '@videojs/xhr'. CommonJS or AMD dependencies can cause optimization bailouts.
+[2023-04-10T13:26:04.842Z] For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+[2023-04-10T13:26:04.842Z] 
+[2023-04-10T13:26:04.842Z] Warning: /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/client/node_modules/video.js/dist/video.es.js depends on '@babel/runtime/helpers/inherits'. CommonJS or AMD dependencies can cause optimization bailouts.
+[2023-04-10T13:26:04.842Z] For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+[2023-04-10T13:26:04.842Z] 
+[2023-04-10T13:26:04.842Z] Warning: /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/client/node_modules/video.js/dist/video.es.js depends on '@babel/runtime/helpers/construct'. CommonJS or AMD dependencies can cause optimization bailouts.
+[2023-04-10T13:26:04.842Z] For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+[2023-04-10T13:26:04.842Z] 
+[2023-04-10T13:26:04.842Z] Warning: /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/client/node_modules/video.js/dist/video.es.js depends on '@babel/runtime/helpers/inheritsLoose'. CommonJS or AMD dependencies can cause optimization bailouts.
+[2023-04-10T13:26:04.842Z] For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+[2023-04-10T13:26:04.842Z] 
+[2023-04-10T13:26:04.842Z] Warning: /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/client/node_modules/ally.js/esm/util/platform.js depends on 'platform'. CommonJS or AMD dependencies can cause optimization bailouts.
+[2023-04-10T13:26:04.842Z] For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+[2023-04-10T13:26:04.842Z] 
+[2023-04-10T13:26:04.843Z] Warning: /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/client/src/app/modules/recover-account/recover-account.module.ngfactory.js depends on 'ng-recaptcha/recaptcha/recaptcha.module'. CommonJS or AMD dependencies can cause optimization bailouts.
+[2023-04-10T13:26:04.843Z] For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+[2023-04-10T13:26:04.843Z] 
+[2023-04-10T13:26:04.843Z] Warning: /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/client/src/app/modules/recover-account/recover-account.module.ngfactory.js depends on 'ng-recaptcha/recaptcha/recaptcha-common.module'. CommonJS or AMD dependencies can cause optimization bailouts.
+[2023-04-10T13:26:04.843Z] For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+[2023-04-10T13:26:04.843Z] 
+[2023-04-10T13:26:04.843Z] Warning: /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/client/src/app/modules/recover-account/recover-account.module.ngfactory.js depends on 'ng-recaptcha/recaptcha/recaptcha-loader.service'. CommonJS or AMD dependencies can cause optimization bailouts.
+[2023-04-10T13:26:04.843Z] For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+[2023-04-10T13:26:04.843Z] 
+[2023-04-10T13:26:04.843Z] Warning: /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/client/src/app/modules/sourcing/components/dashboard/dashboard.component.ts depends on 'datatables.net'. CommonJS or AMD dependencies can cause optimization bailouts.
+[2023-04-10T13:26:04.843Z] For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+[2023-04-10T13:26:04.843Z] 
+[2023-04-10T13:26:04.843Z] Warning: /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/client/src/app/modules/sourcing/components/dashboard/dashboard.component.ts depends on 'jquery'. CommonJS or AMD dependencies can cause optimization bailouts.
+[2023-04-10T13:26:04.843Z] For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+[2023-04-10T13:26:04.843Z] 
+[2023-04-10T13:26:04.843Z] Warning: /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/client/src/app/modules/sourcing/services/collection-hierarchy/collection-hierarchy.service.ts depends on 'util'. CommonJS or AMD dependencies can cause optimization bailouts.
+[2023-04-10T13:26:04.843Z] For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+[2023-04-10T13:26:04.843Z] 
+[2023-04-10T13:26:04.843Z] Warning: /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/client/src/app/modules/learn/services/assessment/assessment-score.service.ts depends on 'md5'. CommonJS or AMD dependencies can cause optimization bailouts.
+[2023-04-10T13:26:04.843Z] For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+[2023-04-10T13:26:04.843Z] 
+[2023-04-10T13:26:04.843Z] Warning: /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/client/src/app/modules/shared-feature/components/project-filter/project-filter.component.ts depends on 'alphanum-sort'. CommonJS or AMD dependencies can cause optimization bailouts.
+[2023-04-10T13:26:04.843Z] For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+[2023-04-10T13:26:04.843Z] 
+[2023-04-10T13:26:04.843Z] Warning: /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/client/src/app/modules/dashboard/services/dashboard-utils/dashboard-utils.service.ts depends on 'moment-duration-format'. CommonJS or AMD dependencies can cause optimization bailouts.
+[2023-04-10T13:26:04.843Z] For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+[2023-04-10T13:26:04.843Z] 
+[2023-04-10T13:26:04.843Z] Warning: /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/client/node_modules/ng2-charts/fesm2015/ng2-charts.js depends on 'lodash'. CommonJS or AMD dependencies can cause optimization bailouts.
+[2023-04-10T13:26:04.843Z] For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+[2023-04-10T13:26:04.843Z] 
+[2023-04-10T13:26:04.843Z] Warning: /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/client/node_modules/ng2-charts/fesm2015/ng2-charts.js depends on 'chart.js'. CommonJS or AMD dependencies can cause optimization bailouts.
+[2023-04-10T13:26:04.843Z] For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+[2023-04-10T13:26:04.843Z] 
+[2023-04-10T13:26:04.843Z] Warning: ./node_modules/common-consumption-styles/assets/_styles.scss (./node_modules/css-loader/dist/cjs.js??ref--13-1!./node_modules/postcss-loader/dist/cjs.js??ref--13-2!./node_modules/resolve-url-loader??ref--13-3!./node_modules/sass-loader/dist/cjs.js??ref--13-4!./node_modules/common-consumption-styles/assets/_styles.scss)
+[2023-04-10T13:26:04.843Z] Module Warning (from ./node_modules/postcss-loader/dist/cjs.js):
+[2023-04-10T13:26:04.843Z] Warning
+[2023-04-10T13:26:04.843Z] 
+[2023-04-10T13:26:04.843Z] (843:3) autoprefixer: Second Autoprefixer control comment was ignored. Autoprefixer applies control comment to whole block, not to next rules.
+[2023-04-10T13:26:04.843Z] 
+[2023-04-10T13:26:04.843Z] Warning: ./src/assets/styles/styles.scss (./node_modules/css-loader/dist/cjs.js??ref--13-1!./node_modules/postcss-loader/dist/cjs.js??ref--13-2!./node_modules/resolve-url-loader??ref--13-3!./node_modules/sass-loader/dist/cjs.js??ref--13-4!./src/assets/styles/styles.scss)
+[2023-04-10T13:26:04.843Z] Module Warning (from ./node_modules/postcss-loader/dist/cjs.js):
+[2023-04-10T13:26:04.843Z] Warning
+[2023-04-10T13:26:04.843Z] 
+[2023-04-10T13:26:04.843Z] (20168:3) autoprefixer: Second Autoprefixer control comment was ignored. Autoprefixer applies control comment to whole block, not to next rules.
+[2023-04-10T13:26:04.843Z] 
+[2023-04-10T13:26:04.843Z] Warning: ./src/assets/styles/styles.scss (./node_modules/css-loader/dist/cjs.js??ref--13-1!./node_modules/postcss-loader/dist/cjs.js??ref--13-2!./node_modules/resolve-url-loader??ref--13-3!./node_modules/sass-loader/dist/cjs.js??ref--13-4!./src/assets/styles/styles.scss)
+[2023-04-10T13:26:04.843Z] Module Warning (from ./node_modules/postcss-loader/dist/cjs.js):
+[2023-04-10T13:26:04.843Z] Warning
+[2023-04-10T13:26:04.843Z] 
+[2023-04-10T13:26:04.843Z] (351:3) autoprefixer: Second Autoprefixer control comment was ignored. Autoprefixer applies control comment to whole block, not to next rules.
+[2023-04-10T13:26:04.843Z] 
+[2023-04-10T13:26:04.843Z] 
+[2023-04-10T13:26:04.843Z] 
+[2023-04-10T13:26:04.843Z] [18:55:52] Finished 'client:dist' after 5.75 min
+[2023-04-10T13:26:04.843Z] [18:55:52] Starting 'client:gzip'...
+[2023-04-10T13:26:04.843Z] [18:55:53] Finished 'client:gzip' after 812 ms
+[2023-04-10T13:26:04.843Z] [18:55:53] Starting 'update:index:file'...
+[2023-04-10T13:26:04.843Z] [18:55:53] Finished 'update:index:file' after 8.27 ms
+[2023-04-10T13:26:04.843Z] [18:55:53] Starting 'clean:index:file'...
+[2023-04-10T13:26:04.843Z] [18:55:53] Finished 'clean:index:file' after 5.15 ms
+[2023-04-10T13:26:04.843Z] [18:55:53] Starting 'prepare:app:dist'...
+[2023-04-10T13:26:04.843Z] [18:55:55] Finished 'prepare:app:dist' after 1.7 s
+[2023-04-10T13:26:04.843Z] [18:55:55] Finished 'deploy' after 13 min
+[2023-04-10T13:26:10.091Z] /var/lib/jenkins/.nvm/versions/node/v14.18.1/bin/npm -> /var/lib/jenkins/.nvm/versions/node/v14.18.1/lib/node_modules/npm/bin/npm-cli.js
+[2023-04-10T13:26:10.091Z] /var/lib/jenkins/.nvm/versions/node/v14.18.1/bin/npx -> /var/lib/jenkins/.nvm/versions/node/v14.18.1/lib/node_modules/npm/bin/npx-cli.js
+[2023-04-10T13:26:10.091Z] + npm@6.14.15
+[2023-04-10T13:26:10.091Z] updated 1 package in 13.626s
+[2023-04-10T13:26:10.091Z] 
+[2023-04-10T13:26:10.091Z] > player@5.1.0 preinstall /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/app_dist
+[2023-04-10T13:26:10.091Z] > npm install ./libs/sb_logger_util_v2 && npm install ./libs/sb_telemetry_util && npm install ./libs/sb_api_interceptor && npm install ./libs/sb_cache_manager
+[2023-04-10T13:26:10.091Z] 
+[2023-04-10T13:26:24.926Z] 
+[2023-04-10T13:26:24.926Z] > fibers@4.0.3 install /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/app_dist/node_modules/fibers
+[2023-04-10T13:26:24.926Z] > node build.js || nodejs build.js
+[2023-04-10T13:26:24.926Z] 
+[2023-04-10T13:26:25.182Z] make: Entering directory '/var/lib/jenkins/workspace/Build/DockCore/Player/src/app/app_dist/node_modules/fibers/build'
+[2023-04-10T13:26:25.182Z]   CXX(target) Release/obj.target/fibers/src/fibers.o
+[2023-04-10T13:26:25.745Z]   CXX(target) Release/obj.target/fibers/src/coroutine.o
+[2023-04-10T13:26:26.306Z]   CC(target) Release/obj.target/fibers/src/libcoro/coro.o
+[2023-04-10T13:26:26.306Z]   SOLINK_MODULE(target) Release/obj.target/fibers.node
+[2023-04-10T13:26:26.562Z]   COPY Release/fibers.node
+[2023-04-10T13:26:26.562Z] make: Leaving directory '/var/lib/jenkins/workspace/Build/DockCore/Player/src/app/app_dist/node_modules/fibers/build'
+[2023-04-10T13:26:26.562Z] Installed in `/var/lib/jenkins/workspace/Build/DockCore/Player/src/app/app_dist/node_modules/fibers/bin/linux-x64-83-glibc/fibers.node`
+[2023-04-10T13:26:26.562Z] 
+[2023-04-10T13:26:26.562Z] > canvas@2.6.1 install /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/app_dist/node_modules/canvas
+[2023-04-10T13:26:26.562Z] > node-pre-gyp install --fallback-to-build
+[2023-04-10T13:26:26.562Z] 
+[2023-04-10T13:26:26.818Z] node-pre-gyp WARN Using request for node-pre-gyp https download 
+[2023-04-10T13:26:41.652Z] [canvas] Success: "/var/lib/jenkins/workspace/Build/DockCore/Player/src/app/app_dist/node_modules/canvas/build/Release/canvas.node" is installed via remote
+[2023-04-10T13:26:41.652Z] 
+[2023-04-10T13:26:41.652Z] > iltorb@2.4.5 install /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/app_dist/node_modules/iltorb
+[2023-04-10T13:26:41.652Z] > node ./scripts/install.js || node-gyp rebuild
+[2023-04-10T13:26:41.652Z] 
+[2023-04-10T13:26:41.652Z] info looking for cached prebuild @ /var/lib/jenkins/.npm/_prebuilds/c57c4d-iltorb-v2.4.5-node-v83-linux-x64.tar.gz
+[2023-04-10T13:26:41.652Z] http request GET https://github.com/nstepien/iltorb/releases/download/v2.4.5/iltorb-v2.4.5-node-v83-linux-x64.tar.gz
+[2023-04-10T13:26:41.652Z] http 404 https://github.com/nstepien/iltorb/releases/download/v2.4.5/iltorb-v2.4.5-node-v83-linux-x64.tar.gz
+[2023-04-10T13:26:41.652Z] WARN install No prebuilt binaries found (target=14.18.1 runtime=node arch=x64 libc= platform=linux)
+[2023-04-10T13:26:41.652Z] make: Entering directory '/var/lib/jenkins/workspace/Build/DockCore/Player/src/app/app_dist/node_modules/iltorb/build'
+[2023-04-10T13:26:41.653Z]   CC(target) Release/obj.target/iltorb/brotli/c/common/dictionary.o
+[2023-04-10T13:26:41.653Z]   CC(target) Release/obj.target/iltorb/brotli/c/common/transform.o
+[2023-04-10T13:26:41.653Z]   CC(target) Release/obj.target/iltorb/brotli/c/dec/bit_reader.o
+[2023-04-10T13:26:41.653Z]   CC(target) Release/obj.target/iltorb/brotli/c/dec/decode.o
+[2023-04-10T13:26:42.579Z]   CC(target) Release/obj.target/iltorb/brotli/c/dec/huffman.o
+[2023-04-10T13:26:42.579Z]   CC(target) Release/obj.target/iltorb/brotli/c/dec/state.o
+[2023-04-10T13:26:42.579Z]   CC(target) Release/obj.target/iltorb/brotli/c/enc/backward_references.o
+[2023-04-10T13:26:45.843Z]   CC(target) Release/obj.target/iltorb/brotli/c/enc/backward_references_hq.o
+[2023-04-10T13:26:45.843Z]   CC(target) Release/obj.target/iltorb/brotli/c/enc/bit_cost.o
+[2023-04-10T13:26:46.099Z]   CC(target) Release/obj.target/iltorb/brotli/c/enc/block_splitter.o
+[2023-04-10T13:26:47.028Z]   CC(target) Release/obj.target/iltorb/brotli/c/enc/brotli_bit_stream.o
+[2023-04-10T13:26:47.590Z]   CC(target) Release/obj.target/iltorb/brotli/c/enc/cluster.o
+[2023-04-10T13:26:47.849Z]   CC(target) Release/obj.target/iltorb/brotli/c/enc/compress_fragment.o
+[2023-04-10T13:26:48.777Z]   CC(target) Release/obj.target/iltorb/brotli/c/enc/compress_fragment_two_pass.o
+[2023-04-10T13:26:49.703Z]   CC(target) Release/obj.target/iltorb/brotli/c/enc/dictionary_hash.o
+[2023-04-10T13:26:49.703Z]   CC(target) Release/obj.target/iltorb/brotli/c/enc/encode.o
+[2023-04-10T13:26:50.629Z]   CC(target) Release/obj.target/iltorb/brotli/c/enc/encoder_dict.o
+[2023-04-10T13:26:50.885Z]   CC(target) Release/obj.target/iltorb/brotli/c/enc/entropy_encode.o
+[2023-04-10T13:26:51.142Z]   CC(target) Release/obj.target/iltorb/brotli/c/enc/histogram.o
+[2023-04-10T13:26:51.142Z]   CC(target) Release/obj.target/iltorb/brotli/c/enc/literal_cost.o
+[2023-04-10T13:26:51.397Z]   CC(target) Release/obj.target/iltorb/brotli/c/enc/memory.o
+[2023-04-10T13:26:51.397Z]   CC(target) Release/obj.target/iltorb/brotli/c/enc/metablock.o
+[2023-04-10T13:26:51.957Z]   CC(target) Release/obj.target/iltorb/brotli/c/enc/static_dict.o
+[2023-04-10T13:26:52.518Z]   CC(target) Release/obj.target/iltorb/brotli/c/enc/utf8_util.o
+[2023-04-10T13:26:52.518Z]   CXX(target) Release/obj.target/iltorb/src/common/allocator.o
+[2023-04-10T13:26:52.774Z]   CXX(target) Release/obj.target/iltorb/src/common/stream_coder.o
+[2023-04-10T13:26:53.334Z]   CXX(target) Release/obj.target/iltorb/src/dec/stream_decode.o
+[2023-04-10T13:26:53.894Z]   CXX(target) Release/obj.target/iltorb/src/dec/stream_decode_worker.o
+[2023-04-10T13:26:54.459Z]   CXX(target) Release/obj.target/iltorb/src/enc/stream_encode.o
+[2023-04-10T13:26:55.019Z]   CXX(target) Release/obj.target/iltorb/src/enc/stream_encode_worker.o
+[2023-04-10T13:26:55.581Z]   CXX(target) Release/obj.target/iltorb/src/iltorb.o
+[2023-04-10T13:26:55.837Z]   SOLINK_MODULE(target) Release/obj.target/iltorb.node
+[2023-04-10T13:26:55.837Z]   COPY Release/iltorb.node
+[2023-04-10T13:26:55.837Z]   COPY ../build/bindings/iltorb.node
+[2023-04-10T13:26:55.837Z]   TOUCH Release/obj.target/action_after_build.stamp
+[2023-04-10T13:26:55.837Z] make: Leaving directory '/var/lib/jenkins/workspace/Build/DockCore/Player/src/app/app_dist/node_modules/iltorb/build'
+[2023-04-10T13:26:56.101Z] 
+[2023-04-10T13:26:56.101Z] > snappy@6.3.5 install /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/app_dist/node_modules/snappy
+[2023-04-10T13:26:56.101Z] > prebuild-install || node-gyp rebuild
+[2023-04-10T13:26:56.101Z] 
+[2023-04-10T13:26:56.360Z] 
+[2023-04-10T13:26:56.360Z] > core-js@2.6.12 postinstall /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/app_dist/node_modules/core-js
+[2023-04-10T13:26:56.360Z] > node -e "try{require('./postinstall')}catch(e){}"
+[2023-04-10T13:26:56.360Z] 
+[2023-04-10T13:26:56.360Z] 
+[2023-04-10T13:26:56.360Z] > ejs@2.7.4 postinstall /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/app_dist/node_modules/ejs
+[2023-04-10T13:26:56.360Z] > node ./postinstall.js
+[2023-04-10T13:26:56.360Z] 
+[2023-04-10T13:26:57.302Z] npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules/fsevents):
+[2023-04-10T13:26:57.302Z] npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+[2023-04-10T13:26:57.302Z] 
+[2023-04-10T13:26:57.302Z] + sb_logger_util_v2@1.0.0
+[2023-04-10T13:26:57.302Z] added 981 packages from 1074 contributors and audited 1531 packages in 47.206s
+[2023-04-10T13:26:58.234Z] 
+[2023-04-10T13:26:58.234Z] 14 packages are looking for funding
+[2023-04-10T13:26:58.234Z]   run `npm fund` for details
+[2023-04-10T13:26:58.234Z] 
+[2023-04-10T13:26:58.234Z] found 190 vulnerabilities (11 low, 62 moderate, 93 high, 24 critical)
+[2023-04-10T13:26:58.234Z]   run `npm audit fix` to fix them, or `npm audit` for details
+[2023-04-10T13:27:10.398Z] npm WARN grunt-karma@0.12.2 requires a peer of grunt@>=0.4.x but none is installed. You must install peer dependencies yourself.
+[2023-04-10T13:27:10.398Z] npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules/fsevents):
+[2023-04-10T13:27:10.398Z] npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+[2023-04-10T13:27:10.398Z] 
+[2023-04-10T13:27:10.398Z] + sb_telemetry_util@1.0.0
+[2023-04-10T13:27:10.398Z] updated 1 package and audited 1531 packages in 11.319s
+[2023-04-10T13:27:10.398Z] 
+[2023-04-10T13:27:10.398Z] 13 packages are looking for funding
+[2023-04-10T13:27:10.398Z]   run `npm fund` for details
+[2023-04-10T13:27:10.398Z] 
+[2023-04-10T13:27:10.398Z] found 190 vulnerabilities (11 low, 62 moderate, 93 high, 24 critical)
+[2023-04-10T13:27:10.398Z]   run `npm audit fix` to fix them, or `npm audit` for details
+[2023-04-10T13:27:18.479Z] npm WARN grunt-karma@0.12.2 requires a peer of grunt@>=0.4.x but none is installed. You must install peer dependencies yourself.
+[2023-04-10T13:27:18.479Z] npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules/fsevents):
+[2023-04-10T13:27:18.479Z] npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+[2023-04-10T13:27:18.479Z] 
+[2023-04-10T13:27:18.479Z] + sb_api_interceptor@1.0.0
+[2023-04-10T13:27:18.479Z] updated 1 package and audited 1531 packages in 6.846s
+[2023-04-10T13:27:18.479Z] 
+[2023-04-10T13:27:18.479Z] 14 packages are looking for funding
+[2023-04-10T13:27:18.479Z]   run `npm fund` for details
+[2023-04-10T13:27:18.479Z] 
+[2023-04-10T13:27:18.479Z] found 190 vulnerabilities (11 low, 62 moderate, 93 high, 24 critical)
+[2023-04-10T13:27:18.479Z]   run `npm audit fix` to fix them, or `npm audit` for details
+[2023-04-10T13:27:25.017Z] npm WARN grunt-karma@0.12.2 requires a peer of grunt@>=0.4.x but none is installed. You must install peer dependencies yourself.
+[2023-04-10T13:27:25.017Z] npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules/fsevents):
+[2023-04-10T13:27:25.017Z] npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+[2023-04-10T13:27:25.017Z] 
+[2023-04-10T13:27:25.017Z] + sb_cache_manager@1.0.0
+[2023-04-10T13:27:25.017Z] updated 1 package and audited 1531 packages in 6.301s
+[2023-04-10T13:27:25.273Z] 
+[2023-04-10T13:27:25.273Z] 14 packages are looking for funding
+[2023-04-10T13:27:25.273Z]   run `npm fund` for details
+[2023-04-10T13:27:25.273Z] 
+[2023-04-10T13:27:25.273Z] found 190 vulnerabilities (11 low, 62 moderate, 93 high, 24 critical)
+[2023-04-10T13:27:25.273Z]   run `npm audit fix` to fix them, or `npm audit` for details
+[2023-04-10T13:27:30.513Z] npm WARN grunt-karma@0.12.2 requires a peer of grunt@>=0.4.x but none is installed. You must install peer dependencies yourself.
+[2023-04-10T13:27:30.513Z] npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules/fsevents):
+[2023-04-10T13:27:30.513Z] npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+[2023-04-10T13:27:30.513Z] 
+[2023-04-10T13:27:30.513Z] audited 1531 packages in 80.691s
+[2023-04-10T13:27:31.074Z] 
+[2023-04-10T13:27:31.074Z] 14 packages are looking for funding
+[2023-04-10T13:27:31.074Z]   run `npm fund` for details
+[2023-04-10T13:27:31.074Z] 
+[2023-04-10T13:27:31.074Z] found 190 vulnerabilities (11 low, 62 moderate, 93 high, 24 critical)
+[2023-04-10T13:27:31.074Z]   run `npm audit fix` to fix them, or `npm audit` for details
+[2023-04-10T13:27:31.074Z] /var/lib/jenkins/workspace/Build/DockCore/Player/src/app/app_dist
+[2023-04-10T13:27:31.074Z] cp: cannot stat '/var/lib/jenkins/jobs/Build/jobs/build-local/jobs/NodeJS-Client-Cloud-Service/builds/3/archive/dist/bundle.js': No such file or directory
+[8mha:////4NnO39d0cNnQTBoivndsmnvsyWGo3q6qxHGui368rhBrAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKi0CFEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOW+zlUfPiXWgpW+AAAA[0m[Pipeline] }
+[8mha:////4Hdx2EgWhGGUmTFdrxY06vHeoZhJ+2CbOgQfp3enz6+SAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRqZAQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrOtf+8AEdlBFkvgAAAA==[0m[Pipeline] // stage
+[8mha:////4N+bSHQjTX1MuS3A7HzQUjsEbhFV63n+7XGL3aHw/AyZAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRoEFCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/ANBvxxq9AAAA[0m[Pipeline] }
+[8mha:////4BKfRolP8uMLEzRyO7KpC4neji4kmg4BdQVcWtJ86neHAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREBIFoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/uBNn+A1GuWDi9AAAA[0m[Pipeline] // timestamps
+[8mha:////4CDWR7MecPyxMl00ugmlj2+yS7cAhPeanUpwe5qROdu2AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRkKBBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/AHe3P3K9AAAA[0m[Pipeline] }
+[8mha:////4Fv11+kQGeXK/A/PJpZhePWKpdmNA4XsGEtPkz24mhhNAAAAqh+LCAAAAAAAAP9b85aBtbiIQSujNKU4P0+vIKc0PTOvWC8xrzgzOT8nv0gvMbkkEyjhCKb88ktSdwVsu2efuqidiYHRh4EDIu2ZUsIg5JOVWJaon5OYl64fXFKUmZduXVHEIAU1ODk/rzg/J1XPGUKDDGKAAEYmBoaKghIGFQvjVBPj1MREXbM0Awtdk1RTQ11LIF/XMtnCMDnFMNnQMikZADGxmXSvAAAA[0m
+[8mha:////4JE7rBqTnbKxmW0fOAFbwYMdw6xYu7CWewyJKjGWu886AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRkKBBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9AB2clqy9AAAA[0m[Pipeline] // ansiColor
+[8mha:////4PtAK5GXI79Pw4+m1jJUzBadKROqBTFocpsTDjkRnAH1AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREBIFoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/uBdnuAzuF8ea9AAAA[0m[Pipeline] }
+[8mha:////4G8sdFNvy9qvErSdUWKxJQ4qDCd8Hw/QQWlaKI2KHWOmAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRoEFCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9AEmHxfq9AAAA[0m[Pipeline] // node
+[8mha:////4G9DuvEtXHvBe61ymlEh3/D10R95FyKP5yfuw3dHqNW6AAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkbMY4uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL/eCrPwAb56isL0AAAA=[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 1
+Finished: FAILURE

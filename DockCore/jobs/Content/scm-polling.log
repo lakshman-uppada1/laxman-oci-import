@@ -1,0 +1,19 @@
+Started on Mar 27, 2023 8:15:00 AM
+Using strategy: Default
+[poll] Last Built Revision: Revision 760d7baf9e49e48805058356ae67b7fae8b58d66 (refs/remotes/origin/release-5.1.0)
+The recommended git tool is: NONE
+No credentials specified
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git ls-remote -h -- https://github.com/project-sunbird/knowledge-platform.git # timeout=10
+Found 77 remote heads on https://github.com/project-sunbird/knowledge-platform.git
+Using strategy: Default
+[poll] Last Built Revision: Revision 760d7baf9e49e48805058356ae67b7fae8b58d66 (refs/remotes/origin/release-5.1.0)
+The recommended git tool is: NONE
+No credentials specified
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git ls-remote -h -- https://github.com/project-sunbird/knowledge-platform.git # timeout=10
+Found 77 remote heads on https://github.com/project-sunbird/knowledge-platform.git
+Done. Took 1.2 sec
+No changes

@@ -1,0 +1,11 @@
+commit 03c1ed8d9f0840487997899ff8b488e6b9f1e40e
+tree a6f1520350273ef0cc27c6dd121d98eb366b904b
+parent a389791f6103f9867e15e23a9b09ea228524425d
+author Kenneth Heung <kenneth.heung@gmail.com> 2023-04-27 04:01:32 +0800
+committer GitHub <noreply@github.com> 2023-04-27 04:01:32 +0800
+
+    Update programHelper.js - WAF header removal
+    
+    add workaround for WAF
+
+:100644 100644 f6ce3f37f53ff4933fa781042a6665bc3bcd1644 1367172f3804874bb0eab2b997c08cb5de622463 M	src/helpers/programHelper.js

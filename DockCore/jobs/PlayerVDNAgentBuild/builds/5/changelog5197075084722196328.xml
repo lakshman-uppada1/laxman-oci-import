@@ -1,0 +1,11 @@
+commit e8f0526ab7c3e6b04ff20120a1a8c721d6f9078f
+tree f443b17d48cec489e49a24d822549fd7cc132f6d
+parent 2d46072b17e0fb39c3dd0f79f140b3cc08b49bd4
+author Kenneth Heung <kenneth.heung@gmail.com> 2023-04-26 05:13:21 +0800
+committer GitHub <noreply@github.com> 2023-04-26 05:13:21 +0800
+
+    Update reportRoutes.js
+    
+    fix report problem for route no 2
+
+:100644 100644 a26f702b2034d19497857bc9c1f82d68a40c4419 9b232593ae6f69084360a0f9533009e8ba4ff38a M	src/app/routes/reportRoutes.js

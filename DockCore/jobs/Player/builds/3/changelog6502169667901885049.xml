@@ -1,0 +1,10 @@
+commit 7dda6aeb2e0d68789ce858d79d1a17eb1c547316
+tree d782ecfbd3e5c5956438b5a057c391401b39fdf4
+parent f77cda686317cbe83aab6be3b4539b0dccbd40c5
+author Kenneth Heung <kenneth.heung@gmail.com> 2023-04-05 07:34:46 +0800
+committer Kenneth Heung <kenneth.heung@gmail.com> 2023-04-05 07:34:46 +0800
+
+    added oci specific variables
+
+
+:100644 100644 f731a92a13b16365d023a42134d3e7f0b12480ca 65b193cd5a4cb09a9df8e51b0da9924cf2471f3f M	src/app/helpers/environmentVariablesHelper.js

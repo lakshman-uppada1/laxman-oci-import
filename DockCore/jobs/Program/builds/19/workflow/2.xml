@@ -1,0 +1,20 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@813.vb_d7c3d2984a_0">
+  <node class="org.jenkinsci.plugins.workflow.graph.FlowStartNode" plugin="workflow-api@1153.vb_912c0e47fb_a_">
+    <parentIds/>
+    <id>2</id>
+  </node>
+  <actions>
+    <s.a.WorkspaceActionImpl>
+      <node></node>
+      <path>/var/lib/jenkins/workspace/Build/DockCore/Program@script/a32d58d0e0550a85d09695c0a312286a111ac8ddfd975e341486ba6ee713a6d6</path>
+      <labels class="sorted-set">
+        <hudson.model.labels.LabelAtom>build-slave</hudson.model.labels.LabelAtom>
+        <hudson.model.labels.LabelAtom>ops-slave</hudson.model.labels.LabelAtom>
+      </labels>
+    </s.a.WorkspaceActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@1153.vb_912c0e47fb_a_">
+      <startTime>1681781821703</startTime>
+    </wf.a.TimingAction>
+  </actions>
+</Tag>

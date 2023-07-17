@@ -1,0 +1,577 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@1145.v7f2433caa07f">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>balak</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+        <entry>
+          <com.sonyericsson.rebuild.RebuildCause plugin="rebuild@1.34">
+            <upstreamProject>Build/DockCore/PlayerCustomProdVDNAgentBuild</upstreamProject>
+            <upstreamUrl>job/Build/job/DockCore/job/PlayerCustomProdVDNAgentBuild/</upstreamUrl>
+            <upstreamBuild>8</upstreamBuild>
+            <upstreamCauses>
+              <hudson.model.Cause_-UserIdCause>
+                <userId>kenneth</userId>
+              </hudson.model.Cause_-UserIdCause>
+              <hudson.model.Cause_-UpstreamCause>
+                <upstreamProject>Build/DockCore/PlayerCustomProdVDNAgentBuild</upstreamProject>
+                <upstreamUrl>job/Build/job/DockCore/job/PlayerCustomProdVDNAgentBuild/</upstreamUrl>
+                <upstreamBuild>7</upstreamBuild>
+                <upstreamCauses>
+                  <hudson.model.Cause_-UserIdCause>
+                    <userId>kenneth</userId>
+                  </hudson.model.Cause_-UserIdCause>
+                  <hudson.model.Cause_-UpstreamCause>
+                    <upstreamProject>Build/DockCore/PlayerCustomProdVDNAgentBuild</upstreamProject>
+                    <upstreamUrl>job/Build/job/DockCore/job/PlayerCustomProdVDNAgentBuild/</upstreamUrl>
+                    <upstreamBuild>6</upstreamBuild>
+                    <upstreamCauses>
+                      <hudson.model.Cause_-UserIdCause>
+                        <userId>kenneth</userId>
+                      </hudson.model.Cause_-UserIdCause>
+                      <hudson.model.Cause_-UpstreamCause>
+                        <upstreamProject>Build/DockCore/PlayerCustomProdVDNAgentBuild</upstreamProject>
+                        <upstreamUrl>job/Build/job/DockCore/job/PlayerCustomProdVDNAgentBuild/</upstreamUrl>
+                        <upstreamBuild>5</upstreamBuild>
+                        <upstreamCauses>
+                          <hudson.model.Cause_-UserIdCause>
+                            <userId>kenneth</userId>
+                          </hudson.model.Cause_-UserIdCause>
+                          <hudson.model.Cause_-UpstreamCause>
+                            <upstreamProject>Build/DockCore/PlayerCustomProdVDNAgentBuild</upstreamProject>
+                            <upstreamUrl>job/Build/job/DockCore/job/PlayerCustomProdVDNAgentBuild/</upstreamUrl>
+                            <upstreamBuild>3</upstreamBuild>
+                            <upstreamCauses>
+                              <hudson.model.Cause_-UserIdCause>
+                                <userId>kenneth</userId>
+                              </hudson.model.Cause_-UserIdCause>
+                            </upstreamCauses>
+                          </hudson.model.Cause_-UpstreamCause>
+                        </upstreamCauses>
+                      </hudson.model.Cause_-UpstreamCause>
+                    </upstreamCauses>
+                  </hudson.model.Cause_-UpstreamCause>
+                </upstreamCauses>
+              </hudson.model.Cause_-UpstreamCause>
+            </upstreamCauses>
+          </com.sonyericsson.rebuild.RebuildCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.model.ParametersAction>
+      <safeParameters class="sorted-set"/>
+      <parameters>
+        <hudson.model.StringParameterValue>
+          <name>absolute_job_path</name>
+          <description>&lt;font color=black size=2&gt;&lt;b&gt;Do not change this value! The metadata.json will be copied from this job.&lt;/b&gt;&lt;/font&gt;</description>
+          <value>ArtifactUpload/DockPreproduction/Core/PlayerVDNAgentBuild</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>build_number</name>
+          <description>&lt;font color=darkgreen size=2&gt;&lt;b&gt;OPTIONAL: Specify the build number to upload a specific image version to the container registry or it will take from latest build of player job.&lt;/b&gt;&lt;/font&gt;</description>
+          <value></value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>diksha_tenant_tag</name>
+          <description>&lt;font color=dimgray size=2&gt;
+  &lt;b&gt;Specify branch of &lt;a href=&quot;https://github.com/DIKSHA-NCTE/diksha-tenant.git&quot;&gt;https://github.com/DIKSHA-NCTE/diksha-tenant.git&lt;/a&gt;
+      of your custom tenant repo - you will need to edit the jenkins file
+  &lt;/b&gt;&lt;/font&gt;</description>
+          <value>VDN_5.1.1_RC1</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>github_release_tag</name>
+          <description>&lt;b&gt;This parameter is not in use&lt;/b&gt;</description>
+          <value></value>
+        </hudson.model.StringParameterValue>
+      </parameters>
+      <parameterDefinitionNames>
+        <string>absolute_job_path</string>
+        <string>build_number</string>
+        <string>diksha_tenant_tag</string>
+        <string>github_release_tag</string>
+      </parameterDefinitionNames>
+    </hudson.model.ParametersAction>
+    <hudson.plugins.jobConfigHistory.JobConfigBadgeAction plugin="jobConfigHistory@1139.v888b_656ca_f6d">
+      <configDates>
+        <string>2023-07-11_15-52-11</string>
+        <string>2023-04-21_18-15-43</string>
+      </configDates>
+    </hudson.plugins.jobConfigHistory.JobConfigBadgeAction>
+    <com.cloudbees.plugins.credentials.builds.CredentialsParameterBinder plugin="credentials@1087.1089.v2f1b_9a_b_040e4">
+      <boundCredentials class="concurrent-hash-map"/>
+    </com.cloudbees.plugins.credentials.builds.CredentialsParameterBinder>
+    <hudson.plugins.git.util.BuildData plugin="git@4.11.5">
+      <buildsByBranchName>
+        <entry>
+          <string>VDN_5.1.1_RC1</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@3.11.2">
+              <sha1>397e5144ae823170db836ef0ed5aa14dc1968425</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>VDN_5.1.1_RC1</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>9</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <scmName></scmName>
+      <remoteUrls>
+        <string>https://github.com/dictrigyn/vdn-tenant.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState plugin="workflow-scm-step@400.v6b_89a_1317c9a_">
+      <revisionStates>
+        <entry>
+          <string>git https://github.com/project-sunbird/sunbird-devops.git</string>
+          <hudson.scm.SCMRevisionState_-None/>
+        </entry>
+        <entry>
+          <string>git https://github.com/dictrigyn/vdn-tenant.git</string>
+          <hudson.scm.SCMRevisionState_-None reference="../../entry/hudson.scm.SCMRevisionState_-None"/>
+        </entry>
+        <entry>
+          <string>git https://github.com/ocisunbird/vdn-tenant.git</string>
+          <hudson.scm.SCMRevisionState_-None reference="../../entry/hudson.scm.SCMRevisionState_-None"/>
+        </entry>
+      </revisionStates>
+    </org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="pipeline-groovy-lib@612.v84da_9c54906d">
+      <libraries>
+        <org.jenkinsci.plugins.workflow.libs.LibraryRecord>
+          <name>deploy-conf</name>
+          <version>heads/shared-lib</version>
+          <variables class="sorted-set">
+            <string>ansible_playbook_run</string>
+            <string>artifact_download</string>
+            <string>auto_build_deploy</string>
+            <string>auto_build_deploy_player</string>
+            <string>copy_file_to_wksp</string>
+            <string>deployed_versions</string>
+            <string>docker_params</string>
+            <string>email_notify</string>
+            <string>lp_dp_params</string>
+            <string>pre_checks</string>
+            <string>slack_notify</string>
+            <string>stagingRC</string>
+            <string>summary</string>
+          </variables>
+          <trusted>true</trusted>
+          <changelog>true</changelog>
+          <directoryName>0246047fbecc35cec6fffc4693ecc0121ab10d67bb38ffe7106715363d0388b7</directoryName>
+        </org.jenkinsci.plugins.workflow.libs.LibraryRecord>
+      </libraries>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <hudson.plugins.git.util.BuildData plugin="git@4.11.5">
+      <buildsByBranchName>
+        <entry>
+          <string>778da7ce7f97efd003eed98071921a837d209343</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@3.11.2">
+              <sha1>778da7ce7f97efd003eed98071921a837d209343</sha1>
+              <branches class="singleton-set">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>778da7ce7f97efd003eed98071921a837d209343</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>9</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <scmName></scmName>
+      <remoteUrls>
+        <string>https://github.com/project-sunbird/sunbird-devops.git</string>
+      </remoteUrls>
+      <index>2</index>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.plugins.ansicolor.action.ColorizedAction plugin="ansicolor@1.0.2">
+      <id>8df58694-fdb5-4107-890f-3da240c88944</id>
+      <colorMapName>xterm</colorMapName>
+      <command>START</command>
+    </hudson.plugins.ansicolor.action.ColorizedAction>
+    <hudson.plugins.ansicolor.action.ColorizedAction plugin="ansicolor@1.0.2">
+      <id>5fc0bff4-a900-493a-b1f0-fbfe9c3b1daa</id>
+      <colorMapName>xterm</colorMapName>
+      <command>CURRENT</command>
+    </hudson.plugins.ansicolor.action.ColorizedAction>
+    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@2660.2664.v4c114e93f4c1">
+      <env class="tree-map"/>
+    </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
+    <hudson.plugins.git.util.BuildData plugin="git@4.11.5">
+      <buildsByBranchName>
+        <entry>
+          <string>origin/vdn-460-custom-player-agentbuild</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@3.11.2">
+              <sha1>84845813abc608bdaf1ec47e6bed9a2c05ba9292</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>origin/vdn-460-custom-player-agentbuild</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision plugin="git-client@3.11.2">
+              <sha1 reference="../../marked/sha1"/>
+              <branches class="list">
+                <hudson.plugins.git.Branch reference="../../../marked/branches/hudson.plugins.git.Branch"/>
+              </branches>
+            </revision>
+            <hudsonBuildNumber>1</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+        <entry>
+          <string>origin/VDN_5.1.1</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@3.11.2">
+              <sha1>397e5144ae823170db836ef0ed5aa14dc1968425</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>origin/VDN_5.1.1</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision plugin="git-client@3.11.2">
+              <sha1 reference="../../marked/sha1"/>
+              <branches class="list">
+                <hudson.plugins.git.Branch reference="../../../marked/branches/hudson.plugins.git.Branch"/>
+              </branches>
+            </revision>
+            <hudsonBuildNumber>7</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+        <entry>
+          <string>vdn-460-custom-player_RC2</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@3.11.2">
+              <sha1>84845813abc608bdaf1ec47e6bed9a2c05ba9292</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>vdn-460-custom-player_RC2</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision plugin="git-client@3.11.2">
+              <sha1 reference="../../marked/sha1"/>
+              <branches class="list">
+                <hudson.plugins.git.Branch reference="../../../marked/branches/hudson.plugins.git.Branch"/>
+              </branches>
+            </revision>
+            <hudsonBuildNumber>6</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+        <entry>
+          <string>refs/tags/VDN_5.1.1_RC1</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@3.11.2">
+              <sha1>397e5144ae823170db836ef0ed5aa14dc1968425</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>refs/tags/VDN_5.1.1_RC1</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>9</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+        <entry>
+          <string>VDN_5.1.1_RC1</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@3.11.2">
+              <sha1>397e5144ae823170db836ef0ed5aa14dc1968425</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>VDN_5.1.1_RC1</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision plugin="git-client@3.11.2">
+              <sha1 reference="../../marked/sha1"/>
+              <branches class="list">
+                <hudson.plugins.git.Branch reference="../../../marked/branches/hudson.plugins.git.Branch"/>
+              </branches>
+            </revision>
+            <hudsonBuildNumber>8</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry[4]/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>https://github.com/ocisunbird/vdn-tenant.git</string>
+      </remoteUrls>
+      <index>3</index>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.plugins.copyartifact.CopyArtifact_-EnvAction plugin="copyartifact@1.48"/>
+    <hudson.tasks.Fingerprinter_-FingerprintAction>
+      <record>
+        <entry>
+          <string>metadata.json</string>
+          <string>acbbf68d0e670a0590dcade90d24463b</string>
+        </entry>
+      </record>
+    </hudson.tasks.Fingerprinter_-FingerprintAction>
+    <hudson.plugins.ansicolor.action.ColorizedAction plugin="ansicolor@1.0.2">
+      <id>c68c2bcd-53be-4808-bdd4-535649cf030f</id>
+      <colorMapName>xterm</colorMapName>
+      <command>STOP</command>
+    </hudson.plugins.ansicolor.action.ColorizedAction>
+    <com.sonyericsson.rebuild.RebuildAction plugin="rebuild@1.34"/>
+  </actions>
+  <queueId>4247</queueId>
+  <timestamp>1689070983400</timestamp>
+  <startTime>1689070983403</startTime>
+  <result>SUCCESS</result>
+  <description>haryana_tentant_bcff0762b8_7</description>
+  <duration>79245</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>SUCCESS</result>
+    <script>@Library(&apos;deploy-conf&apos;) _
+node(&apos;vdn-jenkins-agent&apos;) {
+    try {
+        String ANSI_GREEN = &quot;\u001B[32m&quot;
+        String ANSI_NORMAL = &quot;\u001B[0m&quot;
+        String ANSI_BOLD = &quot;\u001B[1m&quot;
+        String ANSI_RED = &quot;\u001B[31m&quot;
+        String ANSI_YELLOW = &quot;\u001B[33m&quot;
+
+        ansiColor(&apos;xterm&apos;) {
+          timestamps {
+            stage(&apos;Checkout&apos;) {
+                folder = new File(&quot;$WORKSPACE/.git&quot;)
+                if (folder.exists())
+                   {
+                     println &quot;Found .git folder. Clearing it..&quot;
+                     sh&apos;git clean -fxd&apos;
+                   }
+                checkout scm
+                if (params.diksha_tenant_tag == &quot;master&quot;) {
+                def scmVars = checkout scm
+                checkout scm: ([$class: &apos;GitSCM&apos;, branches: [[name: &quot;refs/heads/master&quot;]], doGenerateSubmoduleConfigurations: false, extensions: [[$class: &apos;CloneOption&apos;, depth: 0, noTags: false, reference: &apos;&apos;, shallow: true]], submoduleCfg: [], userRemoteConfigs: [[credentialsId: &apos;private_repo_credentials&apos;, url: &apos;https://github.com/ocisunbird/vdn-tenant.git&apos;]]])
+                commit_hash = sh(script: &apos;git rev-parse --short HEAD&apos;, returnStdout: true).trim()
+                branch_name = sh(script: &apos;git name-rev --name-only HEAD | rev | cut -d &quot;/&quot; -f1| rev&apos;, returnStdout: true).trim()
+                build_tag = branch_name + &quot;_&quot; + commit_hash + &quot;_&quot; + env.BUILD_NUMBER
+                println(ANSI_BOLD + ANSI_YELLOW + &quot;diksha_tenant_tag not specified, using the latest commit hash: &quot; + commit_hash + ANSI_NORMAL)
+            } else {
+                println(ANSI_BOLD + ANSI_YELLOW + &quot;diksha_tenant_tag specified, checkout from tag: &quot; + params.diksha_tenant_tag + ANSI_NORMAL)
+                def scmVars = checkout scm
+                checkout scm: ([$class: &apos;GitSCM&apos;, branches: [[name: &quot;refs/tags/$params.diksha_tenant_tag&quot;]], doGenerateSubmoduleConfigurations: false, extensions: [[$class: &apos;CloneOption&apos;, depth: 0, noTags: false, reference: &apos;&apos;, shallow: true]], submoduleCfg: [], userRemoteConfigs: [[credentialsId: &apos;private_repo_credentials&apos;, url: &apos;https://github.com/ocisunbird/vdn-tenant.git&apos;]]])
+                build_tag = params.diksha_tenant_tag + &quot;_&quot; + env.BUILD_NUMBER
+                println(ANSI_BOLD + ANSI_YELLOW + &quot;diksha_tenant_tag specified, building from tag: &quot; + params.diksha_tenant_tag + ANSI_NORMAL)
+            }
+            echo &quot;build_tag: &quot; + build_tag
+            }
+
+            stage(&apos;Build&apos;) {
+                // values = docker_params()
+                if (params.build_number == &quot;&quot;) {
+                    println(ANSI_BOLD + ANSI_YELLOW + &quot;Setting build_number to lastSuccessfulBuild to copy metadata.json&quot; + ANSI_NORMAL)
+                    buildNumber = &quot;lastSuccessfulBuild&quot;
+                } else
+                    buildNumber = params.build_number
+
+                values = [:]
+                try {
+                    copyArtifacts projectName: params.absolute_job_path, fingerprintArtifacts: true, flatten: true, selector: specific(buildNumber)
+                }
+                catch (err) {
+                    println ANSI_YELLOW + ANSI_BOLD + &quot;Ok that failed!. Lets try an alertnative..&quot; + ANSI_NORMAL
+                    copyArtifacts projectName: params.absolute_job_path, flatten: true, selector: upstream()
+                }
+                currentWs = sh(returnStdout: true, script: &apos;pwd&apos;).trim()
+                image_tag = sh(returnStdout: true, script: &apos;jq -r .image_tag metadata.json&apos;).trim()
+                agent = sh(returnStdout: true, script: &apos;jq -r .node_name metadata.json&apos;).trim()
+                image_name = sh(returnStdout: true, script: &apos;jq -r .image_name metadata.json&apos;).trim()
+                commit_hash = sh(returnStdout: true, script: &apos;jq -r .commit_hash metadata.json&apos;).trim()
+                values.put(&apos;image_name&apos;, image_name)
+                values.put(&apos;image_tag&apos;, image_tag)
+                values.put(&apos;commit_hash&apos;, commit_hash)
+
+                sh(&quot;bash build.sh ${values.image_tag} ${env.NODE_NAME} ${hub_org} ${values.image_name} ${build_tag} ${commit_hash}&quot;)
+            }
+            stage(&apos;ArchiveArtifacts&apos;) {
+                archiveArtifacts &quot;metadata.json&quot;
+                cdn_file_exists = new File(&quot;$currentWs/index_cdn.ejs&quot;)
+                if (cdn_file_exists.exists()) {
+                    archiveArtifacts &quot;index_cdn.ejs, cdn_assets.zip&quot;
+                }
+                currentBuild.description = &quot;${values.image_tag}&quot;
+            }
+          }
+        }
+
+    }
+    catch (err) {
+        currentBuild.result = &quot;FAILURE&quot;
+        throw err
+    }
+
+}
+</script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>333674677</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>25374914</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>790797098</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>2030764329</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>233278849</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>42</iota>
+    <head>1:42</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList">
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.plugins.git.GitSCM" plugin="git@4.11.5">
+        <configVersion>2</configVersion>
+        <userRemoteConfigs>
+          <hudson.plugins.git.UserRemoteConfig>
+            <url>https://github.com/dictrigyn/vdn-tenant.git</url>
+            <credentialsId>6bd90daa-0e73-4858-a404-51bafc8c58df</credentialsId>
+          </hudson.plugins.git.UserRemoteConfig>
+        </userRemoteConfigs>
+        <branches>
+          <hudson.plugins.git.BranchSpec>
+            <name>${diksha_tenant_tag}</name>
+          </hudson.plugins.git.BranchSpec>
+        </branches>
+        <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+        <submoduleCfg class="empty-list"/>
+        <extensions>
+          <hudson.plugins.git.extensions.impl.CloneOption>
+            <shallow>true</shallow>
+            <noTags>false</noTags>
+            <reference></reference>
+            <depth>0</depth>
+            <honorRefspec>false</honorRefspec>
+          </hudson.plugins.git.extensions.impl.CloneOption>
+        </extensions>
+      </scm>
+      <node></node>
+      <workspace>/var/lib/jenkins/workspace/Build/DockCore/PlayerCustomProdVDNAgentBuild@script/463e8df029fe70aee8412cd760bce69cc71f161cbbc565f191f3c9d608875b3a</workspace>
+      <changelogFile>/var/lib/jenkins/jobs/Build/jobs/DockCore/jobs/PlayerCustomProdVDNAgentBuild/builds/9/changelog5047380966664857118.xml</changelogFile>
+      <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.plugins.git.GitSCM" plugin="git@4.11.5">
+        <configVersion>2</configVersion>
+        <userRemoteConfigs>
+          <hudson.plugins.git.UserRemoteConfig>
+            <name>origin</name>
+            <refspec>+refs/heads/*:refs/remotes/origin/* refs/heads/shared-lib</refspec>
+            <url>https://github.com/project-sunbird/sunbird-devops.git</url>
+          </hudson.plugins.git.UserRemoteConfig>
+        </userRemoteConfigs>
+        <branches class="singleton-list">
+          <hudson.plugins.git.BranchSpec>
+            <name>778da7ce7f97efd003eed98071921a837d209343</name>
+          </hudson.plugins.git.BranchSpec>
+        </branches>
+        <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+        <submoduleCfg class="empty-list"/>
+        <extensions>
+          <hudson.plugins.git.extensions.impl.CloneOption>
+            <shallow>true</shallow>
+            <noTags>true</noTags>
+            <reference></reference>
+            <depth>1</depth>
+            <honorRefspec>false</honorRefspec>
+          </hudson.plugins.git.extensions.impl.CloneOption>
+          <hudson.plugins.git.extensions.impl.BuildChooserSetting>
+            <buildChooser class="jenkins.plugins.git.AbstractGitSCMSource$SpecificRevisionBuildChooser">
+              <revision reference="../../../../../../../actions/hudson.plugins.git.util.BuildData[2]/buildsByBranchName/entry/hudson.plugins.git.util.Build/marked"/>
+            </buildChooser>
+          </hudson.plugins.git.extensions.impl.BuildChooserSetting>
+        </extensions>
+      </scm>
+      <node></node>
+      <workspace>/var/lib/jenkins/workspace/Build/DockCore/PlayerCustomProdVDNAgentBuild@libs/4e97b83e3fc5b39f9821d141786befe5af9f202ab969e808576bfd142e651f32</workspace>
+      <changelogFile>/var/lib/jenkins/jobs/Build/jobs/DockCore/jobs/PlayerCustomProdVDNAgentBuild/builds/9/changelog8903092526293725834.xml</changelogFile>
+      <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.plugins.git.GitSCM" reference="../../org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout/scm"/>
+      <node>vdn-jenkins-agent</node>
+      <workspace>/var/lib/jenkins/workspace/Build/DockCore/PlayerCustomProdVDNAgentBuild</workspace>
+      <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.plugins.git.GitSCM" reference="../../org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout/scm"/>
+      <node>vdn-jenkins-agent</node>
+      <workspace>/var/lib/jenkins/workspace/Build/DockCore/PlayerCustomProdVDNAgentBuild</workspace>
+      <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.plugins.git.GitSCM" plugin="git@4.11.5">
+        <configVersion>2</configVersion>
+        <userRemoteConfigs>
+          <hudson.plugins.git.UserRemoteConfig>
+            <url>https://github.com/ocisunbird/vdn-tenant.git</url>
+            <credentialsId>private_repo_credentials</credentialsId>
+          </hudson.plugins.git.UserRemoteConfig>
+        </userRemoteConfigs>
+        <branches>
+          <hudson.plugins.git.BranchSpec>
+            <name>refs/tags/VDN_5.1.1_RC1</name>
+          </hudson.plugins.git.BranchSpec>
+        </branches>
+        <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+        <submoduleCfg class="empty-list"/>
+        <extensions>
+          <hudson.plugins.git.extensions.impl.CloneOption>
+            <shallow>true</shallow>
+            <noTags>false</noTags>
+            <reference></reference>
+            <depth>0</depth>
+            <honorRefspec>false</honorRefspec>
+          </hudson.plugins.git.extensions.impl.CloneOption>
+        </extensions>
+      </scm>
+      <node>vdn-jenkins-agent</node>
+      <workspace>/var/lib/jenkins/workspace/Build/DockCore/PlayerCustomProdVDNAgentBuild</workspace>
+      <changelogFile>/var/lib/jenkins/jobs/Build/jobs/DockCore/jobs/PlayerCustomProdVDNAgentBuild/builds/9/changelog5279257349027313656.xml</changelogFile>
+      <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+  </checkouts>
+</flow-build>

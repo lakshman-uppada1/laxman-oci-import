@@ -1,0 +1,11 @@
+commit a389791f6103f9867e15e23a9b09ea228524425d
+tree 0d8894fe158c9e2c91aaf4a4a1661f3c39ce2f60
+parent e0558440daec919eb8234c7d98b6ce6135cd7aff
+author Kenneth Heung <kenneth.heung@gmail.com> 2023-04-26 09:25:33 +0800
+committer GitHub <noreply@github.com> 2023-04-26 09:25:33 +0800
+
+    Update programFeedHelper.js
+    
+    remove external composite search problem
+
+:100644 100644 101cfd7c5c01ed60f97ed648499f0bcd62f72ffc b21974bd8dde4dc7810aa8212bfeb57c5c86ab4e M	src/helpers/programFeedHelper.js

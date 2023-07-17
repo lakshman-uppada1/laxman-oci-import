@@ -1,0 +1,19 @@
+Started by an SCM change
+Checking out git https://github.com/Sunbird-Ed/creation-portal.git into /var/lib/jenkins/workspace/Build/DockCore/Player@script/3fbe7fe799f96ef1182456110c32c4ebb354449f72fdce291a3099a2192eb17d to read Jenkinsfile
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/Sunbird-Ed/creation-portal.git
+ > git init /var/lib/jenkins/workspace/Build/DockCore/Player@script/3fbe7fe799f96ef1182456110c32c4ebb354449f72fdce291a3099a2192eb17d # timeout=10
+Fetching upstream changes from https://github.com/Sunbird-Ed/creation-portal.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/Sunbird-Ed/creation-portal.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/Sunbird-Ed/creation-portal.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/${dock_sprint_branch}^{commit} # timeout=10
+ > git rev-parse refs/heads/${dock_sprint_branch}^{commit} # timeout=10
+ERROR: Couldn't find any revision to build. Verify the repository and branch configuration for this job.
+ERROR: Maximum checkout retry attempts reached, aborting
+Finished: FAILURE

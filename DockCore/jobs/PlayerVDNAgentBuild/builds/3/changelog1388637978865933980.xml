@@ -1,0 +1,11 @@
+commit 2d46072b17e0fb39c3dd0f79f140b3cc08b49bd4
+tree 9300b5ba9064db3f3edf3e717e7198093e7c9ea1
+parent 78587ed3cc728978865324b5d8450fda554c4a17
+author Kenneth Heung <kenneth.heung@gmail.com> 2023-04-21 19:54:05 +0800
+committer GitHub <noreply@github.com> 2023-04-21 19:54:05 +0800
+
+    Update build.sh
+    
+    typo /
+
+:100755 100755 7c6a31910b94c28e11150c9327ff9747c0c9a22d 9cce009184fff31010cd394161bb23d28d32d67b M	build.sh

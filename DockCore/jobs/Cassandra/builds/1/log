@@ -1,0 +1,19 @@
+Started by an SCM change
+Checking out git https://github.com/project-sunbird/sunbird-utils.git into /var/lib/jenkins/workspace/Build/DockCore/Cassandra@script/4e7b93885ec7394cc734faa046a0107f5af9518f2dd534e70c78bf6213fb87f0 to read Jenkinsfile
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/project-sunbird/sunbird-utils.git
+ > git init /var/lib/jenkins/workspace/Build/DockCore/Cassandra@script/4e7b93885ec7394cc734faa046a0107f5af9518f2dd534e70c78bf6213fb87f0 # timeout=10
+Fetching upstream changes from https://github.com/project-sunbird/sunbird-utils.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/project-sunbird/sunbird-utils.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/project-sunbird/sunbird-utils.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/release-5.1.0^{commit} # timeout=10
+ > git rev-parse refs/heads/release-5.1.0^{commit} # timeout=10
+ERROR: Couldn't find any revision to build. Verify the repository and branch configuration for this job.
+ERROR: Maximum checkout retry attempts reached, aborting
+Finished: FAILURE

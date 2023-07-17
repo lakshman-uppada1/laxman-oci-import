@@ -1,0 +1,19 @@
+Started by an SCM change
+Checking out git https://github.com/Sunbird-Ed/incubator-superset.git into /var/lib/jenkins/workspace/Build/DockCore/Hawkeye-superset@script/7382b2c8a3b7f9a0787fcb6d36b89998d2ae0cd34f4214ecd561b16ec116b17b to read Jenkinsfile
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/Sunbird-Ed/incubator-superset.git
+ > git init /var/lib/jenkins/workspace/Build/DockCore/Hawkeye-superset@script/7382b2c8a3b7f9a0787fcb6d36b89998d2ae0cd34f4214ecd561b16ec116b17b # timeout=10
+Fetching upstream changes from https://github.com/Sunbird-Ed/incubator-superset.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/Sunbird-Ed/incubator-superset.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/Sunbird-Ed/incubator-superset.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/release-5.1.0^{commit} # timeout=10
+ > git rev-parse refs/heads/release-5.1.0^{commit} # timeout=10
+ERROR: Couldn't find any revision to build. Verify the repository and branch configuration for this job.
+ERROR: Maximum checkout retry attempts reached, aborting
+Finished: FAILURE

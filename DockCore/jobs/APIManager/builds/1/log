@@ -1,0 +1,47 @@
+Started by user [8mha:////4KC2AOPApVcO8cGQLdmPLCG+aWTFFXmg8PLFMmsr69M5AAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgY+/dLi1CL9lJTUssSUxBIA4/IxN8MAAAA=[0mDeepak Devadathan
+[8mha:////4DQMr9HgZVT9PBJ/vAJi4Vz+S03++WP2KBVOc+uUyzRvAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4Aoeah8JJKqMG1BfT93bVJkTto+Gn3BHZHMo+rKR83FkAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4NOlWQy8LL7jMjNLmit1TITHvBYhHjzzGt3TjRdY21ETAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/lib/jenkins/workspace/Build/DockCore/APIManager
+[8mha:////4I38JWpeOPl46roEAsfiKE5jl2R8yAwBxi/2BN73OS9sAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4NtbODPaNkJTdL2Atc3PNhFI9GFVw4oZfyNSPlvgtI5UAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaGWsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gdpL1fxvAAAAA==[0m[Pipeline] sh
++ docker pull sunbird/kong:1.8.0-gold
+1.8.0-gold: Pulling from sunbird/kong
+5e35d10a3eba: Pulling fs layer
+fb6a1613fe96: Pulling fs layer
+0956cdfd3909: Pulling fs layer
+a8feec193052: Pulling fs layer
+d5f6ff210d2e: Pulling fs layer
+41b1d526da81: Pulling fs layer
+a8feec193052: Waiting
+d5f6ff210d2e: Waiting
+41b1d526da81: Waiting
+0956cdfd3909: Verifying Checksum
+0956cdfd3909: Download complete
+5e35d10a3eba: Verifying Checksum
+5e35d10a3eba: Download complete
+d5f6ff210d2e: Verifying Checksum
+d5f6ff210d2e: Download complete
+5e35d10a3eba: Pull complete
+a8feec193052: Verifying Checksum
+a8feec193052: Download complete
+fb6a1613fe96: Verifying Checksum
+fb6a1613fe96: Download complete
+41b1d526da81: Verifying Checksum
+41b1d526da81: Download complete
+fb6a1613fe96: Pull complete
+0956cdfd3909: Pull complete
+a8feec193052: Pull complete
+d5f6ff210d2e: Pull complete
+41b1d526da81: Pull complete
+Digest: sha256:453ebaa5c16d3c7c11cda28943031fdd0b15bd6ec584be64090306da48b7bc39
+Status: Downloaded newer image for sunbird/kong:1.8.0-gold
+docker.io/sunbird/kong:1.8.0-gold
++ docker tag sunbird/kong:1.8.0-gold bom.ocir.io/bmzbbujw9kal/diksha-odev/kong:1.8.0-gold
+[8mha:////4KKo6rBzLdc9z5y6WxEw98zi92g/dbJqJyNOGkpveD3VAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGBtjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI4F2L72ED+qfHravAAAAA==[0m[Pipeline] writeFile
+[8mha:////4MMBsCB+ZPA9g0yJYZz0PTP59aokNN7CmbgBI36dLe2aAAAAox+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbmFgYK1tC4wmQRYQl/7PAult5Iq/mHSRuYuUkk8yb5r3esM4JTpQs9wZ7h1k7HsNo6+ITpf4WaOKerlwTZgqGSzNJ6sx5QUnFwBLWwErAxqAOlB3aAlvh1UO1QaFtLyXV7yigcd0AT2CimotK5Qtzgt197DLhz/NXAHMswPa1h/gB601hw7wAAAA=[0m[Pipeline] archiveArtifacts
+Archiving artifacts
+[8mha:////4PKJZMoKpLQvq5X9cUY+o1MiCKaWZFPvKc3N6sT4+nxlAAAAox+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbWJgYK1tC4wmQRYQl/7PAult5Iq/mHSRuYuUkk8yb5r3esM4JTpQs9wZ7h1k7HsNo6+ITpf4WaOKerlwTZgqGSzNJ6sx5QUnFwBLWwErAxqAOlB3aAlvh1UO1QaFtLyXV7yigcd0AT2CimotK5Qtzgt197DLhz/NXAHOMBdihdv8Bb+JmxLwAAAA=[0m[Pipeline] }
+[8mha:////4EUoQFESNl2BWPnYVqm+0YRW9untMEaStnfy77ANoNRmAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWBljZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j98XmJnvAAAAA==[0m[Pipeline] // node
+[8mha:////4I0EKIi1hf+8ivf4Wh6gwap0v01/D3ySfg6onPovLknMAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiKorWNlm6HxBBFiDGR2MVmEyhN5Ne8gIzNW/uq/17zXG8sUceToVGOp9ZQqr7rQu+mpgWN7DTyohi+qYkocrCrtUHJtTzOWLBbzshwLjZWlKnDy5ARr3ZiHKYIhV5wlTu6gkfv6jicyPZXFRPnCGLG59XVi+nX+BjB2nSDfbQXZ/gOwjiY7vQAAAA==[0m[Pipeline] End of Pipeline
+Triggering a new build of [8mha:////4Gsk1tqvhiYqA/4yqgRm0t/FA7zlcHdLZ0aXIy0K+lZfAAAAwR+LCAAAAAAAAP9dTbsNwjAUfATBAJSIhgXiLg2igFAQKUGREAMY2+Rn+VkvDoI1WAMahmAcdiBKKnLNnU73eX1hUhMs80bWaHyBpkat/ASl0vu7VaQLUx3QKegx8gBuBItB/i8arJ/v9cN+PPAimGplMpfHMG5IO5jFJb9yprnJ2NFRYbJVOzcfzIU9D39tKwIHW1bimW3IFRcu3Mlq5LKzdiiqlJQllI1wBZrODZFU30ijhBueKWI/Y4AMuPcAAAA=[0mArtifactUpload » DockPreproduction » Core » APIManager #1
+Finished: SUCCESS

@@ -1,0 +1,1859 @@
+Started by an SCM change
+Checking out git https://github.com/project-sunbird/knowledge-platform.git into /var/lib/jenkins/workspace/Build/DockCore/Content@script/edaffad5640d48dcc2d31b4cfa1d5b8ed7e876a4cceef35aeab1c0c26b66b2f2 to read build/content-service/Jenkinsfile
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/project-sunbird/knowledge-platform.git
+ > git init /var/lib/jenkins/workspace/Build/DockCore/Content@script/edaffad5640d48dcc2d31b4cfa1d5b8ed7e876a4cceef35aeab1c0c26b66b2f2 # timeout=10
+Fetching upstream changes from https://github.com/project-sunbird/knowledge-platform.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/project-sunbird/knowledge-platform.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/project-sunbird/knowledge-platform.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/release-5.1.0^{commit} # timeout=10
+Checking out Revision 760d7baf9e49e48805058356ae67b7fae8b58d66 (refs/remotes/origin/release-5.1.0)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 760d7baf9e49e48805058356ae67b7fae8b58d66 # timeout=10
+Commit message: "Issue #KN-231 merge: Merge pull request #882 from project-sunbird/AmiableAnil-patch-1"
+First time build. Skipping changelog.
+[8mha:////4DQMr9HgZVT9PBJ/vAJi4Vz+S03++WP2KBVOc+uUyzRvAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4Aoeah8JJKqMG1BfT93bVJkTto+Gn3BHZHMo+rKR83FkAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4NOlWQy8LL7jMjNLmit1TITHvBYhHjzzGt3TjRdY21ETAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/lib/jenkins/workspace/Build/DockCore/Content
+[8mha:////4I38JWpeOPl46roEAsfiKE5jl2R8yAwBxi/2BN73OS9sAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4KtNVHI7rD8Xme7RMP80ju20S2oPIiY4U48HgQk9fNPWAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] ansiColor
+[8mha:////4D1F1+bpfnSSiE3BhzbX8wKLrqbf1TiuUjCNI3kyo1QtAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] {
+[8mha:////4EVYapqU05hpnx9uhF9wz0y2hsl1VL1CZmJEU+UTKy++AAAAqx+LCAAAAAAAAP9b85aBtbiIQSujNKU4P0+vIKc0PTOvWC8xrzgzOT8nv0gvMbkkEyjhCKb88ktSdwVsu2efuqidiYHRh4EDIu2ZUsIg5JOVWJaon5OYl64fXFKUmZduXVHEIAU1ODk/rzg/J1XPGUKDDGKAAEYmBoaKghIGFSNDUzPzFKM03bREIzNdE6MUC11Lk5RU3bSkNEsj42QzY1MjCwB4AMJFrwAAAA==[0m
+[8mha:////4B2nVl1zwxUr4xTVJ4gNK1/4Kd2STXGtKJfEY5CRpiHIAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] withEnv
+[8mha:////4H9DBS9ZtGeYRmyGvGETQoNXch7OnhARRzxHuvU5kwN+AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] {
+[8mha:////4AuhRRWp2fXe1T5jtjocJtK++ePD9DH0TE1qihhCqXLaAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BSEm1igLJwhJCGmj/9skpZ04EVfjDgQqMWHJkm3Jes8X1CnCkaLjrcXOY9Ke92F0JfGJYncNNPGWLlwTJgqWSztJMva0VEnZwiJWwUrA2qIOlDy6DBvRqrtqgkLXnHMs20FA5c0AD2CikLOK+VvmCNvbaBLhj/MXAHOfge2K959f/QbB16AVwAAAAA==[0m[Pipeline] stage
+[8mha:////4JjuQGJFJefjKnSlxXbHyXAIaKA50yHKAnOImG+ooD3XAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDJUJUtJYbXmBiY5xYd8G+kFS8iK/xBwKRqNhqZ6XVPF9Q5gQHSl42DtuAuQ6yi72fmhwotZdIg2zoLGvCTNFJ7QZN1h1n1MQO5ogCFgqWDutIOaBnWKnG3E0VDfrqxGna9gqKYG/wAKEmM5vEXxgTrK+9zYQ/z18BjB2D2DEU283nWL4Bsam+msEAAAA=[0m[Pipeline] { (Checkout)
+[8mha:////4Egcskj6pLf5Jd0/XM+FWAuPTbsmuKF1wNdG0mVSmlhBAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCakRFa6XhBSYxxo5159gOTsWL+Bp/IBCJii1WO9vM8wXrGODIQaNV1BuKrUHvRj0vzBz6q+OMli/YMkV2ChuVG+7UacGGk4IlRQkrARtFreNoSCfYCivvsnKSdHVOYf4OAkrTDfCAQszmJEP6whRgdxu7yPTz/BXA5BOU9f5TtX8D0loxuL4AAAA=[0m[Pipeline] echo
+[1m[32mFound environment variable named hub_org with value as: bom.ocir.io/bmzbbujw9kal/diksha-odev[0m
+[8mha:////4FGo73fj0nWsm5ViHjpbJx008NdECG5+lEwfwMy5+G4AAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICtIgqreWGF5jYGCfWnbEdkooX8TX+QCASFVusdraZ5wuWKcKRo8XWUOcoNQ6D7+20cODYXTwP2PIZG6bE3qA0g2Rt6hklZwNzihIWAlaGGs/Jkc2wFq26q8orstUpx+k7CCidvsEDCjGZs4r5C2OEzbXXienn+SuAMYQM5W7/qe0bsgYiW74AAAA=[0m[Pipeline] }
+[8mha:////4LfZWAdBDhLJffEqqPZRnnIOliNQp4MqmxBm3XXRF/2YAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRokKIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsTZPsP6C1U670AAAA=[0m[Pipeline] // stage
+[8mha:////4GFa94/s9RZvOQ4HCf3D5/fcsbsMDXCzpWFCV8tNLP+/AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREgUSoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHaCbC/It7vuAyX3kfC9AAAA[0m[Pipeline] cleanWs
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[WS-CLEANUP] done
+[8mha:////4Op+p6doFpXIF2hlLHZ5LyjcDTCLciGf/ASp82VjoGtsAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRBRISoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHaCbC/It7vuA2TGium9AAAA[0m[Pipeline] checkout
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/project-sunbird/knowledge-platform.git
+ > git init /var/lib/jenkins/workspace/Build/DockCore/Content # timeout=10
+Fetching upstream changes from https://github.com/project-sunbird/knowledge-platform.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/project-sunbird/knowledge-platform.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/project-sunbird/knowledge-platform.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/release-5.1.0^{commit} # timeout=10
+Checking out Revision 760d7baf9e49e48805058356ae67b7fae8b58d66 (refs/remotes/origin/release-5.1.0)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 760d7baf9e49e48805058356ae67b7fae8b58d66 # timeout=10
+Commit message: "Issue #KN-231 merge: Merge pull request #882 from project-sunbird/AmiableAnil-patch-1"
+[8mha:////4JMFLfMHLpvnzRFCdtDvnbiDjJGs6Jnc7ICSV7lgmB7EAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRDUJCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QX5dtd9AKeVp8K9AAAA[0m[Pipeline] sh
++ git rev-parse --short HEAD
+[8mha:////4PRfNkJCN9/bb4ZbYFvcIc3fJswQye+rd39ZJli0Lw9DAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRFUiIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2AmyvSDf7roP5qS8270AAAA=[0m[Pipeline] sh
++ echo release-5.1.0_760d7baf_1
+[8mha:////4G2gb22rp4HoB7TOAFM7rjxvhiPJxjFG3mLc6DfKVDl5AAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6LEjcQ4uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9YKsFOT7sv8AKbgkXL0AAAA=[0m[Pipeline] echo
+build_tag: release-5.1.0_760d7baf_1
+[8mha:////4BYGjQAtnwVUxZSR7sT0lZSMaaMMm49GY/lqZ5P/VVbRAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjOhCiorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxJah2Ow+x/INuSc/fMEAAAA=[0m[Pipeline] stage
+[8mha:////4JbTIQc4TNyZvja2cyCZcZauRrbCDPwAMBW155X9/usoAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogU2BDqxBp14QShCSFp9H9JUtKJE3E17kCgEhMeLNuS9Z4vqIKHhrxmVmFvMHSGDW7UObFEvr84SszSmXWEgZxirUotSXWca0tRwayihAWHpcLOUTCoI6y4FXdRO4G6PkWftwOH0sgbPKDgmRyFj98yeVhfRxkIf5y/AJiGCOV2n223+TyrN7xWSV3CAAAA[0m[Pipeline] { (Build)
+[8mha:////4A5QXVEQy4mWcke2B9HF/UX3JLvu+/vwtLYut3cclwJmAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICtIgqreWGF5jYGCfWnbEdkooX8TX+QCASFVusdraZ5wuWKcKRo8XWUOcoNQ6D7+20cODYXTwP2PIZG6bE3qA0g2Rt6hklZwNzihIWAlaGGs/Jkc2wFq26q8orstUpx+k7CCidvsEDCjGZs4r5C2OEzbXXienn+SuAMWQo99tP7cIbaOP4NL4AAAA=[0m[Pipeline] echo
+Environment will be : build
+[8mha:////4NSZ2PypxEX+iWEwelmmv3JTAFEqo4UCQMk5u0Pyq3OjAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKC0iIqWisNLzCJMXasO8d2cCpexNf4A4FIVGyx2tlmni9YxwBHDhqtot5QbA16N+p5YebQXx1ntHzBlimyU9io3HCnTgs2nBQsKUpYCdgoah1HQzrBVlh5l5WTpKtzCvN3EFCaboAHFGI2JxnSF6YAu9vYRaaf568AJp+grPefqv0bq7DVH74AAAA=[0m[Pipeline] sh
++ mvn clean install -DskipTests=true
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Build Order:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Sunbird Knowledge Platform                                         [pom]
+[[1;34mINFO[m] platform-core                                                      [pom]
+[[1;34mINFO[m] platform-common                                                    [jar]
+[[1;34mINFO[m] Platform Telemetry                                                 [jar]
+[[1;34mINFO[m] actor-core                                                         [jar]
+[[1;34mINFO[m] schema-validator                                                   [jar]
+[[1;34mINFO[m] platform-cache                                                     [jar]
+[[1;34mINFO[m] cassandra-connector                                                [jar]
+[[1;34mINFO[m] kafka-client                                                       [jar]
+[[1;34mINFO[m] ontology-engine                                                    [pom]
+[[1;34mINFO[m] graph-common                                                       [jar]
+[[1;34mINFO[m] graph-dac-api                                                      [jar]
+[[1;34mINFO[m] graph-core_2.11                                                    [jar]
+[[1;34mINFO[m] parseq                                                             [jar]
+[[1;34mINFO[m] graph-engine_2.11                                                  [jar]
+[[1;34mINFO[m] platform-modules                                                   [pom]
+[[1;34mINFO[m] url-manager                                                        [jar]
+[[1;34mINFO[m] mimetype-manager                                                   [jar]
+[[1;34mINFO[m] import-manager                                                     [jar]
+[[1;34mINFO[m] content-api                                                        [pom]
+[[1;34mINFO[m] hierarchy-manager                                                  [jar]
+[[1;34mINFO[m] content-actors                                                     [jar]
+[[1;34mINFO[m] collection-csv-actors                                              [jar]
+[[1;34mINFO[m] content-service                                                  [play2]
+[[1;34mINFO[m] assessment-api                                                     [pom]
+[[1;34mINFO[m] qs-hierarchy-manager                                               [jar]
+[[1;34mINFO[m] assessment-actors                                                  [jar]
+[[1;34mINFO[m] assessment-service                                               [play2]
+[[1;34mINFO[m] taxonomy-api                                                       [pom]
+[[1;34mINFO[m] taxonomy-actors                                                    [jar]
+[[1;34mINFO[m] taxonomy-service                                                 [play2]
+[[1;34mINFO[m] search-api                                                         [pom]
+[[1;34mINFO[m] search-core                                                        [jar]
+[[1;34mINFO[m] search-actors                                                      [jar]
+[[1;34mINFO[m] search-service                                                   [play2]
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------< [0;36morg.sunbird:knowledge-platform[0;1m >-------------------[m
+[[1;34mINFO[m] [1mBuilding Sunbird Knowledge Platform 1.0-SNAPSHOT                  [1/35][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mknowledge-platform[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mknowledge-platform[0;1m ---[m
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/pom.xml to /var/lib/jenkins/.m2/repository/org/sunbird/knowledge-platform/1.0-SNAPSHOT/knowledge-platform-1.0-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------------< [0;36morg.sunbird:platform-core[0;1m >----------------------[m
+[[1;34mINFO[m] [1mBuilding platform-core 1.0-SNAPSHOT                               [2/35][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mplatform-core[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mplatform-core[0;1m ---[m
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/platform-core/pom.xml to /var/lib/jenkins/.m2/repository/org/sunbird/platform-core/1.0-SNAPSHOT/platform-core-1.0-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36morg.sunbird:platform-common[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding platform-common 1.0-SNAPSHOT                             [3/35][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mplatform-common[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.5:prepare-agent[m [1m(default-prepare-agent)[m @ [36mplatform-common[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/var/lib/jenkins/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/var/lib/jenkins/workspace/Build/DockCore/Content/platform-core/platform-common/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mplatform-common[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/Build/DockCore/Content/platform-core/platform-common/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mplatform-common[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 18 source files to /var/lib/jenkins/workspace/Build/DockCore/Content/platform-core/platform-common/target/classes
+[[1;34mINFO[m] /var/lib/jenkins/workspace/Build/DockCore/Content/platform-core/platform-common/src/main/java/org/sunbird/common/dto/ResponseHandler.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /var/lib/jenkins/workspace/Build/DockCore/Content/platform-core/platform-common/src/main/java/org/sunbird/common/dto/ResponseHandler.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mplatform-common[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/Build/DockCore/Content/platform-core/platform-common/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mplatform-common[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 11 source files to /var/lib/jenkins/workspace/Build/DockCore/Content/platform-core/platform-common/target/test-classes
+[[1;34mINFO[m] /var/lib/jenkins/workspace/Build/DockCore/Content/platform-core/platform-common/src/test/java/org/sunbird/common/JsonUtilsTest.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /var/lib/jenkins/workspace/Build/DockCore/Content/platform-core/platform-common/src/test/java/org/sunbird/common/JsonUtilsTest.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36mplatform-common[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.5:report[m [1m(default-report)[m @ [36mplatform-common[0;1m ---[m
+[[1;34mINFO[m] Skipping JaCoCo execution due to missing execution data file.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36mplatform-common[0;1m ---[m
+[[1;34mINFO[m] Building jar: /var/lib/jenkins/workspace/Build/DockCore/Content/platform-core/platform-common/target/platform-common-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.5:report-aggregate[m [1m(report-aggregate)[m @ [36mplatform-common[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mplatform-common[0;1m ---[m
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/platform-core/platform-common/target/platform-common-1.0-SNAPSHOT.jar to /var/lib/jenkins/.m2/repository/org/sunbird/platform-common/1.0-SNAPSHOT/platform-common-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/platform-core/platform-common/pom.xml to /var/lib/jenkins/.m2/repository/org/sunbird/platform-common/1.0-SNAPSHOT/platform-common-1.0-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------< [0;36morg.sunbird:platform-telemetry[0;1m >-------------------[m
+[[1;34mINFO[m] [1mBuilding Platform Telemetry 1.0-SNAPSHOT                          [4/35][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mplatform-telemetry[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mplatform-telemetry[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/Build/DockCore/Content/platform-core/platform-telemetry/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mplatform-telemetry[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 17 source files to /var/lib/jenkins/workspace/Build/DockCore/Content/platform-core/platform-telemetry/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mplatform-telemetry[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/Build/DockCore/Content/platform-core/platform-telemetry/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mplatform-telemetry[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 5 source files to /var/lib/jenkins/workspace/Build/DockCore/Content/platform-core/platform-telemetry/target/test-classes
+[[1;34mINFO[m] /var/lib/jenkins/workspace/Build/DockCore/Content/platform-core/platform-telemetry/src/test/java/org/sunbird/telemetry/logger/TestTelemetryManager.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /var/lib/jenkins/workspace/Build/DockCore/Content/platform-core/platform-telemetry/src/test/java/org/sunbird/telemetry/logger/TestTelemetryManager.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36mplatform-telemetry[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36mplatform-telemetry[0;1m ---[m
+[[1;34mINFO[m] Building jar: /var/lib/jenkins/workspace/Build/DockCore/Content/platform-core/platform-telemetry/target/platform-telemetry-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mplatform-telemetry[0;1m ---[m
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/platform-core/platform-telemetry/target/platform-telemetry-1.0-SNAPSHOT.jar to /var/lib/jenkins/.m2/repository/org/sunbird/platform-telemetry/1.0-SNAPSHOT/platform-telemetry-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/platform-core/platform-telemetry/pom.xml to /var/lib/jenkins/.m2/repository/org/sunbird/platform-telemetry/1.0-SNAPSHOT/platform-telemetry-1.0-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------------< [0;36morg.sunbird:actor-core[0;1m >-----------------------[m
+[[1;34mINFO[m] [1mBuilding actor-core 1.0-SNAPSHOT                                  [5/35][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mactor-core[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mactor-core[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/Build/DockCore/Content/platform-core/actor-core/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mactor-core[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 1 source file to /var/lib/jenkins/workspace/Build/DockCore/Content/platform-core/actor-core/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mactor-core[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/Build/DockCore/Content/platform-core/actor-core/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mactor-core[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:3.0.0-M4:test[m [1m(default-test)[m @ [36mactor-core[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36mactor-core[0;1m ---[m
+[[1;34mINFO[m] Building jar: /var/lib/jenkins/workspace/Build/DockCore/Content/platform-core/actor-core/target/actor-core-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mactor-core[0;1m ---[m
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/platform-core/actor-core/target/actor-core-1.0-SNAPSHOT.jar to /var/lib/jenkins/.m2/repository/org/sunbird/actor-core/1.0-SNAPSHOT/actor-core-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/platform-core/actor-core/pom.xml to /var/lib/jenkins/.m2/repository/org/sunbird/actor-core/1.0-SNAPSHOT/actor-core-1.0-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36morg.sunbird:schema-validator[0;1m >--------------------[m
+[[1;34mINFO[m] [1mBuilding schema-validator 1.0-SNAPSHOT                            [6/35][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mschema-validator[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.5:prepare-agent[m [1m(default-prepare-agent)[m @ [36mschema-validator[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/var/lib/jenkins/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/var/lib/jenkins/workspace/Build/DockCore/Content/platform-core/schema-validator/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mschema-validator[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mschema-validator[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 9 source files to /var/lib/jenkins/workspace/Build/DockCore/Content/platform-core/schema-validator/target/classes
+[[1;34mINFO[m] /var/lib/jenkins/workspace/Build/DockCore/Content/platform-core/schema-validator/src/main/java/org/sunbird/schema/TestSchemaValidator.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /var/lib/jenkins/workspace/Build/DockCore/Content/platform-core/schema-validator/src/main/java/org/sunbird/schema/TestSchemaValidator.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mschema-validator[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mschema-validator[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 2 source files to /var/lib/jenkins/workspace/Build/DockCore/Content/platform-core/schema-validator/target/test-classes
+[[1;34mINFO[m] /var/lib/jenkins/workspace/Build/DockCore/Content/platform-core/schema-validator/src/test/java/org/sunbird/schema/impl/TestBaseSchemaValidator.java: /var/lib/jenkins/workspace/Build/DockCore/Content/platform-core/schema-validator/src/test/java/org/sunbird/schema/impl/TestBaseSchemaValidator.java uses unchecked or unsafe operations.
+[[1;34mINFO[m] /var/lib/jenkins/workspace/Build/DockCore/Content/platform-core/schema-validator/src/test/java/org/sunbird/schema/impl/TestBaseSchemaValidator.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36mschema-validator[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.5:report[m [1m(default-report)[m @ [36mschema-validator[0;1m ---[m
+[[1;34mINFO[m] Skipping JaCoCo execution due to missing execution data file.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36mschema-validator[0;1m ---[m
+[[1;34mINFO[m] Building jar: /var/lib/jenkins/workspace/Build/DockCore/Content/platform-core/schema-validator/target/schema-validator-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.5:report-aggregate[m [1m(report-aggregate)[m @ [36mschema-validator[0;1m ---[m
+[[1;34mINFO[m] Analyzed bundle 'platform-common' with 21 classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mschema-validator[0;1m ---[m
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/platform-core/schema-validator/target/schema-validator-1.0-SNAPSHOT.jar to /var/lib/jenkins/.m2/repository/org/sunbird/schema-validator/1.0-SNAPSHOT/schema-validator-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/platform-core/schema-validator/pom.xml to /var/lib/jenkins/.m2/repository/org/sunbird/schema-validator/1.0-SNAPSHOT/schema-validator-1.0-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------------< [0;36morg.sunbird:platform-cache[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding platform-cache 1.0-SNAPSHOT                              [7/35][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mplatform-cache[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mplatform-cache[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/Build/DockCore/Content/platform-core/platform-cache/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mscala-maven-plugin:4.4.0:add-source[m [1m(scala-compile-first)[m @ [36mplatform-cache[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mscala-maven-plugin:4.4.0:compile[m [1m(scala-compile-first)[m @ [36mplatform-cache[0;1m ---[m
+[[1;34mINFO[m] Using incremental compilation using Mixed compile order
+[[1;34mINFO[m] Compiler bridge file: /var/lib/jenkins/.sbt/1.0/zinc/org.scala-sbt/org.scala-sbt-compiler-bridge_2.11-1.3.5-bin_2.11.12__55.0-1.3.5_20200330T000931.jar
+[[1;34mINFO[m] Compiling 2 Scala sources to /var/lib/jenkins/workspace/Build/DockCore/Content/platform-core/platform-cache/target/classes ...
+[[1;34mINFO[m] Done compiling.
+[[1;34mINFO[m] compile in 9.0 s
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mplatform-cache[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mplatform-cache[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/Build/DockCore/Content/platform-core/platform-cache/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mscala-maven-plugin:4.4.0:testCompile[m [1m(scala-test-compile)[m @ [36mplatform-cache[0;1m ---[m
+[[1;34mINFO[m] Using incremental compilation using Mixed compile order
+[[1;34mINFO[m] Compiler bridge file: /var/lib/jenkins/.sbt/1.0/zinc/org.scala-sbt/org.scala-sbt-compiler-bridge_2.11-1.3.5-bin_2.11.12__55.0-1.3.5_20200330T000931.jar
+[[1;34mINFO[m] Compiling 1 Scala source to /var/lib/jenkins/workspace/Build/DockCore/Content/platform-core/platform-cache/target/test-classes ...
+[[1;33mWARNING[m] : there were two deprecation warnings; re-run with -deprecation for details
+[[1;33mWARNING[m] one warning found
+[[1;34mINFO[m] Done compiling.
+[[1;34mINFO[m] compile in 9.8 s
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mplatform-cache[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36mplatform-cache[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mscalatest-maven-plugin:2.0.0:test[m [1m(test)[m @ [36mplatform-cache[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36mplatform-cache[0;1m ---[m
+[[1;34mINFO[m] Building jar: /var/lib/jenkins/workspace/Build/DockCore/Content/platform-core/platform-cache/target/platform-cache-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mplatform-cache[0;1m ---[m
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/platform-core/platform-cache/target/platform-cache-1.0-SNAPSHOT.jar to /var/lib/jenkins/.m2/repository/org/sunbird/platform-cache/1.0-SNAPSHOT/platform-cache-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/platform-core/platform-cache/pom.xml to /var/lib/jenkins/.m2/repository/org/sunbird/platform-cache/1.0-SNAPSHOT/platform-cache-1.0-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------< [0;36morg.sunbird:cassandra-connector[0;1m >-------------------[m
+[[1;34mINFO[m] [1mBuilding cassandra-connector 1.0-SNAPSHOT                         [8/35][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mcassandra-connector[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mcassandra-connector[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/Build/DockCore/Content/platform-core/cassandra-connector/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mcassandra-connector[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 4 source files to /var/lib/jenkins/workspace/Build/DockCore/Content/platform-core/cassandra-connector/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mcassandra-connector[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mcassandra-connector[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 1 source file to /var/lib/jenkins/workspace/Build/DockCore/Content/platform-core/cassandra-connector/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36mcassandra-connector[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.2.0:jar[m [1m(default-jar)[m @ [36mcassandra-connector[0;1m ---[m
+[[1;34mINFO[m] Building jar: /var/lib/jenkins/workspace/Build/DockCore/Content/platform-core/cassandra-connector/target/cassandra-connector-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.2.0:test-jar[m [1m(default)[m @ [36mcassandra-connector[0;1m ---[m
+[[1;34mINFO[m] Building jar: /var/lib/jenkins/workspace/Build/DockCore/Content/platform-core/cassandra-connector/target/cassandra-connector-1.0-SNAPSHOT-tests.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mcassandra-connector[0;1m ---[m
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/platform-core/cassandra-connector/target/cassandra-connector-1.0-SNAPSHOT.jar to /var/lib/jenkins/.m2/repository/org/sunbird/cassandra-connector/1.0-SNAPSHOT/cassandra-connector-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/platform-core/cassandra-connector/pom.xml to /var/lib/jenkins/.m2/repository/org/sunbird/cassandra-connector/1.0-SNAPSHOT/cassandra-connector-1.0-SNAPSHOT.pom
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/platform-core/cassandra-connector/target/cassandra-connector-1.0-SNAPSHOT-tests.jar to /var/lib/jenkins/.m2/repository/org/sunbird/cassandra-connector/1.0-SNAPSHOT/cassandra-connector-1.0-SNAPSHOT-tests.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------------< [0;36morg.sunbird:kafka-client[0;1m >----------------------[m
+[[1;34mINFO[m] [1mBuilding kafka-client 1.0-SNAPSHOT                                [9/35][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mkafka-client[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mkafka-client[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/Build/DockCore/Content/platform-core/kafka-client/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mscala-maven-plugin:4.4.0:add-source[m [1m(scala-compile-first)[m @ [36mkafka-client[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mscala-maven-plugin:4.4.0:compile[m [1m(scala-compile-first)[m @ [36mkafka-client[0;1m ---[m
+[[1;34mINFO[m] Using incremental compilation using Mixed compile order
+[[1;34mINFO[m] Compiler bridge file: /var/lib/jenkins/.sbt/1.0/zinc/org.scala-sbt/org.scala-sbt-compiler-bridge_2.11-1.3.5-bin_2.11.12__55.0-1.3.5_20200330T000931.jar
+[[1;34mINFO[m] Compiling 1 Scala source to /var/lib/jenkins/workspace/Build/DockCore/Content/platform-core/kafka-client/target/classes ...
+[[1;34mINFO[m] Done compiling.
+[[1;34mINFO[m] compile in 4.3 s
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mkafka-client[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mkafka-client[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/Build/DockCore/Content/platform-core/kafka-client/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mscala-maven-plugin:4.4.0:testCompile[m [1m(scala-test-compile)[m @ [36mkafka-client[0;1m ---[m
+[[1;34mINFO[m] Using incremental compilation using Mixed compile order
+[[1;34mINFO[m] Compiler bridge file: /var/lib/jenkins/.sbt/1.0/zinc/org.scala-sbt/org.scala-sbt-compiler-bridge_2.11-1.3.5-bin_2.11.12__55.0-1.3.5_20200330T000931.jar
+[[1;34mINFO[m] Compiling 2 Scala sources to /var/lib/jenkins/workspace/Build/DockCore/Content/platform-core/kafka-client/target/test-classes ...
+[[1;34mINFO[m] Done compiling.
+[[1;34mINFO[m] compile in 8.7 s
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mkafka-client[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36mkafka-client[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mscalatest-maven-plugin:1.0:test[m [1m(test)[m @ [36mkafka-client[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36mkafka-client[0;1m ---[m
+[[1;34mINFO[m] Building jar: /var/lib/jenkins/workspace/Build/DockCore/Content/platform-core/kafka-client/target/kafka-client-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mkafka-client[0;1m ---[m
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/platform-core/kafka-client/target/kafka-client-1.0-SNAPSHOT.jar to /var/lib/jenkins/.m2/repository/org/sunbird/kafka-client/1.0-SNAPSHOT/kafka-client-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/platform-core/kafka-client/pom.xml to /var/lib/jenkins/.m2/repository/org/sunbird/kafka-client/1.0-SNAPSHOT/kafka-client-1.0-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36morg.sunbird:ontology-engine[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding ontology-engine 1.0-SNAPSHOT                            [10/35][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36montology-engine[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36montology-engine[0;1m ---[m
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/ontology-engine/pom.xml to /var/lib/jenkins/.m2/repository/org/sunbird/ontology-engine/1.0-SNAPSHOT/ontology-engine-1.0-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------------< [0;36morg.sunbird:graph-common[0;1m >----------------------[m
+[[1;34mINFO[m] [1mBuilding graph-common 1.0-SNAPSHOT                               [11/35][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mgraph-common[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.5:prepare-agent[m [1m(default-prepare-agent)[m @ [36mgraph-common[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/var/lib/jenkins/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/var/lib/jenkins/workspace/Build/DockCore/Content/ontology-engine/graph-common/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mgraph-common[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/Build/DockCore/Content/ontology-engine/graph-common/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mgraph-common[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 5 source files to /var/lib/jenkins/workspace/Build/DockCore/Content/ontology-engine/graph-common/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mgraph-common[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mgraph-common[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 1 source file to /var/lib/jenkins/workspace/Build/DockCore/Content/ontology-engine/graph-common/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36mgraph-common[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.5:report[m [1m(default-report)[m @ [36mgraph-common[0;1m ---[m
+[[1;34mINFO[m] Skipping JaCoCo execution due to missing execution data file.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36mgraph-common[0;1m ---[m
+[[1;34mINFO[m] Building jar: /var/lib/jenkins/workspace/Build/DockCore/Content/ontology-engine/graph-common/target/graph-common-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mgraph-common[0;1m ---[m
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/ontology-engine/graph-common/target/graph-common-1.0-SNAPSHOT.jar to /var/lib/jenkins/.m2/repository/org/sunbird/graph-common/1.0-SNAPSHOT/graph-common-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/ontology-engine/graph-common/pom.xml to /var/lib/jenkins/.m2/repository/org/sunbird/graph-common/1.0-SNAPSHOT/graph-common-1.0-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------------< [0;36morg.sunbird:graph-dac-api[0;1m >----------------------[m
+[[1;34mINFO[m] [1mBuilding graph-dac-api 1.0-SNAPSHOT                              [12/35][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mgraph-dac-api[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.5:prepare-agent[m [1m(default-prepare-agent)[m @ [36mgraph-dac-api[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/var/lib/jenkins/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/var/lib/jenkins/workspace/Build/DockCore/Content/ontology-engine/graph-dac-api/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mgraph-dac-api[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/Build/DockCore/Content/ontology-engine/graph-dac-api/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mgraph-dac-api[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 33 source files to /var/lib/jenkins/workspace/Build/DockCore/Content/ontology-engine/graph-dac-api/target/classes
+[[1;34mINFO[m] /var/lib/jenkins/workspace/Build/DockCore/Content/ontology-engine/graph-dac-api/src/main/java/org/sunbird/graph/service/operation/Neo4JBoltSearchOperations.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /var/lib/jenkins/workspace/Build/DockCore/Content/ontology-engine/graph-dac-api/src/main/java/org/sunbird/graph/service/operation/Neo4JBoltSearchOperations.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /var/lib/jenkins/workspace/Build/DockCore/Content/ontology-engine/graph-dac-api/src/main/java/org/sunbird/graph/service/operation/NodeAsyncOperations.java: /var/lib/jenkins/workspace/Build/DockCore/Content/ontology-engine/graph-dac-api/src/main/java/org/sunbird/graph/service/operation/NodeAsyncOperations.java uses unchecked or unsafe operations.
+[[1;34mINFO[m] /var/lib/jenkins/workspace/Build/DockCore/Content/ontology-engine/graph-dac-api/src/main/java/org/sunbird/graph/service/operation/NodeAsyncOperations.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mgraph-dac-api[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mgraph-dac-api[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 9 source files to /var/lib/jenkins/workspace/Build/DockCore/Content/ontology-engine/graph-dac-api/target/test-classes
+[[1;34mINFO[m] /var/lib/jenkins/workspace/Build/DockCore/Content/ontology-engine/graph-dac-api/src/test/java/org/sunbird/test/BaseTest.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /var/lib/jenkins/workspace/Build/DockCore/Content/ontology-engine/graph-dac-api/src/test/java/org/sunbird/test/BaseTest.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /var/lib/jenkins/workspace/Build/DockCore/Content/ontology-engine/graph-dac-api/src/test/java/org/sunbird/graph/service/util/NodeQueryGenerationUtilTest.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /var/lib/jenkins/workspace/Build/DockCore/Content/ontology-engine/graph-dac-api/src/test/java/org/sunbird/graph/service/util/NodeQueryGenerationUtilTest.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36mgraph-dac-api[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.5:report[m [1m(default-report)[m @ [36mgraph-dac-api[0;1m ---[m
+[[1;34mINFO[m] Skipping JaCoCo execution due to missing execution data file.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36mgraph-dac-api[0;1m ---[m
+[[1;34mINFO[m] Building jar: /var/lib/jenkins/workspace/Build/DockCore/Content/ontology-engine/graph-dac-api/target/graph-dac-api-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mgraph-dac-api[0;1m ---[m
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/ontology-engine/graph-dac-api/target/graph-dac-api-1.0-SNAPSHOT.jar to /var/lib/jenkins/.m2/repository/org/sunbird/graph-dac-api/1.0-SNAPSHOT/graph-dac-api-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/ontology-engine/graph-dac-api/pom.xml to /var/lib/jenkins/.m2/repository/org/sunbird/graph-dac-api/1.0-SNAPSHOT/graph-dac-api-1.0-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36morg.sunbird:graph-core_2.11[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding graph-core_2.11 1.0-SNAPSHOT                            [13/35][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mgraph-core_2.11[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mgraph-core_2.11[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/Build/DockCore/Content/ontology-engine/graph-core_2.11/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mscala-maven-plugin:4.4.0:add-source[m [1m(scala-compile-first)[m @ [36mgraph-core_2.11[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mscala-maven-plugin:4.4.0:compile[m [1m(scala-compile-first)[m @ [36mgraph-core_2.11[0;1m ---[m
+[[1;34mINFO[m] Using incremental compilation using Mixed compile order
+[[1;34mINFO[m] Compiler bridge file: /var/lib/jenkins/.sbt/1.0/zinc/org.scala-sbt/org.scala-sbt-compiler-bridge_2.11-1.3.5-bin_2.11.12__55.0-1.3.5_20200330T000931.jar
+[[1;34mINFO[m] Compiling 7 Scala sources to /var/lib/jenkins/workspace/Build/DockCore/Content/ontology-engine/graph-core_2.11/target/classes ...
+[[1;34mINFO[m] Done compiling.
+[[1;34mINFO[m] compile in 8.8 s
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mgraph-core_2.11[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mgraph-core_2.11[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mscala-maven-plugin:4.4.0:testCompile[m [1m(scala-test-compile)[m @ [36mgraph-core_2.11[0;1m ---[m
+[[1;34mINFO[m] Using incremental compilation using Mixed compile order
+[[1;34mINFO[m] Compiler bridge file: /var/lib/jenkins/.sbt/1.0/zinc/org.scala-sbt/org.scala-sbt-compiler-bridge_2.11-1.3.5-bin_2.11.12__55.0-1.3.5_20200330T000931.jar
+[[1;34mINFO[m] Compiling 2 Scala sources to /var/lib/jenkins/workspace/Build/DockCore/Content/ontology-engine/graph-core_2.11/target/test-classes ...
+[[1;34mINFO[m] Done compiling.
+[[1;34mINFO[m] compile in 9.0 s
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mgraph-core_2.11[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36mgraph-core_2.11[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mscalatest-maven-plugin:2.0.0:test[m [1m(test)[m @ [36mgraph-core_2.11[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36mgraph-core_2.11[0;1m ---[m
+[[1;34mINFO[m] Building jar: /var/lib/jenkins/workspace/Build/DockCore/Content/ontology-engine/graph-core_2.11/target/graph-core_2.11-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mgraph-core_2.11[0;1m ---[m
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/ontology-engine/graph-core_2.11/target/graph-core_2.11-1.0-SNAPSHOT.jar to /var/lib/jenkins/.m2/repository/org/sunbird/graph-core_2.11/1.0-SNAPSHOT/graph-core_2.11-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/ontology-engine/graph-core_2.11/pom.xml to /var/lib/jenkins/.m2/repository/org/sunbird/graph-core_2.11/1.0-SNAPSHOT/graph-core_2.11-1.0-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------------< [0;36morg.sunbird:parseq[0;1m >-------------------------[m
+[[1;34mINFO[m] [1mBuilding parseq 1.0-SNAPSHOT                                     [14/35][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mparseq[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mparseq[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/Build/DockCore/Content/ontology-engine/parseq/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mscala-maven-plugin:4.4.0:add-source[m [1m(scala-compile-first)[m @ [36mparseq[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mscala-maven-plugin:4.4.0:compile[m [1m(scala-compile-first)[m @ [36mparseq[0;1m ---[m
+[[1;34mINFO[m] Using incremental compilation using Mixed compile order
+[[1;34mINFO[m] Compiler bridge file: /var/lib/jenkins/.sbt/1.0/zinc/org.scala-sbt/org.scala-sbt-compiler-bridge_2.11-1.3.5-bin_2.11.12__55.0-1.3.5_20200330T000931.jar
+[[1;34mINFO[m] Compiling 1 Scala source to /var/lib/jenkins/workspace/Build/DockCore/Content/ontology-engine/parseq/target/classes ...
+[[1;34mINFO[m] Done compiling.
+[[1;34mINFO[m] compile in 4.7 s
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mparseq[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mparseq[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/Build/DockCore/Content/ontology-engine/parseq/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mscala-maven-plugin:4.4.0:testCompile[m [1m(scala-test-compile)[m @ [36mparseq[0;1m ---[m
+[[1;34mINFO[m] compile in 0.0 s
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mparseq[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36mparseq[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36mparseq[0;1m ---[m
+[[1;34mINFO[m] Building jar: /var/lib/jenkins/workspace/Build/DockCore/Content/ontology-engine/parseq/target/parseq-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mparseq[0;1m ---[m
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/ontology-engine/parseq/target/parseq-1.0-SNAPSHOT.jar to /var/lib/jenkins/.m2/repository/org/sunbird/parseq/1.0-SNAPSHOT/parseq-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/ontology-engine/parseq/pom.xml to /var/lib/jenkins/.m2/repository/org/sunbird/parseq/1.0-SNAPSHOT/parseq-1.0-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------< [0;36morg.sunbird:graph-engine_2.11[0;1m >--------------------[m
+[[1;34mINFO[m] [1mBuilding graph-engine_2.11 1.0-SNAPSHOT                          [15/35][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mgraph-engine_2.11[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mgraph-engine_2.11[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/Build/DockCore/Content/ontology-engine/graph-engine_2.11/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mscala-maven-plugin:4.4.0:add-source[m [1m(scala-compile-first)[m @ [36mgraph-engine_2.11[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mscala-maven-plugin:4.4.0:compile[m [1m(scala-compile-first)[m @ [36mgraph-engine_2.11[0;1m ---[m
+[[1;34mINFO[m] Using incremental compilation using Mixed compile order
+[[1;34mINFO[m] Compiler bridge file: /var/lib/jenkins/.sbt/1.0/zinc/org.scala-sbt/org.scala-sbt-compiler-bridge_2.11-1.3.5-bin_2.11.12__55.0-1.3.5_20200330T000931.jar
+[[1;34mINFO[m] Compiling 27 Scala sources to /var/lib/jenkins/workspace/Build/DockCore/Content/ontology-engine/graph-engine_2.11/target/classes ...
+[[1;33mWARNING[m] /var/lib/jenkins/workspace/Build/DockCore/Content/ontology-engine/graph-engine_2.11/src/main/scala/org/sunbird/graph/schema/validator/FrameworkValidator.scala:50: non-variable type argument String in type pattern java.util.List[String] is unchecked since it is eliminated by erasure
+[[1;33mWARNING[m] /var/lib/jenkins/workspace/Build/DockCore/Content/ontology-engine/graph-engine_2.11/src/main/scala/org/sunbird/graph/schema/validator/FrameworkValidator.scala:92: non-variable type argument String in type pattern java.util.List[String] is unchecked since it is eliminated by erasure
+[[1;33mWARNING[m] /var/lib/jenkins/workspace/Build/DockCore/Content/ontology-engine/graph-engine_2.11/src/main/scala/org/sunbird/graph/schema/validator/FrameworkValidator.scala:161: non-variable type argument String in type pattern java.util.List[String] is unchecked since it is eliminated by erasure
+[[1;33mWARNING[m] /var/lib/jenkins/workspace/Build/DockCore/Content/ontology-engine/graph-engine_2.11/src/main/scala/org/sunbird/graph/schema/validator/FrameworkValidator.scala:196: non-variable type argument String in type pattern java.util.List[String] is unchecked since it is eliminated by erasure
+[[1;33mWARNING[m] /var/lib/jenkins/workspace/Build/DockCore/Content/ontology-engine/graph-engine_2.11/src/main/scala/org/sunbird/graph/schema/validator/PropAsEdgeValidator.scala:31: non-variable type argument AnyRef in type java.util.List[AnyRef] is unchecked since it is eliminated by erasure
+[[1;33mWARNING[m] /var/lib/jenkins/workspace/Build/DockCore/Content/ontology-engine/graph-engine_2.11/src/main/scala/org/sunbird/graph/schema/validator/VersioningNode.scala:77: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+[[1;33mWARNING[m] /var/lib/jenkins/workspace/Build/DockCore/Content/ontology-engine/graph-engine_2.11/src/main/scala/org/sunbird/graph/utils/NodeUtil.scala:107: non-variable type argument AnyRef in type scala.collection.immutable.::[AnyRef] (the underlying of ::[AnyRef]) is unchecked since it is eliminated by erasure
+[[1;33mWARNING[m] /var/lib/jenkins/workspace/Build/DockCore/Content/ontology-engine/graph-engine_2.11/src/main/scala/org/sunbird/graph/utils/NodeUtil.scala:182: non-variable type argument String in type pattern java.util.List[String] is unchecked since it is eliminated by erasure
+[[1;33mWARNING[m] 8 warnings found
+[[1;34mINFO[m] Done compiling.
+[[1;34mINFO[m] compile in 20.6 s
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mgraph-engine_2.11[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mgraph-engine_2.11[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mscala-maven-plugin:4.4.0:testCompile[m [1m(scala-test-compile)[m @ [36mgraph-engine_2.11[0;1m ---[m
+[[1;34mINFO[m] Using incremental compilation using Mixed compile order
+[[1;34mINFO[m] Compiler bridge file: /var/lib/jenkins/.sbt/1.0/zinc/org.scala-sbt/org.scala-sbt-compiler-bridge_2.11-1.3.5-bin_2.11.12__55.0-1.3.5_20200330T000931.jar
+[[1;34mINFO[m] Compiling 7 Scala sources to /var/lib/jenkins/workspace/Build/DockCore/Content/ontology-engine/graph-engine_2.11/target/test-classes ...
+[[1;34mINFO[m] Done compiling.
+[[1;34mINFO[m] compile in 19.1 s
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mgraph-engine_2.11[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36mgraph-engine_2.11[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mscalatest-maven-plugin:2.0.0:test[m [1m(test)[m @ [36mgraph-engine_2.11[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36mgraph-engine_2.11[0;1m ---[m
+[[1;34mINFO[m] Building jar: /var/lib/jenkins/workspace/Build/DockCore/Content/ontology-engine/graph-engine_2.11/target/graph-engine_2.11-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mgraph-engine_2.11[0;1m ---[m
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/ontology-engine/graph-engine_2.11/target/graph-engine_2.11-1.0-SNAPSHOT.jar to /var/lib/jenkins/.m2/repository/org/sunbird/graph-engine_2.11/1.0-SNAPSHOT/graph-engine_2.11-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/ontology-engine/graph-engine_2.11/pom.xml to /var/lib/jenkins/.m2/repository/org/sunbird/graph-engine_2.11/1.0-SNAPSHOT/graph-engine_2.11-1.0-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36morg.sunbird:platform-modules[0;1m >--------------------[m
+[[1;34mINFO[m] [1mBuilding platform-modules 1.0-SNAPSHOT                           [16/35][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mplatform-modules[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mplatform-modules[0;1m ---[m
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/platform-modules/pom.xml to /var/lib/jenkins/.m2/repository/org/sunbird/platform-modules/1.0-SNAPSHOT/platform-modules-1.0-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------------< [0;36morg.sunbird:url-manager[0;1m >-----------------------[m
+[[1;34mINFO[m] [1mBuilding url-manager 1.0-SNAPSHOT                                [17/35][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36murl-manager[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.5:prepare-agent[m [1m(default-prepare-agent)[m @ [36murl-manager[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/var/lib/jenkins/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/var/lib/jenkins/workspace/Build/DockCore/Content/platform-modules/url-manager/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36murl-manager[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/Build/DockCore/Content/platform-modules/url-manager/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m @ [36murl-manager[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 9 source files to /var/lib/jenkins/workspace/Build/DockCore/Content/platform-modules/url-manager/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36murl-manager[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/Build/DockCore/Content/platform-modules/url-manager/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:testCompile[m [1m(default-testCompile)[m @ [36murl-manager[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 7 source files to /var/lib/jenkins/workspace/Build/DockCore/Content/platform-modules/url-manager/target/test-classes
+[[1;34mINFO[m] /var/lib/jenkins/workspace/Build/DockCore/Content/platform-modules/url-manager/src/test/java/org/sunbird/url/mgr/impl/GoogleDriveURLManagerImplTest.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /var/lib/jenkins/workspace/Build/DockCore/Content/platform-modules/url-manager/src/test/java/org/sunbird/url/mgr/impl/GoogleDriveURLManagerImplTest.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36murl-manager[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.5:report[m [1m(default-report)[m @ [36murl-manager[0;1m ---[m
+[[1;34mINFO[m] Skipping JaCoCo execution due to missing execution data file.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36murl-manager[0;1m ---[m
+[[1;34mINFO[m] Building jar: /var/lib/jenkins/workspace/Build/DockCore/Content/platform-modules/url-manager/target/url-manager-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36murl-manager[0;1m ---[m
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/platform-modules/url-manager/target/url-manager-1.0-SNAPSHOT.jar to /var/lib/jenkins/.m2/repository/org/sunbird/url-manager/1.0-SNAPSHOT/url-manager-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/platform-modules/url-manager/pom.xml to /var/lib/jenkins/.m2/repository/org/sunbird/url-manager/1.0-SNAPSHOT/url-manager-1.0-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36morg.sunbird:mimetype-manager[0;1m >--------------------[m
+[[1;34mINFO[m] [1mBuilding mimetype-manager 1.0-SNAPSHOT                           [18/35][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mmimetype-manager[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mmimetype-manager[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/Build/DockCore/Content/platform-modules/mimetype-manager/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mscala-maven-plugin:4.4.0:add-source[m [1m(scala-compile-first)[m @ [36mmimetype-manager[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mscala-maven-plugin:4.4.0:compile[m [1m(scala-compile-first)[m @ [36mmimetype-manager[0;1m ---[m
+[[1;34mINFO[m] Using incremental compilation using Mixed compile order
+[[1;34mINFO[m] Compiler bridge file: /var/lib/jenkins/.sbt/1.0/zinc/org.scala-sbt/org.scala-sbt-compiler-bridge_2.11-1.3.5-bin_2.11.12__55.0-1.3.5_20200330T000931.jar
+[[1;34mINFO[m] Compiling 30 Scala sources to /var/lib/jenkins/workspace/Build/DockCore/Content/platform-modules/mimetype-manager/target/classes ...
+[[1;33mWARNING[m] /var/lib/jenkins/workspace/Build/DockCore/Content/platform-modules/mimetype-manager/src/main/scala/org/sunbird/mimetype/ecml/processor/JsonParser.scala:50: non-variable type argument Map[String,AnyRef] in type List[Map[String,AnyRef]] (the underlying of List[Map[String,AnyRef]]) is unchecked since it is eliminated by erasure
+[[1;33mWARNING[m] /var/lib/jenkins/workspace/Build/DockCore/Content/platform-modules/mimetype-manager/src/main/scala/org/sunbird/mimetype/ecml/processor/JsonParser.scala:54: non-variable type argument String in type scala.collection.immutable.Map[String,AnyRef] (the underlying of Map[String,AnyRef]) is unchecked since it is eliminated by erasure
+[[1;33mWARNING[m] /var/lib/jenkins/workspace/Build/DockCore/Content/platform-modules/mimetype-manager/src/main/scala/org/sunbird/mimetype/ecml/processor/JsonParser.scala:62: non-variable type argument Map[String,AnyRef] in type List[Map[String,AnyRef]] (the underlying of List[Map[String,AnyRef]]) is unchecked since it is eliminated by erasure
+[[1;33mWARNING[m] /var/lib/jenkins/workspace/Build/DockCore/Content/platform-modules/mimetype-manager/src/main/scala/org/sunbird/mimetype/ecml/processor/JsonParser.scala:63: non-variable type argument String in type scala.collection.immutable.Map[String,AnyRef] (the underlying of Map[String,AnyRef]) is unchecked since it is eliminated by erasure
+[[1;33mWARNING[m] /var/lib/jenkins/workspace/Build/DockCore/Content/platform-modules/mimetype-manager/src/main/scala/org/sunbird/mimetype/ecml/processor/JsonParser.scala:70: non-variable type argument Map[String,Object] in type List[Map[String,Object]] (the underlying of List[Map[String,Object]]) is unchecked since it is eliminated by erasure
+[[1;33mWARNING[m] /var/lib/jenkins/workspace/Build/DockCore/Content/platform-modules/mimetype-manager/src/main/scala/org/sunbird/mimetype/ecml/processor/JsonParser.scala:76: non-variable type argument String in type scala.collection.immutable.Map[String,Object] (the underlying of Map[String,Object]) is unchecked since it is eliminated by erasure
+[[1;33mWARNING[m] /var/lib/jenkins/workspace/Build/DockCore/Content/platform-modules/mimetype-manager/src/main/scala/org/sunbird/mimetype/ecml/processor/JsonParser.scala:95: non-variable type argument Map[String,AnyRef] in type List[Map[String,AnyRef]] (the underlying of List[Map[String,AnyRef]]) is unchecked since it is eliminated by erasure
+[[1;33mWARNING[m] /var/lib/jenkins/workspace/Build/DockCore/Content/platform-modules/mimetype-manager/src/main/scala/org/sunbird/mimetype/ecml/processor/JsonParser.scala:98: non-variable type argument String in type scala.collection.immutable.Map[String,AnyRef] (the underlying of Map[String,AnyRef]) is unchecked since it is eliminated by erasure
+[[1;33mWARNING[m] /var/lib/jenkins/workspace/Build/DockCore/Content/platform-modules/mimetype-manager/src/main/scala/org/sunbird/mimetype/ecml/processor/JsonParser.scala:109: non-variable type argument Map[String,AnyRef] in type pattern List[Map[String,AnyRef]] (the underlying of List[Map[String,AnyRef]]) is unchecked since it is eliminated by erasure
+[[1;33mWARNING[m] /var/lib/jenkins/workspace/Build/DockCore/Content/platform-modules/mimetype-manager/src/main/scala/org/sunbird/mimetype/ecml/processor/JsonParser.scala:111: non-variable type argument String in type pattern scala.collection.immutable.Map[String,AnyRef] (the underlying of Map[String,AnyRef]) is unchecked since it is eliminated by erasure
+[[1;33mWARNING[m] /var/lib/jenkins/workspace/Build/DockCore/Content/platform-modules/mimetype-manager/src/main/scala/org/sunbird/mimetype/ecml/processor/JsonParser.scala:123: non-variable type argument Map[String,AnyRef] in type List[Map[String,AnyRef]] (the underlying of List[Map[String,AnyRef]]) is unchecked since it is eliminated by erasure
+[[1;33mWARNING[m] /var/lib/jenkins/workspace/Build/DockCore/Content/platform-modules/mimetype-manager/src/main/scala/org/sunbird/mimetype/ecml/processor/JsonParser.scala:126: non-variable type argument String in type scala.collection.immutable.Map[String,AnyRef] (the underlying of Map[String,AnyRef]) is unchecked since it is eliminated by erasure
+[[1;33mWARNING[m] : there were 8 deprecation warnings; re-run with -deprecation for details
+[[1;33mWARNING[m] 13 warnings found
+[[1;34mINFO[m] Done compiling.
+[[1;34mINFO[m] compile in 22.0 s
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mmimetype-manager[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mmimetype-manager[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 29 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mscala-maven-plugin:4.4.0:testCompile[m [1m(scala-test-compile)[m @ [36mmimetype-manager[0;1m ---[m
+[[1;34mINFO[m] Using incremental compilation using Mixed compile order
+[[1;34mINFO[m] Compiler bridge file: /var/lib/jenkins/.sbt/1.0/zinc/org.scala-sbt/org.scala-sbt-compiler-bridge_2.11-1.3.5-bin_2.11.12__55.0-1.3.5_20200330T000931.jar
+[[1;34mINFO[m] Compiling 13 Scala sources to /var/lib/jenkins/workspace/Build/DockCore/Content/platform-modules/mimetype-manager/target/test-classes ...
+[[1;34mINFO[m] Done compiling.
+[[1;34mINFO[m] compile in 29.7 s
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mmimetype-manager[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36mmimetype-manager[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mscalatest-maven-plugin:2.0.0:test[m [1m(test)[m @ [36mmimetype-manager[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36mmimetype-manager[0;1m ---[m
+[[1;34mINFO[m] Building jar: /var/lib/jenkins/workspace/Build/DockCore/Content/platform-modules/mimetype-manager/target/mimetype-manager-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mmimetype-manager[0;1m ---[m
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/platform-modules/mimetype-manager/target/mimetype-manager-1.0-SNAPSHOT.jar to /var/lib/jenkins/.m2/repository/org/sunbird/mimetype-manager/1.0-SNAPSHOT/mimetype-manager-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/platform-modules/mimetype-manager/pom.xml to /var/lib/jenkins/.m2/repository/org/sunbird/mimetype-manager/1.0-SNAPSHOT/mimetype-manager-1.0-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------------< [0;36morg.sunbird:import-manager[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding import-manager 1.0-SNAPSHOT                             [19/35][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mimport-manager[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mimport-manager[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/Build/DockCore/Content/platform-modules/import-manager/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mscala-maven-plugin:4.4.0:add-source[m [1m(scala-compile-first)[m @ [36mimport-manager[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mscala-maven-plugin:4.4.0:compile[m [1m(scala-compile-first)[m @ [36mimport-manager[0;1m ---[m
+[[1;34mINFO[m] Using incremental compilation using Mixed compile order
+[[1;34mINFO[m] Compiler bridge file: /var/lib/jenkins/.sbt/1.0/zinc/org.scala-sbt/org.scala-sbt-compiler-bridge_2.11-1.3.5-bin_2.11.12__55.0-1.3.5_20200330T000931.jar
+[[1;34mINFO[m] Compiling 3 Scala sources to /var/lib/jenkins/workspace/Build/DockCore/Content/platform-modules/import-manager/target/classes ...
+[[1;33mWARNING[m] /var/lib/jenkins/workspace/Build/DockCore/Content/platform-modules/import-manager/src/main/scala/org/sunbird/object/importer/ImportManager.scala:86: non-variable type argument java.util.Map[String,AnyRef] in type pattern java.util.List[java.util.Map[String,AnyRef]] is unchecked since it is eliminated by erasure
+[[1;33mWARNING[m] /var/lib/jenkins/workspace/Build/DockCore/Content/platform-modules/import-manager/src/main/scala/org/sunbird/object/importer/ImportManager.scala:87: non-variable type argument String in type pattern java.util.Map[String,AnyRef] is unchecked since it is eliminated by erasure
+[[1;33mWARNING[m] two warnings found
+[[1;34mINFO[m] Done compiling.
+[[1;34mINFO[m] compile in 9.2 s
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mimport-manager[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mimport-manager[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mscala-maven-plugin:4.4.0:testCompile[m [1m(scala-test-compile)[m @ [36mimport-manager[0;1m ---[m
+[[1;34mINFO[m] Using incremental compilation using Mixed compile order
+[[1;34mINFO[m] Compiler bridge file: /var/lib/jenkins/.sbt/1.0/zinc/org.scala-sbt/org.scala-sbt-compiler-bridge_2.11-1.3.5-bin_2.11.12__55.0-1.3.5_20200330T000931.jar
+[[1;34mINFO[m] Compiling 1 Scala source to /var/lib/jenkins/workspace/Build/DockCore/Content/platform-modules/import-manager/target/test-classes ...
+[[1;33mWARNING[m] /var/lib/jenkins/workspace/Build/DockCore/Content/platform-modules/import-manager/src/test/scala/org/sunbird/object/importer/ImportManagerTest.scala:65: non-variable type argument AnyRef in type java.util.List[AnyRef] is unchecked since it is eliminated by erasure
+[[1;33mWARNING[m] /var/lib/jenkins/workspace/Build/DockCore/Content/platform-modules/import-manager/src/test/scala/org/sunbird/object/importer/ImportManagerTest.scala:65: non-variable type argument AnyRef in type java.util.List[AnyRef] is unchecked since it is eliminated by erasure
+[[1;33mWARNING[m] /var/lib/jenkins/workspace/Build/DockCore/Content/platform-modules/import-manager/src/test/scala/org/sunbird/object/importer/ImportManagerTest.scala:92: non-variable type argument AnyRef in type java.util.List[AnyRef] is unchecked since it is eliminated by erasure
+[[1;33mWARNING[m] /var/lib/jenkins/workspace/Build/DockCore/Content/platform-modules/import-manager/src/test/scala/org/sunbird/object/importer/ImportManagerTest.scala:92: non-variable type argument AnyRef in type java.util.List[AnyRef] is unchecked since it is eliminated by erasure
+[[1;33mWARNING[m] four warnings found
+[[1;34mINFO[m] Done compiling.
+[[1;34mINFO[m] compile in 13.9 s
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mimport-manager[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36mimport-manager[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mscalatest-maven-plugin:2.0.0:test[m [1m(test)[m @ [36mimport-manager[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36mimport-manager[0;1m ---[m
+[[1;34mINFO[m] Building jar: /var/lib/jenkins/workspace/Build/DockCore/Content/platform-modules/import-manager/target/import-manager-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mimport-manager[0;1m ---[m
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/platform-modules/import-manager/target/import-manager-1.0-SNAPSHOT.jar to /var/lib/jenkins/.m2/repository/org/sunbird/import-manager/1.0-SNAPSHOT/import-manager-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/platform-modules/import-manager/pom.xml to /var/lib/jenkins/.m2/repository/org/sunbird/import-manager/1.0-SNAPSHOT/import-manager-1.0-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------------< [0;36morg.sunbird:content-api[0;1m >-----------------------[m
+[[1;34mINFO[m] [1mBuilding content-api 1.0-SNAPSHOT                                [20/35][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mcontent-api[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mcontent-api[0;1m ---[m
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/content-api/pom.xml to /var/lib/jenkins/.m2/repository/org/sunbird/content-api/1.0-SNAPSHOT/content-api-1.0-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------< [0;36morg.sunbird:hierarchy-manager[0;1m >--------------------[m
+[[1;34mINFO[m] [1mBuilding hierarchy-manager 1.0-SNAPSHOT                          [21/35][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mhierarchy-manager[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mhierarchy-manager[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/Build/DockCore/Content/content-api/hierarchy-manager/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mscala-maven-plugin:4.4.0:add-source[m [1m(scala-compile-first)[m @ [36mhierarchy-manager[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mscala-maven-plugin:4.4.0:compile[m [1m(scala-compile-first)[m @ [36mhierarchy-manager[0;1m ---[m
+[[1;34mINFO[m] Using incremental compilation using Mixed compile order
+[[1;34mINFO[m] Compiler bridge file: /var/lib/jenkins/.sbt/1.0/zinc/org.scala-sbt/org.scala-sbt-compiler-bridge_2.11-1.3.5-bin_2.11.12__55.0-1.3.5_20200330T000931.jar
+[[1;34mINFO[m] Compiling 6 Scala sources to /var/lib/jenkins/workspace/Build/DockCore/Content/content-api/hierarchy-manager/target/classes ...
+[[1;34mINFO[m] Done compiling.
+[[1;34mINFO[m] compile in 17.6 s
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mhierarchy-manager[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mhierarchy-manager[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mscala-maven-plugin:4.4.0:testCompile[m [1m(scala-test-compile)[m @ [36mhierarchy-manager[0;1m ---[m
+[[1;34mINFO[m] Using incremental compilation using Mixed compile order
+[[1;34mINFO[m] Compiler bridge file: /var/lib/jenkins/.sbt/1.0/zinc/org.scala-sbt/org.scala-sbt-compiler-bridge_2.11-1.3.5-bin_2.11.12__55.0-1.3.5_20200330T000931.jar
+[[1;34mINFO[m] Compiling 3 Scala sources to /var/lib/jenkins/workspace/Build/DockCore/Content/content-api/hierarchy-manager/target/test-classes ...
+[[1;33mWARNING[m] : there were two deprecation warnings; re-run with -deprecation for details
+[[1;33mWARNING[m] one warning found
+[[1;34mINFO[m] Done compiling.
+[[1;34mINFO[m] compile in 12.5 s
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mhierarchy-manager[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36mhierarchy-manager[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mscalatest-maven-plugin:2.0.0:test[m [1m(test)[m @ [36mhierarchy-manager[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36mhierarchy-manager[0;1m ---[m
+[[1;34mINFO[m] Building jar: /var/lib/jenkins/workspace/Build/DockCore/Content/content-api/hierarchy-manager/target/hierarchy-manager-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mhierarchy-manager[0;1m ---[m
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/content-api/hierarchy-manager/target/hierarchy-manager-1.0-SNAPSHOT.jar to /var/lib/jenkins/.m2/repository/org/sunbird/hierarchy-manager/1.0-SNAPSHOT/hierarchy-manager-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/content-api/hierarchy-manager/pom.xml to /var/lib/jenkins/.m2/repository/org/sunbird/hierarchy-manager/1.0-SNAPSHOT/hierarchy-manager-1.0-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------------< [0;36morg.sunbird:content-actors[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding content-actors 1.0-SNAPSHOT                             [22/35][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mcontent-actors[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mcontent-actors[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/Build/DockCore/Content/content-api/content-actors/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mscala-maven-plugin:4.4.0:add-source[m [1m(scala-compile-first)[m @ [36mcontent-actors[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mscala-maven-plugin:4.4.0:compile[m [1m(scala-compile-first)[m @ [36mcontent-actors[0;1m ---[m
+[[1;34mINFO[m] Using incremental compilation using Mixed compile order
+[[1;34mINFO[m] Compiler bridge file: /var/lib/jenkins/.sbt/1.0/zinc/org.scala-sbt/org.scala-sbt-compiler-bridge_2.11-1.3.5-bin_2.11.12__55.0-1.3.5_20200330T000931.jar
+[[1;34mINFO[m] Compiling 32 Scala sources to /var/lib/jenkins/workspace/Build/DockCore/Content/content-api/content-actors/target/classes ...
+[[1;33mWARNING[m] /var/lib/jenkins/workspace/Build/DockCore/Content/content-api/content-actors/src/main/scala/org/sunbird/content/dial/DIALManager.scala:44: non-variable type argument java.util.Map[String,AnyRef] in type pattern java.util.List[java.util.Map[String,AnyRef]] is unchecked since it is eliminated by erasure
+[[1;33mWARNING[m] /var/lib/jenkins/workspace/Build/DockCore/Content/content-api/content-actors/src/main/scala/org/sunbird/content/dial/DIALManager.scala:45: non-variable type argument String in type pattern java.util.Map[String,AnyRef] is unchecked since it is eliminated by erasure
+[[1;33mWARNING[m] /var/lib/jenkins/workspace/Build/DockCore/Content/content-api/content-actors/src/main/scala/org/sunbird/content/dial/DIALManager.scala:52: non-variable type argument String in type pattern java.util.List[String] is unchecked since it is eliminated by erasure
+[[1;33mWARNING[m] /var/lib/jenkins/workspace/Build/DockCore/Content/content-api/content-actors/src/main/scala/org/sunbird/content/util/CopyManager.scala:145: non-variable type argument String in type pattern java.util.Map[String,AnyRef] is unchecked since it is eliminated by erasure
+[[1;33mWARNING[m] /var/lib/jenkins/workspace/Build/DockCore/Content/content-api/content-actors/src/main/scala/org/sunbird/content/util/CopyManager.scala:146: non-variable type argument String in type pattern java.util.List[String] is unchecked since it is eliminated by erasure
+[[1;33mWARNING[m] /var/lib/jenkins/workspace/Build/DockCore/Content/content-api/content-actors/src/main/scala/org/sunbird/content/util/FlagManager.scala:101: non-variable type argument String in type java.util.List[String] is unchecked since it is eliminated by erasure
+[[1;33mWARNING[m] : there was one feature warning; re-run with -feature for details
+[[1;33mWARNING[m] 7 warnings found
+[[1;34mINFO[m] Done compiling.
+[[1;34mINFO[m] compile in 21.1 s
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mcontent-actors[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mcontent-actors[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mscala-maven-plugin:4.4.0:testCompile[m [1m(scala-test-compile)[m @ [36mcontent-actors[0;1m ---[m
+[[1;34mINFO[m] Using incremental compilation using Mixed compile order
+[[1;34mINFO[m] Compiler bridge file: /var/lib/jenkins/.sbt/1.0/zinc/org.scala-sbt/org.scala-sbt-compiler-bridge_2.11-1.3.5-bin_2.11.12__55.0-1.3.5_20200330T000931.jar
+[[1;34mINFO[m] Compiling 20 Scala sources to /var/lib/jenkins/workspace/Build/DockCore/Content/content-api/content-actors/target/test-classes ...
+[[1;33mWARNING[m] : there were two deprecation warnings; re-run with -deprecation for details
+[[1;33mWARNING[m] one warning found
+[[1;34mINFO[m] Done compiling.
+[[1;34mINFO[m] compile in 43.4 s
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mcontent-actors[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36mcontent-actors[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mscalatest-maven-plugin:2.0.0:test[m [1m(test)[m @ [36mcontent-actors[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36mcontent-actors[0;1m ---[m
+[[1;34mINFO[m] Building jar: /var/lib/jenkins/workspace/Build/DockCore/Content/content-api/content-actors/target/content-actors-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mcontent-actors[0;1m ---[m
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/content-api/content-actors/target/content-actors-1.0-SNAPSHOT.jar to /var/lib/jenkins/.m2/repository/org/sunbird/content-actors/1.0-SNAPSHOT/content-actors-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/content-api/content-actors/pom.xml to /var/lib/jenkins/.m2/repository/org/sunbird/content-actors/1.0-SNAPSHOT/content-actors-1.0-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------< [0;36morg.sunbird:collection-csv-actors[0;1m >------------------[m
+[[1;34mINFO[m] [1mBuilding collection-csv-actors 1.0-SNAPSHOT                      [23/35][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mcollection-csv-actors[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mcollection-csv-actors[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/Build/DockCore/Content/content-api/collection-csv-actors/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mscala-maven-plugin:4.4.0:add-source[m [1m(scala-compile-first)[m @ [36mcollection-csv-actors[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mscala-maven-plugin:4.4.0:compile[m [1m(scala-compile-first)[m @ [36mcollection-csv-actors[0;1m ---[m
+[[1;34mINFO[m] Using incremental compilation using Mixed compile order
+[[1;34mINFO[m] Compiler bridge file: /var/lib/jenkins/.sbt/1.0/zinc/org.scala-sbt/org.scala-sbt-compiler-bridge_2.11-1.3.5-bin_2.11.12__55.0-1.3.5_20200330T000931.jar
+[[1;34mINFO[m] Compiling 6 Scala sources to /var/lib/jenkins/workspace/Build/DockCore/Content/content-api/collection-csv-actors/target/classes ...
+[[1;33mWARNING[m] : there was one feature warning; re-run with -feature for details
+[[1;33mWARNING[m] one warning found
+[[1;34mINFO[m] Done compiling.
+[[1;34mINFO[m] compile in 18.3 s
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mcollection-csv-actors[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mcollection-csv-actors[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 24 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mscala-maven-plugin:4.4.0:testCompile[m [1m(scala-test-compile)[m @ [36mcollection-csv-actors[0;1m ---[m
+[[1;34mINFO[m] Using incremental compilation using Mixed compile order
+[[1;34mINFO[m] Compiler bridge file: /var/lib/jenkins/.sbt/1.0/zinc/org.scala-sbt/org.scala-sbt-compiler-bridge_2.11-1.3.5-bin_2.11.12__55.0-1.3.5_20200330T000931.jar
+[[1;34mINFO[m] Compiling 1 Scala source to /var/lib/jenkins/workspace/Build/DockCore/Content/content-api/collection-csv-actors/target/test-classes ...
+[[1;34mINFO[m] Done compiling.
+[[1;34mINFO[m] compile in 15.2 s
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mcollection-csv-actors[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36mcollection-csv-actors[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mscalatest-maven-plugin:2.0.0:test[m [1m(test)[m @ [36mcollection-csv-actors[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36mcollection-csv-actors[0;1m ---[m
+[[1;34mINFO[m] Building jar: /var/lib/jenkins/workspace/Build/DockCore/Content/content-api/collection-csv-actors/target/collection-csv-actors-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mcollection-csv-actors[0;1m ---[m
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/content-api/collection-csv-actors/target/collection-csv-actors-1.0-SNAPSHOT.jar to /var/lib/jenkins/.m2/repository/org/sunbird/collection-csv-actors/1.0-SNAPSHOT/collection-csv-actors-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/content-api/collection-csv-actors/pom.xml to /var/lib/jenkins/.m2/repository/org/sunbird/collection-csv-actors/1.0-SNAPSHOT/collection-csv-actors-1.0-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36morg.sunbird:content-service[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding content-service 1.0-SNAPSHOT                            [24/35][m
+[[1;34mINFO[m] [1m-------------------------------[ play2 ]--------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.2.0:clean[m [1m(default-clean)[m @ [36mcontent-service[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mplay2-maven-plugin:1.0.0-rc5:routes-compile[m [1m(default-routes-compile)[m @ [36mcontent-service[0;1m ---[m
+[[1;34mINFO[m] Generating injected router
+[[1;34mINFO[m] 1 router processed, 1 compiled
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mplay2-maven-plugin:1.0.0-rc5:template-compile[m [1m(default-template-compile)[m @ [36mcontent-service[0;1m ---[m
+[[1;34mINFO[m] No templates to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.0:resources[m [1m(default-resources)[m @ [36mcontent-service[0;1m ---[m
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msbt-compiler-maven-plugin:1.0.0:compile[m [1m(default-compile)[m @ [36mcontent-service[0;1m ---[m
+[[1;34mINFO[m] Compiling 28 Scala sources and 3 Java sources to /var/lib/jenkins/workspace/Build/DockCore/Content/content-api/content-service/target/classes...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.0:testResources[m [1m(default-testResources)[m @ [36mcontent-service[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/Build/DockCore/Content/content-api/content-service/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msbt-compiler-maven-plugin:1.0.0:testCompile[m [1m(default-testCompile)[m @ [36mcontent-service[0;1m ---[m
+[[1;34mINFO[m] Compiling 15 Scala sources to /var/lib/jenkins/workspace/Build/DockCore/Content/content-api/content-service/target/test-classes...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:3.0.0-M4:test[m [1m(default-test)[m @ [36mcontent-service[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.3.0:jar[m [1m(default-jar)[m @ [36mcontent-service[0;1m ---[m
+[[1;34mINFO[m] Building jar: /var/lib/jenkins/workspace/Build/DockCore/Content/content-api/content-service/target/content-service-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:3.1.0:install[m [1m(default-install)[m @ [36mcontent-service[0;1m ---[m
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/content-api/content-service/pom.xml to /var/lib/jenkins/.m2/repository/org/sunbird/content-service/1.0-SNAPSHOT/content-service-1.0-SNAPSHOT.pom
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/content-api/content-service/target/content-service-1.0-SNAPSHOT.jar to /var/lib/jenkins/.m2/repository/org/sunbird/content-service/1.0-SNAPSHOT/content-service-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------------< [0;36morg.sunbird:assessment-api[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding assessment-api 1.0-SNAPSHOT                             [25/35][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36massessment-api[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36massessment-api[0;1m ---[m
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/assessment-api/pom.xml to /var/lib/jenkins/.m2/repository/org/sunbird/assessment-api/1.0-SNAPSHOT/assessment-api-1.0-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------< [0;36morg.sunbird:qs-hierarchy-manager[0;1m >------------------[m
+[[1;34mINFO[m] [1mBuilding qs-hierarchy-manager 1.0-SNAPSHOT                       [26/35][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mqs-hierarchy-manager[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mqs-hierarchy-manager[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/Build/DockCore/Content/assessment-api/qs-hierarchy-manager/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mscala-maven-plugin:4.4.0:add-source[m [1m(scala-compile-first)[m @ [36mqs-hierarchy-manager[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mscala-maven-plugin:4.4.0:compile[m [1m(scala-compile-first)[m @ [36mqs-hierarchy-manager[0;1m ---[m
+[[1;34mINFO[m] Using incremental compilation using Mixed compile order
+[[1;34mINFO[m] Compiler bridge file: /var/lib/jenkins/.sbt/1.0/zinc/org.scala-sbt/org.scala-sbt-compiler-bridge_2.11-1.3.5-bin_2.11.12__55.0-1.3.5_20200330T000931.jar
+[[1;34mINFO[m] Compiling 6 Scala sources to /var/lib/jenkins/workspace/Build/DockCore/Content/assessment-api/qs-hierarchy-manager/target/classes ...
+[[1;34mINFO[m] Done compiling.
+[[1;34mINFO[m] compile in 26.8 s
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mqs-hierarchy-manager[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mqs-hierarchy-manager[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mscala-maven-plugin:4.4.0:testCompile[m [1m(scala-test-compile)[m @ [36mqs-hierarchy-manager[0;1m ---[m
+[[1;34mINFO[m] Using incremental compilation using Mixed compile order
+[[1;34mINFO[m] Compiler bridge file: /var/lib/jenkins/.sbt/1.0/zinc/org.scala-sbt/org.scala-sbt-compiler-bridge_2.11-1.3.5-bin_2.11.12__55.0-1.3.5_20200330T000931.jar
+[[1;34mINFO[m] Compiling 3 Scala sources to /var/lib/jenkins/workspace/Build/DockCore/Content/assessment-api/qs-hierarchy-manager/target/test-classes ...
+[[1;33mWARNING[m] : there were two deprecation warnings; re-run with -deprecation for details
+[[1;33mWARNING[m] one warning found
+[[1;34mINFO[m] Done compiling.
+[[1;34mINFO[m] compile in 15.1 s
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mqs-hierarchy-manager[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36mqs-hierarchy-manager[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mscalatest-maven-plugin:2.0.0:test[m [1m(test)[m @ [36mqs-hierarchy-manager[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36mqs-hierarchy-manager[0;1m ---[m
+[[1;34mINFO[m] Building jar: /var/lib/jenkins/workspace/Build/DockCore/Content/assessment-api/qs-hierarchy-manager/target/qs-hierarchy-manager-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mqs-hierarchy-manager[0;1m ---[m
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/assessment-api/qs-hierarchy-manager/target/qs-hierarchy-manager-1.0-SNAPSHOT.jar to /var/lib/jenkins/.m2/repository/org/sunbird/qs-hierarchy-manager/1.0-SNAPSHOT/qs-hierarchy-manager-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/assessment-api/qs-hierarchy-manager/pom.xml to /var/lib/jenkins/.m2/repository/org/sunbird/qs-hierarchy-manager/1.0-SNAPSHOT/qs-hierarchy-manager-1.0-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------< [0;36morg.sunbird:assessment-actors[0;1m >--------------------[m
+[[1;34mINFO[m] [1mBuilding assessment-actors 1.0-SNAPSHOT                          [27/35][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36massessment-actors[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36massessment-actors[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/Build/DockCore/Content/assessment-api/assessment-actors/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mscala-maven-plugin:4.4.0:add-source[m [1m(scala-compile-first)[m @ [36massessment-actors[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mscala-maven-plugin:4.4.0:compile[m [1m(scala-compile-first)[m @ [36massessment-actors[0;1m ---[m
+[[1;34mINFO[m] Using incremental compilation using Mixed compile order
+[[1;34mINFO[m] Compiler bridge file: /var/lib/jenkins/.sbt/1.0/zinc/org.scala-sbt/org.scala-sbt-compiler-bridge_2.11-1.3.5-bin_2.11.12__55.0-1.3.5_20200330T000931.jar
+[[1;34mINFO[m] Compiling 9 Scala sources to /var/lib/jenkins/workspace/Build/DockCore/Content/assessment-api/assessment-actors/target/classes ...
+[[1;33mWARNING[m] /var/lib/jenkins/workspace/Build/DockCore/Content/assessment-api/assessment-actors/src/main/scala/org/sunbird/managers/CopyManager.scala:282: non-variable type argument String in type pattern java.util.Map[String,AnyRef] is unchecked since it is eliminated by erasure
+[[1;33mWARNING[m] /var/lib/jenkins/workspace/Build/DockCore/Content/assessment-api/assessment-actors/src/main/scala/org/sunbird/managers/CopyManager.scala:283: non-variable type argument String in type pattern java.util.List[String] is unchecked since it is eliminated by erasure
+[[1;33mWARNING[m] two warnings found
+[[1;34mINFO[m] Done compiling.
+[[1;34mINFO[m] compile in 14.1 s
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36massessment-actors[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36massessment-actors[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mscala-maven-plugin:4.4.0:testCompile[m [1m(scala-test-compile)[m @ [36massessment-actors[0;1m ---[m
+[[1;34mINFO[m] Using incremental compilation using Mixed compile order
+[[1;34mINFO[m] Compiler bridge file: /var/lib/jenkins/.sbt/1.0/zinc/org.scala-sbt/org.scala-sbt-compiler-bridge_2.11-1.3.5-bin_2.11.12__55.0-1.3.5_20200330T000931.jar
+[[1;34mINFO[m] Compiling 5 Scala sources to /var/lib/jenkins/workspace/Build/DockCore/Content/assessment-api/assessment-actors/target/test-classes ...
+[[1;34mINFO[m] Done compiling.
+[[1;34mINFO[m] compile in 26.6 s
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36massessment-actors[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36massessment-actors[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mscalatest-maven-plugin:2.0.0:test[m [1m(test)[m @ [36massessment-actors[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36massessment-actors[0;1m ---[m
+[[1;34mINFO[m] Building jar: /var/lib/jenkins/workspace/Build/DockCore/Content/assessment-api/assessment-actors/target/assessment-actors-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36massessment-actors[0;1m ---[m
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/assessment-api/assessment-actors/target/assessment-actors-1.0-SNAPSHOT.jar to /var/lib/jenkins/.m2/repository/org/sunbird/assessment-actors/1.0-SNAPSHOT/assessment-actors-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/assessment-api/assessment-actors/pom.xml to /var/lib/jenkins/.m2/repository/org/sunbird/assessment-actors/1.0-SNAPSHOT/assessment-actors-1.0-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------< [0;36morg.sunbird:assessment-service[0;1m >-------------------[m
+[[1;34mINFO[m] [1mBuilding assessment-service 1.0-SNAPSHOT                         [28/35][m
+[[1;34mINFO[m] [1m-------------------------------[ play2 ]--------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.2.0:clean[m [1m(default-clean)[m @ [36massessment-service[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mplay2-maven-plugin:1.0.0-rc5:routes-compile[m [1m(default-routes-compile)[m @ [36massessment-service[0;1m ---[m
+[[1;34mINFO[m] Generating injected router
+[[1;34mINFO[m] 1 router processed, 1 compiled
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mplay2-maven-plugin:1.0.0-rc5:template-compile[m [1m(default-template-compile)[m @ [36massessment-service[0;1m ---[m
+[[1;34mINFO[m] No templates to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.0:resources[m [1m(default-resources)[m @ [36massessment-service[0;1m ---[m
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msbt-compiler-maven-plugin:1.0.0:compile[m [1m(default-compile)[m @ [36massessment-service[0;1m ---[m
+[[1;34mINFO[m] Compiling 22 Scala sources and 3 Java sources to /var/lib/jenkins/workspace/Build/DockCore/Content/assessment-api/assessment-service/target/classes...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.0:testResources[m [1m(default-testResources)[m @ [36massessment-service[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/Build/DockCore/Content/assessment-api/assessment-service/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msbt-compiler-maven-plugin:1.0.0:testCompile[m [1m(default-testCompile)[m @ [36massessment-service[0;1m ---[m
+[[1;34mINFO[m] Compiling 6 Scala sources to /var/lib/jenkins/workspace/Build/DockCore/Content/assessment-api/assessment-service/target/test-classes...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:3.0.0-M4:test[m [1m(default-test)[m @ [36massessment-service[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.3.0:jar[m [1m(default-jar)[m @ [36massessment-service[0;1m ---[m
+[[1;34mINFO[m] Building jar: /var/lib/jenkins/workspace/Build/DockCore/Content/assessment-api/assessment-service/target/assessment-service-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:3.1.0:install[m [1m(default-install)[m @ [36massessment-service[0;1m ---[m
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/assessment-api/assessment-service/pom.xml to /var/lib/jenkins/.m2/repository/org/sunbird/assessment-service/1.0-SNAPSHOT/assessment-service-1.0-SNAPSHOT.pom
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/assessment-api/assessment-service/target/assessment-service-1.0-SNAPSHOT.jar to /var/lib/jenkins/.m2/repository/org/sunbird/assessment-service/1.0-SNAPSHOT/assessment-service-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------------< [0;36morg.sunbird:taxonomy-api[0;1m >----------------------[m
+[[1;34mINFO[m] [1mBuilding taxonomy-api 1.0-SNAPSHOT                               [29/35][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mtaxonomy-api[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mtaxonomy-api[0;1m ---[m
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/taxonomy-api/pom.xml to /var/lib/jenkins/.m2/repository/org/sunbird/taxonomy-api/1.0-SNAPSHOT/taxonomy-api-1.0-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36morg.sunbird:taxonomy-actors[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding taxonomy-actors 1.0-SNAPSHOT                            [30/35][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mtaxonomy-actors[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mtaxonomy-actors[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/Build/DockCore/Content/taxonomy-api/taxonomy-actors/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mscala-maven-plugin:4.4.0:add-source[m [1m(scala-compile-first)[m @ [36mtaxonomy-actors[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mscala-maven-plugin:4.4.0:compile[m [1m(scala-compile-first)[m @ [36mtaxonomy-actors[0;1m ---[m
+[[1;34mINFO[m] Using incremental compilation using Mixed compile order
+[[1;34mINFO[m] Compiler bridge file: /var/lib/jenkins/.sbt/1.0/zinc/org.scala-sbt/org.scala-sbt-compiler-bridge_2.11-1.3.5-bin_2.11.12__55.0-1.3.5_20200330T000931.jar
+[[1;34mINFO[m] Compiling 5 Scala sources to /var/lib/jenkins/workspace/Build/DockCore/Content/taxonomy-api/taxonomy-actors/target/classes ...
+[[1;34mINFO[m] Done compiling.
+[[1;34mINFO[m] compile in 8.4 s
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mtaxonomy-actors[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mtaxonomy-actors[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mscala-maven-plugin:4.4.0:testCompile[m [1m(scala-test-compile)[m @ [36mtaxonomy-actors[0;1m ---[m
+[[1;34mINFO[m] Using incremental compilation using Mixed compile order
+[[1;34mINFO[m] Compiler bridge file: /var/lib/jenkins/.sbt/1.0/zinc/org.scala-sbt/org.scala-sbt-compiler-bridge_2.11-1.3.5-bin_2.11.12__55.0-1.3.5_20200330T000931.jar
+[[1;34mINFO[m] Compiling 3 Scala sources to /var/lib/jenkins/workspace/Build/DockCore/Content/taxonomy-api/taxonomy-actors/target/test-classes ...
+[[1;34mINFO[m] Done compiling.
+[[1;34mINFO[m] compile in 12.2 s
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mtaxonomy-actors[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36mtaxonomy-actors[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mscalatest-maven-plugin:2.0.0:test[m [1m(test)[m @ [36mtaxonomy-actors[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36mtaxonomy-actors[0;1m ---[m
+[[1;34mINFO[m] Building jar: /var/lib/jenkins/workspace/Build/DockCore/Content/taxonomy-api/taxonomy-actors/target/taxonomy-actors-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mtaxonomy-actors[0;1m ---[m
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/taxonomy-api/taxonomy-actors/target/taxonomy-actors-1.0-SNAPSHOT.jar to /var/lib/jenkins/.m2/repository/org/sunbird/taxonomy-actors/1.0-SNAPSHOT/taxonomy-actors-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/taxonomy-api/taxonomy-actors/pom.xml to /var/lib/jenkins/.m2/repository/org/sunbird/taxonomy-actors/1.0-SNAPSHOT/taxonomy-actors-1.0-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36morg.sunbird:taxonomy-service[0;1m >--------------------[m
+[[1;34mINFO[m] [1mBuilding taxonomy-service 1.0-SNAPSHOT                           [31/35][m
+[[1;34mINFO[m] [1m-------------------------------[ play2 ]--------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.2.0:clean[m [1m(default-clean)[m @ [36mtaxonomy-service[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mplay2-maven-plugin:1.0.0-rc5:routes-compile[m [1m(default-routes-compile)[m @ [36mtaxonomy-service[0;1m ---[m
+[[1;34mINFO[m] Generating injected router
+[[1;34mINFO[m] 1 router processed, 1 compiled
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mplay2-maven-plugin:1.0.0-rc5:template-compile[m [1m(default-template-compile)[m @ [36mtaxonomy-service[0;1m ---[m
+[[1;34mINFO[m] No templates to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.0:resources[m [1m(default-resources)[m @ [36mtaxonomy-service[0;1m ---[m
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msbt-compiler-maven-plugin:1.0.0:compile[m [1m(default-compile)[m @ [36mtaxonomy-service[0;1m ---[m
+[[1;34mINFO[m] Compiling 20 Scala sources and 3 Java sources to /var/lib/jenkins/workspace/Build/DockCore/Content/taxonomy-api/taxonomy-service/target/classes...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.0:testResources[m [1m(default-testResources)[m @ [36mtaxonomy-service[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/Build/DockCore/Content/taxonomy-api/taxonomy-service/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msbt-compiler-maven-plugin:1.0.0:testCompile[m [1m(default-testCompile)[m @ [36mtaxonomy-service[0;1m ---[m
+[[1;34mINFO[m] Compiling 6 Scala sources to /var/lib/jenkins/workspace/Build/DockCore/Content/taxonomy-api/taxonomy-service/target/test-classes...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:3.0.0-M4:test[m [1m(default-test)[m @ [36mtaxonomy-service[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.3.0:jar[m [1m(default-jar)[m @ [36mtaxonomy-service[0;1m ---[m
+[[1;34mINFO[m] Building jar: /var/lib/jenkins/workspace/Build/DockCore/Content/taxonomy-api/taxonomy-service/target/taxonomy-service-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:3.1.0:install[m [1m(default-install)[m @ [36mtaxonomy-service[0;1m ---[m
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/taxonomy-api/taxonomy-service/pom.xml to /var/lib/jenkins/.m2/repository/org/sunbird/taxonomy-service/1.0-SNAPSHOT/taxonomy-service-1.0-SNAPSHOT.pom
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/taxonomy-api/taxonomy-service/target/taxonomy-service-1.0-SNAPSHOT.jar to /var/lib/jenkins/.m2/repository/org/sunbird/taxonomy-service/1.0-SNAPSHOT/taxonomy-service-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------------< [0;36morg.sunbird:search-api[0;1m >-----------------------[m
+[[1;34mINFO[m] [1mBuilding search-api 1.0-SNAPSHOT                                 [32/35][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36msearch-api[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36msearch-api[0;1m ---[m
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/search-api/pom.xml to /var/lib/jenkins/.m2/repository/org/sunbird/search-api/1.0-SNAPSHOT/search-api-1.0-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------------< [0;36morg.sunbird:search-core[0;1m >-----------------------[m
+[[1;34mINFO[m] [1mBuilding search-core 1.0-SNAPSHOT                                [33/35][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;33mWARNING[m] The artifact javax.xml:jaxb-api:jar:2.1 has been relocated to javax.xml.bind:jaxb-api:jar:2.1
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36msearch-core[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.5:prepare-agent[m [1m(default-prepare-agent)[m @ [36msearch-core[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/var/lib/jenkins/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/var/lib/jenkins/workspace/Build/DockCore/Content/search-api/search-core/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36msearch-core[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/Build/DockCore/Content/search-api/search-core/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36msearch-core[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 7 source files to /var/lib/jenkins/workspace/Build/DockCore/Content/search-api/search-core/target/classes
+[[1;34mINFO[m] /var/lib/jenkins/workspace/Build/DockCore/Content/search-api/search-core/src/main/java/org/sunbird/search/client/ElasticSearchUtil.java: /var/lib/jenkins/workspace/Build/DockCore/Content/search-api/search-core/src/main/java/org/sunbird/search/client/ElasticSearchUtil.java uses or overrides a deprecated API.
+[[1;34mINFO[m] /var/lib/jenkins/workspace/Build/DockCore/Content/search-api/search-core/src/main/java/org/sunbird/search/client/ElasticSearchUtil.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /var/lib/jenkins/workspace/Build/DockCore/Content/search-api/search-core/src/main/java/org/sunbird/search/processor/SearchProcessor.java: /var/lib/jenkins/workspace/Build/DockCore/Content/search-api/search-core/src/main/java/org/sunbird/search/processor/SearchProcessor.java uses unchecked or unsafe operations.
+[[1;34mINFO[m] /var/lib/jenkins/workspace/Build/DockCore/Content/search-api/search-core/src/main/java/org/sunbird/search/processor/SearchProcessor.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36msearch-core[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36msearch-core[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 4 source files to /var/lib/jenkins/workspace/Build/DockCore/Content/search-api/search-core/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36msearch-core[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.5:report[m [1m(default-report)[m @ [36msearch-core[0;1m ---[m
+[[1;34mINFO[m] Skipping JaCoCo execution due to missing execution data file.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36msearch-core[0;1m ---[m
+[[1;34mINFO[m] Building jar: /var/lib/jenkins/workspace/Build/DockCore/Content/search-api/search-core/target/search-core-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36msearch-core[0;1m ---[m
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/search-api/search-core/target/search-core-1.0-SNAPSHOT.jar to /var/lib/jenkins/.m2/repository/org/sunbird/search-core/1.0-SNAPSHOT/search-core-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/search-api/search-core/pom.xml to /var/lib/jenkins/.m2/repository/org/sunbird/search-core/1.0-SNAPSHOT/search-core-1.0-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------------< [0;36morg.sunbird:search-actors[0;1m >----------------------[m
+[[1;34mINFO[m] [1mBuilding search-actors 1.0-SNAPSHOT                              [34/35][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36msearch-actors[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.5:prepare-agent[m [1m(default-prepare-agent)[m @ [36msearch-actors[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/var/lib/jenkins/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/var/lib/jenkins/workspace/Build/DockCore/Content/search-api/search-actors/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36msearch-actors[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/Build/DockCore/Content/search-api/search-actors/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36msearch-actors[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 3 source files to /var/lib/jenkins/workspace/Build/DockCore/Content/search-api/search-actors/target/classes
+[[1;34mINFO[m] /var/lib/jenkins/workspace/Build/DockCore/Content/search-api/search-actors/src/main/java/org/sunbird/actors/SearchActor.java: /var/lib/jenkins/workspace/Build/DockCore/Content/search-api/search-actors/src/main/java/org/sunbird/actors/SearchActor.java uses or overrides a deprecated API.
+[[1;34mINFO[m] /var/lib/jenkins/workspace/Build/DockCore/Content/search-api/search-actors/src/main/java/org/sunbird/actors/SearchActor.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /var/lib/jenkins/workspace/Build/DockCore/Content/search-api/search-actors/src/main/java/org/sunbird/actors/SearchActor.java: /var/lib/jenkins/workspace/Build/DockCore/Content/search-api/search-actors/src/main/java/org/sunbird/actors/SearchActor.java uses unchecked or unsafe operations.
+[[1;34mINFO[m] /var/lib/jenkins/workspace/Build/DockCore/Content/search-api/search-actors/src/main/java/org/sunbird/actors/SearchActor.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36msearch-actors[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36msearch-actors[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 3 source files to /var/lib/jenkins/workspace/Build/DockCore/Content/search-api/search-actors/target/test-classes
+[[1;34mINFO[m] /var/lib/jenkins/workspace/Build/DockCore/Content/search-api/search-actors/src/test/java/org/sunbird/actors/SearchActorTest.java: /var/lib/jenkins/workspace/Build/DockCore/Content/search-api/search-actors/src/test/java/org/sunbird/actors/SearchActorTest.java uses unchecked or unsafe operations.
+[[1;34mINFO[m] /var/lib/jenkins/workspace/Build/DockCore/Content/search-api/search-actors/src/test/java/org/sunbird/actors/SearchActorTest.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:3.0.0-M4:test[m [1m(default-test)[m @ [36msearch-actors[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.5:report[m [1m(default-report)[m @ [36msearch-actors[0;1m ---[m
+[[1;34mINFO[m] Skipping JaCoCo execution due to missing execution data file.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36msearch-actors[0;1m ---[m
+[[1;34mINFO[m] Building jar: /var/lib/jenkins/workspace/Build/DockCore/Content/search-api/search-actors/target/search-actors-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36msearch-actors[0;1m ---[m
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/search-api/search-actors/target/search-actors-1.0-SNAPSHOT.jar to /var/lib/jenkins/.m2/repository/org/sunbird/search-actors/1.0-SNAPSHOT/search-actors-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/search-api/search-actors/pom.xml to /var/lib/jenkins/.m2/repository/org/sunbird/search-actors/1.0-SNAPSHOT/search-actors-1.0-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------------< [0;36morg.sunbird:search-service[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding search-service 1.0-SNAPSHOT                             [35/35][m
+[[1;34mINFO[m] [1m-------------------------------[ play2 ]--------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.2.0:clean[m [1m(default-clean)[m @ [36msearch-service[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.5:prepare-agent[m [1m(default-prepare-agent)[m @ [36msearch-service[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/var/lib/jenkins/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/var/lib/jenkins/workspace/Build/DockCore/Content/search-api/search-service/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mplay2-maven-plugin:1.0.0-rc5:routes-compile[m [1m(default-routes-compile)[m @ [36msearch-service[0;1m ---[m
+[[1;34mINFO[m] Generating injected router
+[[1;34mINFO[m] 1 router processed, 1 compiled
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mplay2-maven-plugin:1.0.0-rc5:template-compile[m [1m(default-template-compile)[m @ [36msearch-service[0;1m ---[m
+[[1;34mINFO[m] No templates to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.0:resources[m [1m(default-resources)[m @ [36msearch-service[0;1m ---[m
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msbt-compiler-maven-plugin:1.0.0:compile[m [1m(default-compile)[m @ [36msearch-service[0;1m ---[m
+[[1;34mINFO[m] Compiling 13 Scala sources and 3 Java sources to /var/lib/jenkins/workspace/Build/DockCore/Content/search-api/search-service/target/classes...
+[[1;33mWARNING[m] Note: /var/lib/jenkins/workspace/Build/DockCore/Content/search-api/search-service/app/managers/SearchManager.java uses unchecked or unsafe operations.
+[[1;33mWARNING[m] Note: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.0:testResources[m [1m(default-testResources)[m @ [36msearch-service[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/Build/DockCore/Content/search-api/search-service/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msbt-compiler-maven-plugin:1.0.0:testCompile[m [1m(default-testCompile)[m @ [36msearch-service[0;1m ---[m
+[[1;34mINFO[m] Compiling 4 Scala sources to /var/lib/jenkins/workspace/Build/DockCore/Content/search-api/search-service/target/test-classes...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:3.0.0-M4:test[m [1m(default-test)[m @ [36msearch-service[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.5:report[m [1m(default-report)[m @ [36msearch-service[0;1m ---[m
+[[1;34mINFO[m] Skipping JaCoCo execution due to missing execution data file.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.3.0:jar[m [1m(default-jar)[m @ [36msearch-service[0;1m ---[m
+[[1;34mINFO[m] Building jar: /var/lib/jenkins/workspace/Build/DockCore/Content/search-api/search-service/target/search-service-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:3.1.0:install[m [1m(default-install)[m @ [36msearch-service[0;1m ---[m
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/search-api/search-service/pom.xml to /var/lib/jenkins/.m2/repository/org/sunbird/search-service/1.0-SNAPSHOT/search-service-1.0-SNAPSHOT.pom
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/Build/DockCore/Content/search-api/search-service/target/search-service-1.0-SNAPSHOT.jar to /var/lib/jenkins/.m2/repository/org/sunbird/search-service/1.0-SNAPSHOT/search-service-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Summary for Sunbird Knowledge Platform 1.0-SNAPSHOT:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Sunbird Knowledge Platform ......................... [1;32mSUCCESS[m [  0.171 s]
+[[1;34mINFO[m] platform-core ...................................... [1;32mSUCCESS[m [  0.011 s]
+[[1;34mINFO[m] platform-common .................................... [1;32mSUCCESS[m [  4.145 s]
+[[1;34mINFO[m] Platform Telemetry ................................. [1;32mSUCCESS[m [  1.013 s]
+[[1;34mINFO[m] actor-core ......................................... [1;32mSUCCESS[m [  0.663 s]
+[[1;34mINFO[m] schema-validator ................................... [1;32mSUCCESS[m [  1.054 s]
+[[1;34mINFO[m] platform-cache ..................................... [1;32mSUCCESS[m [ 19.459 s]
+[[1;34mINFO[m] cassandra-connector ................................ [1;32mSUCCESS[m [  1.031 s]
+[[1;34mINFO[m] kafka-client ....................................... [1;32mSUCCESS[m [ 13.251 s]
+[[1;34mINFO[m] ontology-engine .................................... [1;32mSUCCESS[m [  0.007 s]
+[[1;34mINFO[m] graph-common ....................................... [1;32mSUCCESS[m [  0.326 s]
+[[1;34mINFO[m] graph-dac-api ...................................... [1;32mSUCCESS[m [  3.238 s]
+[[1;34mINFO[m] graph-core_2.11 .................................... [1;32mSUCCESS[m [ 18.026 s]
+[[1;34mINFO[m] parseq ............................................. [1;32mSUCCESS[m [  4.691 s]
+[[1;34mINFO[m] graph-engine_2.11 .................................. [1;32mSUCCESS[m [ 40.011 s]
+[[1;34mINFO[m] platform-modules ................................... [1;32mSUCCESS[m [  0.008 s]
+[[1;34mINFO[m] url-manager ........................................ [1;32mSUCCESS[m [  0.464 s]
+[[1;34mINFO[m] mimetype-manager ................................... [1;32mSUCCESS[m [ 52.199 s]
+[[1;34mINFO[m] import-manager ..................................... [1;32mSUCCESS[m [ 23.142 s]
+[[1;34mINFO[m] content-api ........................................ [1;32mSUCCESS[m [  0.007 s]
+[[1;34mINFO[m] hierarchy-manager .................................. [1;32mSUCCESS[m [ 30.352 s]
+[[1;34mINFO[m] content-actors ..................................... [1;32mSUCCESS[m [01:04 min]
+[[1;34mINFO[m] collection-csv-actors .............................. [1;32mSUCCESS[m [ 33.794 s]
+[[1;34mINFO[m] content-service .................................... [1;32mSUCCESS[m [ 52.180 s]
+[[1;34mINFO[m] assessment-api ..................................... [1;32mSUCCESS[m [  0.006 s]
+[[1;34mINFO[m] qs-hierarchy-manager ............................... [1;32mSUCCESS[m [ 42.316 s]
+[[1;34mINFO[m] assessment-actors .................................. [1;32mSUCCESS[m [ 40.996 s]
+[[1;34mINFO[m] assessment-service ................................. [1;32mSUCCESS[m [ 19.113 s]
+[[1;34mINFO[m] taxonomy-api ....................................... [1;32mSUCCESS[m [  0.010 s]
+[[1;34mINFO[m] taxonomy-actors .................................... [1;32mSUCCESS[m [ 20.596 s]
+[[1;34mINFO[m] taxonomy-service ................................... [1;32mSUCCESS[m [  3.800 s]
+[[1;34mINFO[m] search-api ......................................... [1;32mSUCCESS[m [  0.006 s]
+[[1;34mINFO[m] search-core ........................................ [1;32mSUCCESS[m [  0.746 s]
+[[1;34mINFO[m] search-actors ...................................... [1;32mSUCCESS[m [  0.537 s]
+[[1;34mINFO[m] search-service ..................................... [1;32mSUCCESS[m [  2.627 s]
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  08:15 min
+[[1;34mINFO[m] Finished at: 2023-03-24T04:23:39+05:30
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[8mha:////4OPWDixmTwRaAEkn3hZS525+bk3OQRP4vFduSr9+s166AAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFkKHf7T23fSZy7ir4AAAA=[0m[Pipeline] }
+[8mha:////4BbIzBNA7Mrj8rrW5zviCcEXv/WUFPQVVjGotz/vTtuzAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEA1CqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw+WR0/FvgAAAA==[0m[Pipeline] // stage
+[8mha:////4KUZ7NMqXyp2izy8rGTHirQjROy3Mmx6/CERI9FlTqA3AAAApx+LCAAAAAAAAP9tjUEKwjAQRSeVLty69BApCIIgrtyGbDxBbGJMG2ZqMrVdeSKv5h2sFlz5V/99+LznC8qc4EDJy8ZhGzDXQXax91OTA6X2EmmQDZ1lTZgpOqndoMm644ya2MEcUcBCwdJhHSkH9Awr1Zi7qaJBX504TdteQRHsDR4g1GRmk/gLY4L1tbeZ8Of5K4CxYxA7hmKz/RzLN1/9FTrBAAAA[0m[Pipeline] stage
+[8mha:////4FJkVxjXCyksG06TQVmxy9fZ/w74e+QuPn9Hm5Bj6MQEAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQoIFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfACW9ZT2wgAAAA==[0m[Pipeline] { (Package)
+[8mha:////4Ln7n5+MqC8+2XFsq+UFNUhjQpuC0/NnnRLZZyIgXTgmAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYoABMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAyQCqkwgAAAA==[0m[Pipeline] dir
+Running in /var/lib/jenkins/workspace/Build/DockCore/Content/content-api
+[8mha:////4NTKqhw23d9WR87bHTunBh0LguI1IkBe2P+Ap+XO7w40AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgEJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAnLfKUwgAAAA==[0m[Pipeline] {
+[8mha:////4NmLDYZ1R4kl0Ql3EWi2xQM2Ux5cpO157gfBXIDtkYRtAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUYEQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNwcnzs++AAAA[0m[Pipeline] sh
++ mvn play2:dist -pl content-service
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36morg.sunbird:content-service[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding content-service 1.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m-------------------------------[ play2 ]--------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mplay2-maven-plugin:1.0.0-rc5:dist[m [1m(default-cli)[m @ [36mcontent-service[0;1m ---[m
+[[1;34mINFO[m] Building zip: /var/lib/jenkins/workspace/Build/DockCore/Content/content-api/content-service/target/content-service-1.0-SNAPSHOT-dist.zip
+[[1;34mINFO[m] 
+Your application is ready in /var/lib/jenkins/workspace/Build/DockCore/Content/content-api/content-service/target/content-service-1.0-SNAPSHOT-dist.zip
+
+
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  2.653 s
+[[1;34mINFO[m] Finished at: 2023-03-24T04:23:43+05:30
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[8mha:////4Ou1GxUd2l4AjOZ2jrCwS3IJ6xWEUjOqy0N7nzRWyhwfAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoEFCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw9hbYOkvgAAAA==[0m[Pipeline] }
+[8mha:////4JrnZoXpnu5FYGpohCR8uMlvD2rgQ7spr2UVySTdHP2LAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioKBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw9Vo2D/vgAAAA==[0m[Pipeline] // dir
+[8mha:////4Fwid1YiWZx+PygCr4GgXJa9WzoammXP52Z7B0GK5awdAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBYkGUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2Ccr6kGtf+w+m78d9vgAAAA==[0m[Pipeline] sh
++ chmod 777 build/build.sh
+[8mha:////4IZCj8UQOCBZLPJc2bLD8G1Urv6sVDggqQYazoZ35YG6AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRiESDqNJaaXiBiQ/jxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgRI80WIqdFd6NJi8xcRiujifR80V0TJEdihanljU2C7acEJYUJawkbJA6x9GSSbCVvXqoyiky1TmF/B0llFbf4QmFzOakQvrCHGB3G3Vk+nn+CmD2Ccr9IVdd+w/n3txkvgAAAA==[0m[Pipeline] sh
++ build/build.sh release-5.1.0_760d7baf_1 content-service built-in bom.ocir.io/bmzbbujw9kal/diksha-odev
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 955B done
+#1 DONE 0.0s
+
+#2 [internal] load .dockerignore
+#2 transferring context: 2B done
+#2 DONE 0.1s
+
+#3 [internal] load metadata for docker.io/sunbird/openjdk-java11-alpine:latest
+#3 DONE 1.0s
+
+#4 [1/8] FROM docker.io/sunbird/openjdk-java11-alpine:latest@sha256:06bd043961359adbe17501064281d010cd1c4b4a2b09d1dd496a4a0a7217f86b
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 132.93MB 0.6s done
+#5 DONE 0.6s
+
+#6 [2/8] RUN apk update     && apk add  unzip     && apk add curl     && adduser -u 1001 -h /home/sunbird/ -D sunbird     && mkdir -p /home/sunbird
+#6 CACHED
+
+#7 [3/8] RUN chown -R sunbird:sunbird /home/sunbird
+#7 CACHED
+
+#8 [4/8] COPY ./content-api/content-service/target/content-service-1.0-SNAPSHOT-dist.zip /home/sunbird/
+#8 DONE 1.2s
+
+#9 [5/8] RUN unzip /home/sunbird/content-service-1.0-SNAPSHOT-dist.zip -d /home/sunbird/
+#9 0.268 Archive:  /home/sunbird/content-service-1.0-SNAPSHOT-dist.zip
+#9 0.268    creating: /home/sunbird/content-service-1.0-SNAPSHOT/
+#9 0.268    creating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/
+#9 0.268   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/content-service-1.0-SNAPSHOT.jar  
+#9 0.277   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/commons-codec.commons-codec-1.9.jar  
+#9 0.280   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.typesafe.play.play-exceptions-2.7.2.jar  
+#9 0.280   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.typesafe.play.play-netty-server_2.11-2.7.2.jar  
+#9 0.282   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.api.sts-2.2.0.jar  
+#9 0.286   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.api.s3-2.2.0.jar  
+#9 0.286   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.provider.rackspace-cloudloadbalancers-us-2.2.0.jar  
+#9 0.286   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.google.inject.extensions.guice-assistedinject-3.0.jar  
+#9 0.286   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.driver.jclouds-bouncycastle-2.2.0.jar  
+#9 0.286   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.neo4j.neo4j-graphdb-api-3.5.0.jar  
+#9 0.289   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.hadoop.hadoop-azure-2.7.3.jar  
+#9 0.289   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.provider.rackspace-cloudblockstorage-us-2.2.0.jar  
+#9 0.289   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.provider.rackspace-clouddatabases-uk-2.2.0.jar  
+#9 0.289   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.codehaus.jackson.jackson-jaxrs-1.8.3.jar  
+#9 0.291   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.scala-lang.modules.scala-xml_2.11-1.2.0.jar  
+#9 0.297   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.httpcomponents.httpasyncclient-4.1.1.jar  
+#9 0.300   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.glassfish.jakarta.json-1.1.5-module.jar  
+#9 0.301   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.microsoft.azure.azure-storage-5.0.0.jar  
+#9 0.307   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.api.filesystem-2.2.0.jar  
+#9 0.309   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.api.openstack-nova-ec2-2.2.0.jar  
+#9 0.309   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.fasterxml.jackson.datatype.jackson-datatype-jdk8-2.9.8.jar  
+#9 0.310   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.sunbird.platform-cache-1.0-SNAPSHOT.jar  
+#9 0.310   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/net.java.dev.jna.jna-platform-4.1.0.jar  
+#9 0.322   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.typelevel.cats-kernel_2.11-0.9.0.jar  
+#9 0.366   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.jcraft.jsch.agentproxy.sshagent-0.0.9.jar  
+#9 0.366   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.api.openstack-nova-2.2.0.jar  
+#9 0.369   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.typesafe.play.play-guice_2.11-2.7.2.jar  
+#9 0.370   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/io.netty.netty-transport-native-epoll-4.1.34.Final-linux-x86_64.jar  
+#9 0.371   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/aopalliance.aopalliance-1.0.jar  
+#9 0.371   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.provider.openhosting-east1-2.2.0.jar  
+#9 0.372   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/commons-validator.commons-validator-1.6.jar  
+#9 0.373   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.sunbird.import-manager-1.0-SNAPSHOT.jar  
+#9 0.373   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.thoughtworks.paranamer.paranamer-2.8.jar  
+#9 0.374   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/net.i2p.crypto.eddsa-0.1.0.jar  
+#9 0.374   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.slf4j.slf4j-api-1.7.26.jar  
+#9 0.375   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.ow2.asm.asm-commons-5.0.3.jar  
+#9 0.375   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.javassist.javassist-3.21.0-GA.jar  
+#9 0.381   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.jclouds-compute-2.2.0.jar  
+#9 0.385   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.commons.commons-collections4-4.2.jar  
+#9 0.390   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.typesafe.ssl-config-core_2.11-0.3.7.jar  
+#9 0.393   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.github.jnr.jnr-posix-3.0.44.jar  
+#9 0.395   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.jclouds-all-2.2.0.jar  
+#9 0.395   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.provider.packet-2.2.0.jar  
+#9 0.396   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/ch.qos.logback.logback-core-1.2.3.jar  
+#9 0.400   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.tika.tika-core-1.22.jar  
+#9 0.405   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.api.rackspace-clouddns-2.2.0.jar  
+#9 0.406   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.provider.b2-2.2.0.jar  
+#9 0.406   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.jcraft.jsch.agentproxy.pageant-0.0.9.jar  
+#9 0.407   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.provider.azureblob-2.2.0.jar  
+#9 0.408   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.mortbay.jetty.jetty-util-6.1.26.jar  
+#9 0.409   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.api.ec2-2.2.0.jar  
+#9 0.412   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.jcraft.jsch.agentproxy.connector-factory-0.0.9.jar  
+#9 0.412   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.ow2.asm.asm-analysis-5.0.3.jar  
+#9 0.412   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.directory.api.api-asn1-api-1.0.0-M20.jar  
+#9 0.413   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.neo4j.neo4j-resource-3.5.0.jar  
+#9 0.413   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.hadoop.hadoop-common-2.7.3.jar  
+#9 0.439   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.api.openstack-cinder-2.2.0.jar  
+#9 0.440   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/io.netty.netty-transport-native-unix-common-4.1.34.Final.jar  
+#9 0.440   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.jcraft.jzlib-1.1.3.jar  
+#9 0.441   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.joda.joda-convert-2.2.1.jar  
+#9 0.442   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.typesafe.play.play-streams_2.11-2.7.2.jar  
+#9 0.443   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/commons-beanutils.commons-beanutils-1.9.2.jar  
+#9 0.445   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.provider.elastichosts-sat-p-2.2.0.jar  
+#9 0.445   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/javax.activation.javax.activation-api-1.2.0.jar  
+#9 0.446   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.sunbird.graph-common-1.0-SNAPSHOT.jar  
+#9 0.446   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.hadoop.hadoop-auth-2.7.3.jar  
+#9 0.447   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.typesafe.akka.akka-protobuf_2.11-2.5.22.jar  
+#9 0.451   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.leadpony.justify.justify-1.1.0.jar  
+#9 0.455   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.scala-lang.modules.scala-java8-compat_2.11-0.9.0.jar  
+#9 0.464   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.commons.commons-math3-3.1.1.jar  
+#9 0.476   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/commons-configuration.commons-configuration-1.6.jar  
+#9 0.478   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.directory.server.apacheds-i18n-2.0.0-M15.jar  
+#9 0.479   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.google.oauth-client.google-oauth-client-1.24.1.jar  
+#9 0.479   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.sunbird.actor-core-1.0-SNAPSHOT.jar  
+#9 0.479   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.typesafe.netty.netty-reactive-streams-http-2.0.3.jar  
+#9 0.480   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.curator.curator-client-2.7.1.jar  
+#9 0.481   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.typesafe.akka.akka-actor_2.11-2.5.22.jar  
+#9 0.511   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/ch.qos.logback.logback-classic-1.2.3.jar  
+#9 0.513   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.sunbird.hierarchy-manager-1.0-SNAPSHOT.jar  
+#9 0.515   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.google.errorprone.error_prone_annotations-2.1.0.jar  
+#9 0.516   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.provider.aws-sqs-2.2.0.jar  
+#9 0.516   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.googlecode.javaewah.JavaEWAH-1.1.4.jar  
+#9 0.517   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.eclipse.collections.eclipse-collections-api-9.2.0.jar  
+#9 0.526   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.api.sqs-2.2.0.jar  
+#9 0.527   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.scala-lang.modules.scala-parser-combinators_2.11-1.1.1.jar  
+#9 0.530   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/commons-beanutils.commons-beanutils-core-1.8.0.jar  
+#9 0.532   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.sunbird.graph-dac-api-1.0-SNAPSHOT.jar  
+#9 0.533   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.jcraft.jsch-0.1.42.jar  
+#9 0.534   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.sunbird.collection-csv-actors-1.0-SNAPSHOT.jar  
+#9 0.536   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/stax.stax-api-1.0.1.jar  
+#9 0.537   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.typesafe.play.play-server_2.11-2.7.2.jar  
+#9 0.539   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.slf4j.jcl-over-slf4j-1.7.26.jar  
+#9 0.539   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.jclouds-loadbalancer-2.2.0.jar  
+#9 0.540   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.api.chef-2.2.0.jar  
+#9 0.541   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.typelevel.macro-compat_2.11-1.1.1.jar  
+#9 0.542   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.codehaus.jackson.jackson-xc-1.8.3.jar  
+#9 0.542   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.commons.commons-compress-1.4.1.jar  
+#9 0.544   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.twitter.util-function_2.11-6.43.0.jar  
+#9 0.544   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.jclouds-allblobstore-2.2.0.jar  
+#9 0.544   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.poi.poi-ooxml-schemas-3.15.jar  
+#9 0.586   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.htrace.htrace-core-3.1.0-incubating.jar  
+#9 0.596   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.tukaani.xz-1.0.jar  
+#9 0.597   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.mashape.unirest.unirest-java-1.4.9.jar  
+#9 0.598   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.typesafe.play.play-logback_2.11-2.7.2.jar  
+#9 0.598   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.jclouds-core-2.2.0.jar  
+#9 0.605   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.api.openstack-swift-2.2.0.jar  
+#9 0.606   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/net.java.dev.jets3t.jets3t-0.9.0.jar  
+#9 0.610   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/log4j.log4j-1.2.17.jar  
+#9 0.614   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.curator.curator-framework-2.7.1.jar  
+#9 0.615   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.jclouds-blobstore-2.2.0.jar  
+#9 0.616   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.api.openstack-neutron-2.2.0.jar  
+#9 0.619   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.sun.xml.bind.jaxb-impl-2.2.3-1.jar  
+#9 0.625   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.hierynomus.sshj-0.20.0.jar  
+#9 0.629   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.google.apis.google-api-services-youtube-v3-rev182-1.22.0.jar  
+#9 0.631   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.api.oauth-2.2.0.jar  
+#9 0.632   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.json.json-20160212.jar  
+#9 0.632   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.fasterxml.jackson.core.jackson-core-2.9.8.jar  
+#9 0.635   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.eclipse.collections.eclipse-collections-9.2.0.jar  
+#9 0.708   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/io.netty.netty-common-4.1.34.Final.jar  
+#9 0.712   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.provider.rackspace-cloudservers-uk-2.2.0.jar  
+#9 0.712   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.fasterxml.jackson.core.jackson-annotations-2.9.8.jar  
+#9 0.713   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.provider.azurecompute-arm-2.2.0.jar  
+#9 0.720   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.google.apis.google-api-services-drive-v3-rev136-1.25.0.jar  
+#9 0.721   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.avro.avro-1.7.4.jar  
+#9 0.724   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/start  
+#9 0.724   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/start.bat  
+#9 0.724   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.twitter.algebird-core_2.11-0.13.0.jar  
+#9 0.751   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.commons.commons-lang3-3.9.jar  
+#9 0.755   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.bouncycastle.bcprov-ext-jdk15on-1.51.jar  
+#9 0.775   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.httpcomponents.httpcore-4.4.4.jar  
+#9 0.778   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.datastax.cassandra.cassandra-driver-mapping-3.7.0.jar  
+#9 0.779   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.driver.jclouds-sshj-2.2.0.jar  
+#9 0.779   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/io.netty.netty-transport-4.1.34.Final.jar  
+#9 0.783   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.sunbird.graph-engine_2.11-1.0-SNAPSHOT.jar  
+#9 0.786   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.slf4j.jul-to-slf4j-1.7.26.jar  
+#9 0.786   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.kafka.kafka-clients-1.0.0.jar  
+#9 0.797   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/javax.inject.javax.inject-1.jar  
+#9 0.798   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.api.atmos-2.2.0.jar  
+#9 0.799   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.provider.rackspace-cloudloadbalancers-uk-2.2.0.jar  
+#9 0.799   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.commons.commons-pool2-2.0.jar  
+#9 0.800   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/javax.transaction.jta-1.1.jar  
+#9 0.800   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.google.guava.guava-18.0.jar  
+#9 0.816   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.google.http-client.google-http-client-jackson2-1.24.1.jar  
+#9 0.816   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.poi.poi-ooxml-3.15.jar  
+#9 0.827   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/net.iharder.base64-2.3.8.jar  
+#9 0.827   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.sunbird.cloud-store-sdk-1.4.3.jar  
+#9 0.828   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.bouncycastle.bcpkix-jdk15on-1.51.jar  
+#9 0.832   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.neo4j.neo4j-common-3.5.0.jar  
+#9 0.834   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.twitter.storehaus-cache_2.11-0.15.0.jar  
+#9 0.836   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/net.java.dev.jna.jna-4.1.0.jar  
+#9 0.842   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.google.oauth-client.google-oauth-client-jetty-1.22.0.jar  
+#9 0.842   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.fasterxml.jackson.core.jackson-databind-2.9.8.jar  
+#9 0.852   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/jakarta.json.jakarta.json-api-1.1.5.jar  
+#9 0.852   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.sunbird.url-manager-1.0-SNAPSHOT.jar  
+#9 0.853   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.github.jnr.jffi-1.2.16.jar  
+#9 0.854   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.github.jnr.jnr-constants-0.9.9.jar  
+#9 0.857   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/commons-lang.commons-lang-2.6.jar  
+#9 0.859   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.google.inject.extensions.guice-multibindings-3.0.jar  
+#9 0.859   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.github.jnr.jnr-ffi-2.1.7.jar  
+#9 0.864   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.api.route53-2.2.0.jar  
+#9 0.865   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/javax.servlet.servlet-api-2.5.jar  
+#9 0.866   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.jclouds-allloadbalancer-2.2.0.jar  
+#9 0.866   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.typesafe.akka.akka-stream_2.11-2.5.22.jar  
+#9 0.907   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.provider.ultradns-ws-2.2.0.jar  
+#9 0.908   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.fasterxml.jackson.datatype.jackson-datatype-jsr310-2.9.8.jar  
+#9 0.909   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.sunbird.cassandra-connector-1.0-SNAPSHOT.jar  
+#9 0.909   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.jcraft.jsch.agentproxy.core-0.0.9.jar  
+#9 0.909   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.provider.aws-cloudwatch-2.2.0.jar  
+#9 0.910   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/commons-digester.commons-digester-1.8.1.jar  
+#9 0.911   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/commons-collections.commons-collections-3.2.2.jar  
+#9 0.915   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.jcraft.jsch.agentproxy.usocket-jna-0.0.9.jar  
+#9 0.915   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.jclouds-scriptbuilder-2.2.0.jar  
+#9 0.917   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.jamesmurty.utils.java-xmlbuilder-1.1.jar  
+#9 0.917   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.github.jnr.jnr-x86asm-1.0.2.jar  
+#9 0.919   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/commons-httpclient.commons-httpclient-3.1.jar  
+#9 0.921   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/io.netty.netty-3.7.0.Final.jar  
+#9 0.930   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/javax.annotation.jsr250-api-1.0.jar  
+#9 0.930   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/io.jsonwebtoken.jjwt-0.9.1.jar  
+#9 0.931   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.provider.digitalocean2-2.2.0.jar  
+#9 0.932   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.jcraft.jsch.agentproxy.usocket-nc-0.0.9.jar  
+#9 0.932   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/commons-logging.commons-logging-1.2.jar  
+#9 0.933   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.driver.jclouds-okhttp-2.2.0.jar  
+#9 0.933   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.codehaus.jackson.jackson-core-asl-1.9.13.jar  
+#9 0.935   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.google.oauth-client.google-oauth-client-java6-1.22.0.jar  
+#9 0.935   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/commons-net.commons-net-3.6.jar  
+#9 0.937   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.ow2.asm.asm-5.0.3.jar  
+#9 0.938   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.jclouds-gson-2.2.0.jar  
+#9 0.940   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/asm.asm-3.1.jar  
+#9 0.940   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/io.netty.netty-codec-http-4.1.34.Final.jar  
+#9 0.944   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.reflections.reflections-0.9.11.jar  
+#9 0.945   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.provider.gogrid-2.2.0.jar  
+#9 0.947   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.api.cloudstack-2.2.0.jar  
+#9 0.953   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.provider.google-cloud-storage-2.2.0.jar  
+#9 0.954   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.httpcomponents.httpclient-4.5.2.jar  
+#9 0.959   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/commons-io.commons-io-2.7.jar  
+#9 0.961   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.provider.rackspace-clouddatabases-us-2.2.0.jar  
+#9 0.961   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.httpcomponents.httpcore-nio-4.4.4.jar  
+#9 0.964   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.directory.api.api-util-1.0.0-M20.jar  
+#9 0.965   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/io.netty.netty-codec-4.1.34.Final.jar  
+#9 0.967   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.provider.elastichosts-lon-b-2.2.0.jar  
+#9 0.967   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.provider.elastichosts-lon-p-2.2.0.jar  
+#9 0.967   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/redis.clients.jedis-2.6.2.jar  
+#9 0.970   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.provider.dynect-2.2.0.jar  
+#9 0.971   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.provider.aws-sts-2.2.0.jar  
+#9 0.971   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.neo4j.neo4j-unsafe-3.5.0.jar  
+#9 0.971   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.typesafe.play.play_2.11-2.7.2.jar  
+#9 1.005   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/javax.xml.bind.jaxb-api-2.3.1.jar  
+#9 1.007   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.provider.rackspace-cloudfiles-us-2.2.0.jar  
+#9 1.007   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.github.danielwegener.logback-kafka-appender-0.2.0-RC2.jar  
+#9 1.007   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.typesafe.play.play-functional_2.11-2.7.2.jar  
+#9 1.010   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.provider.softlayer-2.2.0.jar  
+#9 1.012   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.sun.jersey.jersey-core-1.9.jar  
+#9 1.015   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/io.netty.netty-handler-4.1.34.Final.jar  
+#9 1.018   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.mortbay.jetty.jetty-6.1.26.jar  
+#9 1.022   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.twitter.util-core_2.11-6.43.0.jar  
+#9 1.033   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.ow2.asm.asm-util-5.0.3.jar  
+#9 1.034   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.api.openstack-keystone-2.2.0.jar  
+#9 1.036   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.squareup.okio.okio-1.14.0.jar  
+#9 1.037   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.provider.rackspace-clouddns-uk-2.2.0.jar  
+#9 1.037   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/javax.ws.rs.javax.ws.rs-api-2.0.1.jar  
+#9 1.038   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/javax.servlet.jsp.jsp-api-2.1.jar  
+#9 1.039   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.reactivestreams.reactive-streams-1.0.2.jar  
+#9 1.039   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.fasterxml.jackson.module.jackson-module-paranamer-2.9.8.jar  
+#9 1.039   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.driver.jclouds-slf4j-2.2.0.jar  
+#9 1.039   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/io.netty.netty-resolver-4.1.34.Final.jar  
+#9 1.040   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.sun.jersey.jersey-server-1.9.jar  
+#9 1.045   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.scala-lang.scala-library-2.11.12.jar  
+#9 1.086   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.xerial.snappy.snappy-java-1.1.4.jar  
+#9 1.096   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.fasterxml.jackson.module.jackson-module-scala_2.11-2.9.8.jar  
+#9 1.100   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.provider.go2cloud-jhb1-2.2.0.jar  
+#9 1.100   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.sunbird.mimetype-manager-1.0-SNAPSHOT.jar  
+#9 1.102   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/io.dropwizard.metrics.metrics-core-3.2.2.jar  
+#9 1.103   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.codehaus.jettison.jettison-1.1.jar  
+#9 1.104   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.datastax.cassandra.cassandra-driver-core-3.7.0.jar  
+#9 1.112   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.sun.jersey.jersey-json-1.9.jar  
+#9 1.113   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.scala-lang.scala-reflect-2.11.12.jar  
+#9 1.148   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.google.code.gson.gson-2.2.4.jar  
+#9 1.150   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.provider.serverlove-z1-man-2.2.0.jar  
+#9 1.150   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/joda-time.joda-time-2.10.1.jar  
+#9 1.156   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.provider.google-compute-engine-2.2.0.jar  
+#9 1.160   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.ow2.asm.asm-tree-5.0.3.jar  
+#9 1.160   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.jcraft.jsch.agentproxy.sshj-0.0.9.jar  
+#9 1.160   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.provider.aws-s3-2.2.0.jar  
+#9 1.161   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.hadoop.hadoop-annotations-2.7.3.jar  
+#9 1.161   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.mortbay.jetty.servlet-api-2.5-20081211.jar  
+#9 1.162   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.google.api-client.google-api-client-1.24.1.jar  
+#9 1.164   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.typesafe.akka.akka-slf4j_2.11-2.5.22.jar  
+#9 1.164   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.provider.rackspace-cloudservers-us-2.2.0.jar  
+#9 1.164   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.ibm.icu.icu4j-64.2.jar  
+#9 1.254   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.google.protobuf.protobuf-java-2.5.0.jar  
+#9 1.258   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.sunbird.schema-validator-1.0-SNAPSHOT.jar  
+#9 1.259   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.typesafe.play.twirl-api_2.11-1.4.0.jar  
+#9 1.259   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.sunbird.platform-telemetry-1.0-SNAPSHOT.jar  
+#9 1.260   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.neo4j.driver.neo4j-java-driver-1.7.5.jar  
+#9 1.279   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.lz4.lz4-java-1.4.jar  
+#9 1.282   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.httpcomponents.httpmime-4.5.2.jar  
+#9 1.282   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.curator.curator-recipes-2.7.1.jar  
+#9 1.284   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.common.googlecloud-2.2.0.jar  
+#9 1.285   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.api.rackspace-cloudfiles-2.2.0.jar  
+#9 1.285   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.directory.server.apacheds-kerberos-codec-2.0.0-M15.jar  
+#9 1.290   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.google.http-client.google-http-client-1.22.0.jar  
+#9 1.293   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.yaml.snakeyaml-1.17.jar  
+#9 1.295   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.sunbird.kafka-client-1.0-SNAPSHOT.jar  
+#9 1.295   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.typesafe.play.build-link-2.7.2.jar  
+#9 1.295   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.typesafe.netty.netty-reactive-streams-2.0.3.jar  
+#9 1.295   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.codehaus.jackson.jackson-mapper-asl-1.9.13.jar  
+#9 1.301   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.google.code.findbugs.jsr305-3.0.2.jar  
+#9 1.301   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.moparisthebest.junidecode-0.1.1.jar  
+#9 1.305   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/commons-cli.commons-cli-1.2.jar  
+#9 1.305   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/io.netty.netty-buffer-4.1.34.Final.jar  
+#9 1.307   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.api.cloudwatch-2.2.0.jar  
+#9 1.308   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.commons.commons-csv-1.4.jar  
+#9 1.309   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.xmlbeans.xmlbeans-2.6.0.jar  
+#9 1.328   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.api.openstack-trove-2.2.0.jar  
+#9 1.329   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.typesafe.play.filters-helpers_2.11-2.7.2.jar  
+#9 1.333   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.sunbird.platform-common-1.0-SNAPSHOT.jar  
+#9 1.333   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.neo4j.neo4j-collections-3.5.0.jar  
+#9 1.334   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.api.byon-2.2.0.jar  
+#9 1.335   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.squareup.okhttp.okhttp-2.2.0.jar  
+#9 1.337   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.google.inject.guice-3.0.jar  
+#9 1.342   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.provider.skalicloud-sdg-my-2.2.0.jar  
+#9 1.342   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.provider.rackspace-cloudfiles-uk-2.2.0.jar  
+#9 1.343   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.typelevel.algebra_2.11-0.7.0.jar  
+#9 1.353   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.api.rackspace-cloudloadbalancers-2.2.0.jar  
+#9 1.354   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.sunbird.graph-core_2.11-1.0-SNAPSHOT.jar  
+#9 1.354   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.zookeeper.zookeeper-3.4.6.jar  
+#9 1.360   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.sunbird.parseq-1.0-SNAPSHOT.jar  
+#9 1.360   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.api.rackspace-cloudidentity-2.2.0.jar  
+#9 1.361   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.provider.rackspace-cloudblockstorage-uk-2.2.0.jar  
+#9 1.361   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.api.elasticstack-2.2.0.jar  
+#9 1.362   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.provider.profitbricks-2.2.0.jar  
+#9 1.365   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.typesafe.config-1.3.3.jar  
+#9 1.367   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.github.virtuald.curvesapi-1.04.jar  
+#9 1.368   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.provider.aws-route53-2.2.0.jar  
+#9 1.368   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.provider.aws-ec2-2.2.0.jar  
+#9 1.370   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.microsoft.azure.azure-keyvault-core-0.8.0.jar  
+#9 1.370   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/xmlenc.xmlenc-0.52.jar  
+#9 1.370   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.sunbird.content-actors-1.0-SNAPSHOT.jar  
+#9 1.374   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.api.docker-2.2.0.jar  
+#9 1.375   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.github.jnr.jffi-1.2.16-native.jar  
+#9 1.380   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.provider.rackspace-clouddns-us-2.2.0.jar  
+#9 1.380   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.jclouds.jclouds-allcompute-2.2.0.jar  
+#9 1.381   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/com.typesafe.play.play-json_2.11-2.7.2.jar  
+#9 1.392   inflating: /home/sunbird/content-service-1.0-SNAPSHOT/lib/org.apache.poi.poi-3.15.jar  
+#9 DONE 1.7s
+
+#10 [6/8] RUN rm /home/sunbird/content-service-1.0-SNAPSHOT-dist.zip
+#10 DONE 0.5s
+
+#11 [7/8] COPY --chown=sunbird ./schemas /home/sunbird/content-service-1.0-SNAPSHOT/schemas
+#11 DONE 0.0s
+
+#12 [8/8] WORKDIR /home/sunbird/
+#12 DONE 0.1s
+
+#13 exporting to image
+#13 exporting layers
+#13 exporting layers 0.7s done
+#13 writing image sha256:a7cb12f698a3f03fa15f2618986fe07848d47a8bd7b2e8cc10ebe173acae3464 done
+#13 naming to bom.ocir.io/bmzbbujw9kal/diksha-odev/content-service:release-5.1.0_760d7baf_1 done
+#13 DONE 0.7s
+[8mha:////4HfL96O2Bxz+2LIiHzBzda6p0G+P8Z5FceX3+UqcFNPQAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAaJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw9wAqrYvgAAAA==[0m[Pipeline] }
+[8mha:////4LtkOJfrUSW+3NxV7+It+i/P1B2tKY7sDCDu6fY9azEMAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigVIhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJygPda59/QFvgP+KvgAAAA==[0m[Pipeline] // stage
+[8mha:////4CrDojOqvw5dT909QkZL9fyhap9AsWzAV+qOE41uBkxuAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYRTICEkREVrueEFJjbGiXUX7AtJxYv4Gn8gEImKrXZWWs3zBWVOcKDkZeOwDZjrILvY+6nJgVJ7iTTIhs6yJswUndRu0GTdcUZN7GCOKGChYOmwjpQDeoaVaszdVNGgr06cpm2voAj2Bg8QajKzSfyFMcH62ttM+PP8FcDYMYgdQ7HZfo7lG0WE9hrBAAAA[0m[Pipeline] stage
+[8mha:////4OCvPZ43CYbh8SGVNnbgtAqvfA3ETXB6I1mPNWVpBoB+AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QIIBMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfADpB/iZwgAAAA==[0m[Pipeline] { (ArchiveArtifacts)
+[8mha:////4DzrQ5zK2Pv2UDghAyilwxzOczGTH2t2vbo2SrkhZCFOAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSUICEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAEGDPXtvgAAAA==[0m[Pipeline] archiveArtifacts
+Archiving artifacts
+[8mha:////4FIax5zrzAljtkdXF6vjRBZg/qdHxbue3gxCU34s+E0MAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSUCCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQF5ECgKvgAAAA==[0m[Pipeline] }
+[8mha:////4DN0RuISak1IwP7hE7KFuTUintjoSs3YHNtFi5CRnTY/AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBKJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw+pT4efvgAAAA==[0m[Pipeline] // stage
+[8mha:////4BGrEbEHsvT4bbrJNmTmjzPP/o6OqsPbnNuHImo+6UUgAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREgUSoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN9tBdn+A63fXra9AAAA[0m[Pipeline] }
+[8mha:////4FzJoG+SOHxJ74P4kEK3qnGC0s5HhxVN9HIdLlZeDHV2AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREBIFoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN9tBdn+A+y4QWG9AAAA[0m[Pipeline] // withEnv
+[8mha:////4Gsj6ZwfupIwLEkv49/zDAKe1rJL1SXjfqPpaHObr3mrAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpQDSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcVZPsPyqEmK70AAAA=[0m[Pipeline] }
+[8mha:////4Nc+nkvRBxgFnKeuaycYGP+ia2VD3JrIkJEzF1uRCcD0AAAAqx+LCAAAAAAAAP9b85aBtbiIQSujNKU4P0+vIKc0PTOvWC8xrzgzOT8nv0gvMbkkEyjhCKb88ktSdwVsu2efuqidiYHRh4EDIu2ZUsIg5JOVWJaon5OYl64fXFKUmZduXVHEIAU1ODk/rzg/J1XPGUKDDGKAAEYmBoaKghIGlWQTs2QTo2QL3aSUlGRdk9SkZF0LA2MjXTOTJEtDS3MjC0sjSwAZ8eQrrwAAAA==[0m
+[8mha:////4ORq3QDQ/cMXtEQICLhiDjAlRsZmRbxmit2iHNBb08gqAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiI0WDlWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyshRk+w9gLA8AvQAAAA==[0m[Pipeline] // ansiColor
+[8mha:////4FURG0vg5U0APXoCKdNp8rNLIJWTSAiofesaGLthaeY7AAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiI0WDlWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyci/Iyg9GNWhKvQAAAA==[0m[Pipeline] }
+[8mha:////4Nq8RyBSR/W7QjhfAnDIFgSCgpaVUwoAltyAQRgpcsYPAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpQDSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcXZNsPNdqsk70AAAA=[0m[Pipeline] // node
+[8mha:////4KHcNWuaP+4ib07rQ8/08iO7UrW/E7DAtn7HjmpWZ7tUAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREBIFoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/tBdn2AxPDy9m9AAAA[0m[Pipeline] End of Pipeline
+Triggering a new build of [8mha:////4M5e4i/Uo30xmNbf5/ZBZEFgA6bBcKRkjMy7dXaVCNsvAAAAth+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzNEgZT/az8JH3HopLMtMTkktCCnPzEFLCQS35ytktqGZjtnF+UCmXklaTmlegDAItW4qjqAAAA[0mArtifactUpload » DockDev » Core » Content #1
+Finished: SUCCESS

@@ -1,0 +1,116 @@
+Started by user [8mha:////4E5phgWBGqc8ILTgA7w3fYcHUfkIzk5UUdNjfVb+JpqnAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZe/dLi1CL97NS8vNSSDABKWPXzwgAAAA==[0mKenneth Heung
+Rebuilds build #[8mha:////4GY4Y4umR7yhsFjuz1o0VgPertRT0IvhS+AU847Zeu0vAAAArx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBj39rPwkfafSzJwUMMslPznbOb8oFc4JyEmsTC1yLi0uyc/VNwIAANc3VuMAAAA=[0m2
+Checking out git https://github.com/ocisunbird/vdn-tenant.git into /var/lib/jenkins/workspace/Build/DockCore/DockPlayerCustom@script/cf8827ee74156c51eda906794f6e9ad27a074acee3082d379d1125240aef53f8 to read Jenkinsfile
+The recommended git tool is: NONE
+using credential github-cred
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/Build/DockCore/DockPlayerCustom@script/cf8827ee74156c51eda906794f6e9ad27a074acee3082d379d1125240aef53f8/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/ocisunbird/vdn-tenant.git # timeout=10
+Using shallow fetch with depth 1
+Fetching upstream changes from https://github.com/ocisunbird/vdn-tenant.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress --depth=1 -- https://github.com/ocisunbird/vdn-tenant.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse origin/vdn-460-custom-player^{commit} # timeout=10
+Checking out Revision bb3f86c5cadb49ab5c32b2303160c35afc5cac3c (origin/vdn-460-custom-player)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f bb3f86c5cadb49ab5c32b2303160c35afc5cac3c # timeout=10
+Commit message: "modify Jenkinsfile to point to ocisunbird"
+ > git rev-list --no-walk bb3f86c5cadb49ab5c32b2303160c35afc5cac3c # timeout=10
+Loading library deploy-conf@heads/shared-lib
+Attempting to resolve heads/shared-lib from remote references...
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git ls-remote -- https://github.com/project-sunbird/sunbird-devops.git # timeout=10
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/Build/DockCore/DockPlayerCustom@libs/4e97b83e3fc5b39f9821d141786befe5af9f202ab969e808576bfd142e651f32/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/project-sunbird/sunbird-devops.git # timeout=10
+Using shallow fetch with depth 1
+Fetching upstream changes from https://github.com/project-sunbird/sunbird-devops.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --no-tags --force --progress --depth=1 -- https://github.com/project-sunbird/sunbird-devops.git +refs/heads/*:refs/remotes/origin/* refs/heads/shared-lib # timeout=10
+Checking out Revision 778da7ce7f97efd003eed98071921a837d209343 (778da7ce7f97efd003eed98071921a837d209343)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 778da7ce7f97efd003eed98071921a837d209343 # timeout=10
+Commit message: "fix: move variables to be accessible across both try blocks"
+ > git rev-list --no-walk 778da7ce7f97efd003eed98071921a837d209343 # timeout=10
+[8mha:////4DQMr9HgZVT9PBJ/vAJi4Vz+S03++WP2KBVOc+uUyzRvAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4Aoeah8JJKqMG1BfT93bVJkTto+Gn3BHZHMo+rKR83FkAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4NOlWQy8LL7jMjNLmit1TITHvBYhHjzzGt3TjRdY21ETAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/lib/jenkins/workspace/Build/DockCore/DockPlayerCustom
+[8mha:////4I38JWpeOPl46roEAsfiKE5jl2R8yAwBxi/2BN73OS9sAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4KtNVHI7rD8Xme7RMP80ju20S2oPIiY4U48HgQk9fNPWAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] ansiColor
+[8mha:////4D1F1+bpfnSSiE3BhzbX8wKLrqbf1TiuUjCNI3kyo1QtAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] {
+[8mha:////4HJ7FQdthbQ+ANKEEEGNq3fUGv2lh+eXCsedusgt3KqaAAAAqh+LCAAAAAAAAP9b85aBtbiIQSujNKU4P0+vIKc0PTOvWC8xrzgzOT8nv0gvMbkkEyjhCKb88ktSdwVsu2efuqidiYHRh4EDIu2ZUsIg5JOVWJaon5OYl64fXFKUmZduXVHEIAU1ODk/rzg/J1XPGUKDDGKAAEYmBoaKghIGlWSz5CSDJDMjXUtT4yRdEwsDIMvS1FLXIiklOdnILMnEwMgQAKMFCCGvAAAA[0m
+[8mha:////4B2nVl1zwxUr4xTVJ4gNK1/4Kd2STXGtKJfEY5CRpiHIAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] timestamps
+[8mha:////4H9DBS9ZtGeYRmyGvGETQoNXch7OnhARRzxHuvU5kwN+AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] {
+[8mha:////4AuhRRWp2fXe1T5jtjocJtK++ePD9DH0TE1qihhCqXLaAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BSEm1igLJwhJCGmj/9skpZ04EVfjDgQqMWHJkm3Jes8X1CnCkaLjrcXOY9Ke92F0JfGJYncNNPGWLlwTJgqWSztJMva0VEnZwiJWwUrA2qIOlDy6DBvRqrtqgkLXnHMs20FA5c0AD2CikLOK+VvmCNvbaBLhj/MXAHOfge2K959f/QbB16AVwAAAAA==[0m[Pipeline] stage
+[8mha:////4JjuQGJFJefjKnSlxXbHyXAIaKA50yHKAnOImG+ooD3XAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDJUJUtJYbXmBiY5xYd8G+kFS8iK/xBwKRqNhqZ6XVPF9Q5gQHSl42DtuAuQ6yi72fmhwotZdIg2zoLGvCTNFJ7QZN1h1n1MQO5ogCFgqWDutIOaBnWKnG3E0VDfrqxGna9gqKYG/wAKEmM5vEXxgTrK+9zYQ/z18BjB2D2DEU283nWL4Bsam+msEAAAA=[0m[Pipeline] { (Checkout)
+[8mha:////4Egcskj6pLf5Jd0/XM+FWAuPTbsmuKF1wNdG0mVSmlhBAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCakRFa6XhBSYxxo5159gOTsWL+Bp/IBCJii1WO9vM8wXrGODIQaNV1BuKrUHvRj0vzBz6q+OMli/YMkV2ChuVG+7UacGGk4IlRQkrARtFreNoSCfYCivvsnKSdHVOYf4OAkrTDfCAQszmJEP6whRgdxu7yPTz/BXA5BOU9f5TtX8D0loxuL4AAAA=[0m[Pipeline] echo
+[2023-04-04T16:32:11.735Z] Found .git folder. Clearing it..
+[8mha:////4KS5HcH0Lk7kSB0rID8HuT51MLcIfX2KVzYX9gupKvSrAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICtIgqreWGF5jYGCfWnbEdkooX8TX+QCASFVusdraZ5wuWKcKRo8XWUOcoNQ6D7+20cODYXTwP2PIZG6bE3qA0g2Rt6hklZwNzihIWAlaGGs/Jkc2wFq26q8orstUpx+k7CCidvsEDCjGZs4r5C2OEzbXXienn+SuAMWQod9tP7cMbEQkck74AAAA=[0m[Pipeline] sh
+[2023-04-04T16:32:11.995Z] + git clean -fxd
+[8mha:////4Lw++M25Z0aHO2Y8PKJrbLkMJ3gtqfhoaAihtpb0MW2SAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICokRUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDudt+ah/eUDgHir4AAAA=[0m[Pipeline] checkout
+[2023-04-04T16:32:12.010Z] The recommended git tool is: NONE
+[2023-04-04T16:32:12.011Z] using credential github-cred
+[2023-04-04T16:32:12.014Z]  > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/Build/DockCore/DockPlayerCustom/.git # timeout=10
+[2023-04-04T16:32:12.016Z] Fetching changes from the remote Git repository
+[2023-04-04T16:32:12.016Z]  > git config remote.origin.url https://github.com/ocisunbird/vdn-tenant.git # timeout=10
+[2023-04-04T16:32:12.019Z] Using shallow fetch with depth 1
+[2023-04-04T16:32:12.019Z] Fetching upstream changes from https://github.com/ocisunbird/vdn-tenant.git
+[2023-04-04T16:32:12.019Z]  > git --version # timeout=10
+[2023-04-04T16:32:12.021Z]  > git --version # 'git version 2.34.1'
+[2023-04-04T16:32:12.021Z] using GIT_ASKPASS to set credentials 
+[2023-04-04T16:32:12.021Z]  > git fetch --tags --force --progress --depth=1 -- https://github.com/ocisunbird/vdn-tenant.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+[2023-04-04T16:32:13.398Z]  > git rev-parse origin/vdn-460-custom-player^{commit} # timeout=10
+[2023-04-04T16:32:13.401Z] Checking out Revision bb3f86c5cadb49ab5c32b2303160c35afc5cac3c (origin/vdn-460-custom-player)
+[2023-04-04T16:32:13.401Z]  > git config core.sparsecheckout # timeout=10
+[2023-04-04T16:32:13.402Z]  > git checkout -f bb3f86c5cadb49ab5c32b2303160c35afc5cac3c # timeout=10
+[2023-04-04T16:32:13.411Z] Commit message: "modify Jenkinsfile to point to ocisunbird"
+[8mha:////4CzHmxzm2O58kXzYkV2lTtflDV38LathTW1OUUTiyH+fAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICEh2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyt32U/vwBpeuRsW+AAAA[0m[Pipeline] checkout
+[2023-04-04T16:32:13.426Z] The recommended git tool is: NONE
+[2023-04-04T16:32:13.426Z] using credential github-cred
+[2023-04-04T16:32:13.429Z]  > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/Build/DockCore/DockPlayerCustom/.git # timeout=10
+[2023-04-04T16:32:13.431Z] Fetching changes from the remote Git repository
+[2023-04-04T16:32:13.431Z]  > git config remote.origin.url https://github.com/ocisunbird/vdn-tenant.git # timeout=10
+[2023-04-04T16:32:13.434Z] Using shallow fetch with depth 1
+[2023-04-04T16:32:13.434Z] Fetching upstream changes from https://github.com/ocisunbird/vdn-tenant.git
+[2023-04-04T16:32:13.434Z]  > git --version # timeout=10
+[2023-04-04T16:32:13.436Z]  > git --version # 'git version 2.34.1'
+[2023-04-04T16:32:13.436Z] using GIT_ASKPASS to set credentials 
+[2023-04-04T16:32:13.436Z]  > git fetch --tags --force --progress --depth=1 -- https://github.com/ocisunbird/vdn-tenant.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+[2023-04-04T16:32:14.591Z]  > git rev-parse origin/vdn-460-custom-player^{commit} # timeout=10
+[2023-04-04T16:32:14.594Z] Checking out Revision bb3f86c5cadb49ab5c32b2303160c35afc5cac3c (origin/vdn-460-custom-player)
+[2023-04-04T16:32:14.594Z]  > git config core.sparsecheckout # timeout=10
+[2023-04-04T16:32:14.596Z]  > git checkout -f bb3f86c5cadb49ab5c32b2303160c35afc5cac3c # timeout=10
+[2023-04-04T16:32:14.604Z] Commit message: "modify Jenkinsfile to point to ocisunbird"
+[8mha:////4EXpX2SRlGvvE0yX9loHpOGrndqLTd4QjeNSNvGNRH1mAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICBRWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyt32U/vwBtafXdy+AAAA[0m[Pipeline] checkout
+[2023-04-04T16:32:14.616Z] The recommended git tool is: NONE
+[2023-04-04T16:32:14.616Z] using credential private_repo_credentials
+[2023-04-04T16:32:14.619Z]  > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/Build/DockCore/DockPlayerCustom/.git # timeout=10
+[2023-04-04T16:32:14.622Z] Fetching changes from the remote Git repository
+[2023-04-04T16:32:14.622Z]  > git config remote.origin.url https://github.com/ocisunbird/vdn-tenant.git # timeout=10
+[2023-04-04T16:32:14.626Z] Using shallow fetch with depth 1
+[2023-04-04T16:32:14.626Z] Fetching upstream changes from https://github.com/ocisunbird/vdn-tenant.git
+[2023-04-04T16:32:14.626Z]  > git --version # timeout=10
+[2023-04-04T16:32:14.627Z]  > git --version # 'git version 2.34.1'
+[2023-04-04T16:32:14.627Z] using GIT_ASKPASS to set credentials 
+[2023-04-04T16:32:14.628Z]  > git fetch --tags --force --progress --depth=1 -- https://github.com/ocisunbird/vdn-tenant.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+[2023-04-04T16:32:16.759Z]  > git rev-parse refs/remotes/origin/refs/tags/params.diksha_tenant_tag^{commit} # timeout=10
+[2023-04-04T16:32:16.761Z]  > git rev-parse refs/tags/params.diksha_tenant_tag^{commit} # timeout=10
+[2023-04-04T16:32:16.763Z]  > git rev-parse refs/tags/params.diksha_tenant_tag^{commit} # timeout=10
+[8mha:////4GS0F3EGgpb+sDXV2n7LglAFOAK5SJ9DICFctXjXmPAeAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICDQ2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BqREs8C+AAAA[0m[Pipeline] }
+[8mha:////4B5FY06VhqG1n8ajLXNQpa+Pd32MQPltl29RG/Jopin7AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRFUKIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsTZPsPKIvUHr0AAAA=[0m[Pipeline] // stage
+[8mha:////4ARsVs0gTAljmMpYzZ4/iWpk/qNYh8utT8PCTX1EPPTbAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6LEjcQ4uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0g35eCrPwAbyyD670AAAA=[0m[Pipeline] }
+[8mha:////4BI6VW6fkwMvPfxIp5GXNgJcqANOs6xpeNa/yhZJMo2JAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRFUKIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsXZLsPThhcRr0AAAA=[0m[Pipeline] // timestamps
+[8mha:////4HnJbz5t4ncozQVlB+fynqWzzBFKKdwF8NCSmfVC8LXTAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJBFDSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcVZPsPBzjfur0AAAA=[0m[Pipeline] }
+[8mha:////4FSJJydypv38RASZjScjwW2z7M/4qtAdGJy7yL/i9U2rAAAAqx+LCAAAAAAAAP9b85aBtbiIQSujNKU4P0+vIKc0PTOvWC8xrzgzOT8nv0gvMbkkEyjhCKb88ktSdwVsu2efuqidiYHRh4EDIu2ZUsIg5JOVWJaon5OYl64fXFKUmZduXVHEIAU1ODk/rzg/J1XPGUKDDGKAAEYmBoaKghIGFTOjNNNkI8NU3bRkYzNdE/OUJN1EczNLXQuz5NS0JEMzY4PUVAA1SQVgrwAAAA==[0m
+[8mha:////4AtT4bFOGGC2GI+fZsHkG05ERViL3REX+7ns9VlunKmfAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRSFSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcVZPsPDUC2Hr0AAAA=[0m[Pipeline] // ansiColor
+[8mha:////4EuRcHRYKSKymBsY0aGIe20vLbhfYpyI0zlqARygnfXPAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkxM04uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL0tBtv8ASwoRLr0AAAA=[0m[Pipeline] }
+[8mha:////4Bt08RQJQC9mXuHzDlKlN9qiI5QPYkAZim+RwtRovrjvAAAAoh+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkMhon14bFL6hQa6F5D9uHMPlF/pr/IJHEyTvdc5bzemOdIo4cnWotdZ5S7VUfBjc/NXLsroFH1fJF1UyJg1WVHStu7GnBisViWZZjpbGxVAdOnpxgq1vzMEUw5IqzxNkdNHLf3PFEpueymChfmCJ2t6FJTL/O3wCmvhfk+1KQlR9YthWNvQAAAA==[0m[Pipeline] // node
+[8mha:////4OP0mNmK5RH0bxWWgmjj4PdJyDJk2SVaXHqwMro7TwFmAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkxM04uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL/eCrPwA3loySL0AAAA=[0m[Pipeline] End of Pipeline
+ERROR: Couldn't find any revision to build. Verify the repository and branch configuration for this job.
+Finished: FAILURE
