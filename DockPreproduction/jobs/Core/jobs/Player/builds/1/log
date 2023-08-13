@@ -1,0 +1,319 @@
+Started by upstream project "[8mha:////4LTslKxs9ST6dTUQydMT580czZzOvqQDhrtDWrrzS8vXAAAAqR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzREgZl/az8JH2n0sycFDDLJT852zm/KBXMCchJrEwt0gcA2wgJrtgAAAA=[0mBuild/DockCore/Player" build number [8mha:////4GSaYCqGPQ1X+Q9dt4sKmlx/ih1mZVIgFQRMBz1jXns9AAAAqR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBhX9rPwkfafSzJwUMMslPznbOb8oFcwJyEmsTC3SNwIAp5UuG9kAAAA=[0m2
+originally caused by:
+ Started by user [8mha:////4E5phgWBGqc8ILTgA7w3fYcHUfkIzk5UUdNjfVb+JpqnAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZe/dLi1CL97NS8vNSSDABKWPXzwgAAAA==[0mKenneth Heung
+Checking out git https://github.com/project-sunbird/sunbird-devops.git into /var/lib/jenkins/workspace/ArtifactUpload/DockPreproduction/Core/Player@script/91792ec314830b4e05d43dc85929fc9a4b132fa2202d87715f6bda5315b40329 to read pipelines/upload/docker/Jenkinsfile
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Using shallow clone with depth 1
+Cloning repository https://github.com/project-sunbird/sunbird-devops.git
+ > git init /var/lib/jenkins/workspace/ArtifactUpload/DockPreproduction/Core/Player@script/91792ec314830b4e05d43dc85929fc9a4b132fa2202d87715f6bda5315b40329 # timeout=10
+Fetching upstream changes from https://github.com/project-sunbird/sunbird-devops.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress --depth=1 -- https://github.com/project-sunbird/sunbird-devops.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/project-sunbird/sunbird-devops.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse origin/release-5.1.0^{commit} # timeout=10
+Checking out Revision 9c98384759a532e6cd8462e3e81168f46f65d2fa (origin/release-5.1.0)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 9c98384759a532e6cd8462e3e81168f46f65d2fa # timeout=10
+Commit message: "UCI-2 - env variables for doubtnut integration (#3769)"
+First time build. Skipping changelog.
+Loading library deploy-conf@heads/shared-lib
+Attempting to resolve heads/shared-lib from remote references...
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git ls-remote -- https://github.com/project-sunbird/sunbird-devops.git # timeout=10
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Using shallow clone with depth 1
+Avoid fetching tags
+Cloning repository https://github.com/project-sunbird/sunbird-devops.git
+ > git init /var/lib/jenkins/workspace/ArtifactUpload/DockPreproduction/Core/Player@libs/4e97b83e3fc5b39f9821d141786befe5af9f202ab969e808576bfd142e651f32 # timeout=10
+Fetching upstream changes from https://github.com/project-sunbird/sunbird-devops.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --no-tags --force --progress --depth=1 -- https://github.com/project-sunbird/sunbird-devops.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/project-sunbird/sunbird-devops.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+Checking out Revision 778da7ce7f97efd003eed98071921a837d209343 (778da7ce7f97efd003eed98071921a837d209343)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 778da7ce7f97efd003eed98071921a837d209343 # timeout=10
+Commit message: "fix: move variables to be accessible across both try blocks"
+First time build. Skipping changelog.
+[8mha:////4DQMr9HgZVT9PBJ/vAJi4Vz+S03++WP2KBVOc+uUyzRvAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4Aoeah8JJKqMG1BfT93bVJkTto+Gn3BHZHMo+rKR83FkAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4NOlWQy8LL7jMjNLmit1TITHvBYhHjzzGt3TjRdY21ETAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/lib/jenkins/workspace/ArtifactUpload/DockPreproduction/Core/Player
+[8mha:////4I38JWpeOPl46roEAsfiKE5jl2R8yAwBxi/2BN73OS9sAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4KtNVHI7rD8Xme7RMP80ju20S2oPIiY4U48HgQk9fNPWAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4D1F1+bpfnSSiE3BhzbX8wKLrqbf1TiuUjCNI3kyo1QtAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (checkout public repo)
+[8mha:////4FoxlQxQ0pYfZrPwZqEMDHxpacmgzngDSj2rPFO1fxlRAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Using shallow clone with depth 1
+Cloning repository https://github.com/project-sunbird/sunbird-devops.git
+ > git init /var/lib/jenkins/workspace/ArtifactUpload/DockPreproduction/Core/Player # timeout=10
+Fetching upstream changes from https://github.com/project-sunbird/sunbird-devops.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress --depth=1 -- https://github.com/project-sunbird/sunbird-devops.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/project-sunbird/sunbird-devops.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse origin/release-5.1.0^{commit} # timeout=10
+Checking out Revision 9c98384759a532e6cd8462e3e81168f46f65d2fa (origin/release-5.1.0)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 9c98384759a532e6cd8462e3e81168f46f65d2fa # timeout=10
+Commit message: "UCI-2 - env variables for doubtnut integration (#3769)"
+[8mha:////4CnIsodK1GSz2PVxP0Keyw5pXioms929s9cEg571XB09AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4Mc+bWc+tQb/v0foHNx4r/8TJ9jky3l5xg0PHIENUqlLAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4BcgOHSrhPD4c+Dfn/EjuskVKKMA//BwPHYprczzTEyaAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] stage
+[8mha:////4BTtgoU6Li9u33b0AsAKbkU7cHIsySqmLsztKmOrEiw9AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] { (Artifact Upload)
+[8mha:////4E7ynunaDDKV3I3mguxWMynkwDrc9bgucp0Nu1gqHICLAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] ansiColor
+[8mha:////4L+a8g8MEmuPNGWVc4OL2fFpl65Hos2TchlC1oaEhLzsAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] {
+[8mha:////4BXV/KRSpxmH1zQL6j83L9ZrU2JQ9Vy8esIf2Z7sUfvOAAAAqx+LCAAAAAAAAP9b85aBtbiIQSujNKU4P0+vIKc0PTOvWC8xrzgzOT8nv0gvMbkkEyjhCKb88ktSdwVsu2efuqidiYHRh4EDIu2ZUsIg5JOVWJaon5OYl64fXFKUmZduXVHEIAU1ODk/rzg/J1XPGUKDDGKAAEYmBoaKghIGFcuURAtjMwsDXUNL42RdE2ODZF0Lw0RT3RQzc2NjS2MLk1RjUwDk0L9YrwAAAA==[0m
+[8mha:////4Lz1Xkvs/1fAHd2akW6kwVq/sDR8hfGaeourVr+ov8IFAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBgq0rvS+AAAA[0m[Pipeline] sh
++ echo ArtifactUpload/DockPreproduction/Core/Player
+[8mha:////4J93cHv/r3NbyyVXCjJH6gO2RrAjQV3RQLwA+kZ/MFqFAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN0uFte2+AAAA[0m[Pipeline] sh
++ echo ArtifactUpload/DockPreproduction/Core/Player
+[8mha:////4Cmg2Zd8koDYYSACAqhgs3x73qJceSRCy8x9qKAjw8xmAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGI1pjGvgAAAA==[0m[Pipeline] sh
++ echo ArtifactUpload/DockPreproduction/Core/Player
+[8mha:////4EJ4rBDjfdse92qW0v/qfY/77q0t1Sf4C2goI1EYLvGNAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUiIEBMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAdJAuTwgAAAA==[0m[Pipeline] stage
+[8mha:////4GzWtFbXTqsWjj5QlFLs/K31S8k3aNDrbYoRToWOCiOOAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] { (parameter checks)
+[8mha:////4L2Lv7H5b5ClRh0KKvJIYstYAWJsMpYblAHKFngKhzeOAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiOhCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBr2eB0O+AAAA[0m[Pipeline] echo
+[1m[32mFound environment variable named hub_org with value as: bom.ocir.io/bmzbbujw9kal/diksha-odev[0m
+[8mha:////4ME0clJuXHItA7mSsQAl+xrPHj8m3IuKhIPqacSvugGFAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICVEgoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AGtm4OQvgAAAA==[0m[Pipeline] copyArtifacts
+Due to the Copy artifact compatibility mode, set as migration, the build can reach the project Build/DockCore/Player.
+ But in Production mode, this will not be the case anymore.
+ Please consider adding the CopyArtifactPermission on the project you want to copy.
+Copied 1 artifact from "[8mha:////4FTQU+TvJUD/d96bKBluzys7pWDgig2f0n4eFhPz4Dv4AAAAnR+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMiQLGFQ1s/KT9J3Ks3MSQGzXPKTs53zi1LBnICcxMrUIn0AIIFeyagAAAA=[0mBuild » DockCore » Player" build number [8mha:////4NwTVYraOQUzR5ou2zxWDNkND3wVnPHd4/uyV8jNGO4KAAAAnh+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMQoYVDVz8pP0ncqzcxJAbNc8pOznfOLUsGcgJzEytQifSN9AEeBGuSqAAAA[0m2
+[8mha:////4PUP6sOKCeK030AoaZPoLYiWLdhiKczfb9YmwnZgcO2wAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiUCEhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAcw+QVkfcu1r/wHsqpiJvgAAAA==[0m[Pipeline] sh
++ jq -r .image_name metadata.json
+[8mha:////4PLYjVTo69KrKcP5Hd1XWDmHj7WBqkK2Vm8wpLjj1qhDAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRqZAQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAcw+Qbk/5Kpr/wEv+bWivgAAAA==[0m[Pipeline] sh
++ jq -r .node_name metadata.json
+[8mha:////4EojBBhcuP1R6Ft2Yy5mWV7og99jQrZYYC79jeZ9rSBFAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEFCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk95Nrthw9uyK67vgAAAA==[0m[Pipeline] echo
+[1m[33mimage_tag not specified, using the image_tag specified in metadata.json. [0m
+[8mha:////4Kp3MG6y1ONvNgsI6/UBgjY2mabxQActlMEk98nx8sKBAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEAUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANEcrtIdduP3wAqV7v9L4AAAA=[0m[Pipeline] sh
++ jq -r .image_tag metadata.json
+[8mha:////4Kv8Jc5OGrFhMNlrQSlJziSJBa9e5K1TE7cEXC0zZ3L3AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikJCQUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKUu32u7eEDpaQUeb4AAAA=[0m[Pipeline] }
+[8mha:////4MhD5pELrUwvbaZvAsq0irBTG8eX8vojW3Iu4KHtgjILAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKKBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw+ayz9vvgAAAA==[0m[Pipeline] // stage
+[8mha:////4H9GGM9KvgRvzNYpD6tGrm84OtlV15nVY2fNLxBiz6OPAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioKBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuDrm2+w8m3A6jvgAAAA==[0m[Pipeline] }
+[8mha:////4JmGDO4D/r6VlXuuiUsjbgg2Qw2HE5RmJ+IRa1kZCvjYAAAAqh+LCAAAAAAAAP9b85aBtbiIQSujNKU4P0+vIKc0PTOvWC8xrzgzOT8nv0gvMbkkEyjhCKb88ktSdwVsu2efuqidiYHRh4EDIu2ZUsIg5JOVWJaon5OYl64fXFKUmZduXVHEIAU1ODk/rzg/J1XPGUKDDGKAAEYmBoaKghIGFTML07TE5FQLXeNEMyNdE1NTQ10LY8MU3aQ0i1SLZGNLY6A4APMMXZmvAAAA[0m
+[8mha:////4CpxK2ob2v+YW+mPfKcZ1v7af+47cwUPIWG9iMOqLhb1AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRqZAQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrQ659/QFlXl8lvgAAAA==[0m[Pipeline] // ansiColor
+[8mha:////4Mf7JbNcgzVqof6UVewDxVP6Z7Up55KP5anDRfXjRxrcAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKi0CFEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNknKOs61/7gPzdl2dS+AAAA[0m[Pipeline] sh
++ pwd
+[8mha:////4LULOung5WqtGkVKU2INwzT5RuYjDlS7Tf5ERYAKLTfkAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUihExdY2ycIKQhJA2+r8kKe3EibgadyBQiQkPlm3Jes8XVDHAkYJlncHeYVSODX60ObGJQn/xNLGOzkwRRvKGCTMJ0qZdqqBkYFFRworD2qDyFB3aBBveybusvURbn1LI24FD6fQNHlDwTE4ypG+ZA2yvo46EP85fAMxDgrJpsu13n2f1Bk28/UHCAAAA[0m[Pipeline] ansiColor
+[8mha:////4BnYqN1NSf+28BMSiX/GZ8pNMwLJBm9aBjYaK/TH3ffeAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUxIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+ty4Up8IAAAA=[0m[Pipeline] {
+[8mha:////4A3StntbnKCe8FrAfg4nwekKwBtnOJGhyrR6xgCBoJ9kAAAAqx+LCAAAAAAAAP9b85aBtbiIQSujNKU4P0+vIKc0PTOvWC8xrzgzOT8nv0gvMbkkEyjhCKb88ktSdwVsu2efuqidiYHRh4EDIu2ZUsIg5JOVWJaon5OYl64fXFKUmZduXVHEIAU1ODk/rzg/J1XPGUKDDGKAAEYmBoaKghIGFTMLQ7OUFOMk3cQ0syRdE7PEFF1LY+MU3SSLtBSjRFMj49SkNADK2SrIrwAAAA==[0m
+[8mha:////4PH+ls5Eh/M/HlWoOxyFZz+Hit3psLVgx+uJ2uymuIn1AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+2YMO4MIAAAA=[0m[Pipeline] stage
+[8mha:////4MH8EVwvDS/tal0iy0mmC3VGdawe0PJZpSFoGs/h9bnoAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUoiNiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPfTawssIAAAA=[0m[Pipeline] { (ansible-run)
+[8mha:////4EvNvUwj8etAxJ/66Od/pAVNrc9Y49/Q/pyklKQbf8bqAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSxM6xsmVoPAEmiBDmfwJEUnkir+YdRDNj5RY7+7Z5zxesY4AjBc2swsFg7AzzbtJlsUxhuDrKzNKFdYSRnGJCZUG9Oi0oKClYUtWw4rBR2DmKBnWCLbfyLhsnUTfnFMp34FCbfoQHVLyYkwzpC3OA3W3qI+HP81cAs09Qt+2n9v4NGWcPtb4AAAA=[0m[Pipeline] echo
+{env=DockPreproduction, module=Core, jobName=Player, absolute_job_path=Build/DockCore/Player, agent=built-in, image_name=creation-player, image_tag=oci-510-vdn_f77cda6863_2, currentWs=/var/lib/jenkins/workspace/ArtifactUpload/DockPreproduction/Core/Player, ansiblePlaybook=/var/lib/jenkins/workspace/ArtifactUpload/DockPreproduction/Core/Player/ansible/docker_image_push.yml, ansibleExtraArgs=--extra-vars "hub_org=bom.ocir.io/bmzbbujw9kal/diksha-odev image_name=creation-player image_tag=oci-510-vdn_f77cda6863_2" --vault-password-file /var/lib/jenkins/secrets/vault-pass}
+[8mha:////4Pr/Xmsa8e07MGj4MHoukoHbCYXw7ewLS+16DHAuCJ3SAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0qJgQE2uUhROEJoSk0f9tkpJOnIircQdaKjHhwbItWe/1hioGOFEwzGnsLMbWst6PZk4sU+hunjJzdGUtYSSvmdBZkNLntQpKGlYVJWw4bDW2nqJFk2DHnXzI2ks09SWFeTtyKK0a4AkFn8lJhvQtU4D9fVSR8Mf5C4CpT1A2zWKH5Vl9AKAKZ6XCAAAA[0m[Pipeline] dir
+Running in /var/lib/jenkins/workspace/ArtifactUpload/DockPreproduction/Core/Player/private
+[8mha:////4NXpRwOaxbP74B3YTBGsC0I4ZBJxDuOw2lVzmVDzw37/AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD02yRsvCAAAA[0m[Pipeline] {
+[8mha:////4CBQWs4WmXiwAKHkDTI64cqw3B9sqpAT7ZaI1qjHgIbyAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIEGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAF9GxrMvgAAAA==[0m[Pipeline] echo
+[1m[33mInfo: Branch override is disabled[0m
+[8mha:////4Hr0IoOJ1UEL076J9ohpRo6P4/x5AtH5XuTrs0TR0uN/AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSICEkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpTb3af24Q2yB4JLvgAAAA==[0m[Pipeline] checkout
+The recommended git tool is: NONE
+using credential github-cred
+Cloning the remote Git repository
+Using shallow clone with depth 1
+Avoid fetching tags
+Cloning repository https://github.com/ocisunbird/odev-diksha.git
+ > git init /var/lib/jenkins/workspace/ArtifactUpload/DockPreproduction/Core/Player/private # timeout=10
+Fetching upstream changes from https://github.com/ocisunbird/odev-diksha.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+using GIT_ASKPASS to set credentials 
+ > git fetch --no-tags --force --progress --depth=1 -- https://github.com/ocisunbird/odev-diksha.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/ocisunbird/odev-diksha.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse origin/preprod^{commit} # timeout=10
+Checking out Revision 4e8bb9aecd27cb45d02ae3a1eb0a7ce80d2cb45a (origin/preprod)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 4e8bb9aecd27cb45d02ae3a1eb0a7ce80d2cb45a # timeout=10
+Commit message: "ml analytics provider"
+First time build. Skipping changelog.
+[8mha:////4KoxeMvMpN9aw1jLZ5KHvMTUa5GH4vvBeBfVNxE8miDvAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSICEhRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g3vIC99vgAAAA==[0m[Pipeline] }
+[8mha:////4HqhNaUpoV09K5RSXKP6LtGOd/K6R9OTKTqIR4oSK8yWAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AETHo4GvgAAAA==[0m[Pipeline] // dir
+[8mha:////4Gxru34zrEyArL5b9EL2BWePzzOtywIye1KRq/x9OhFXAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRCh2iSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNknKOs612HvP9mFN82+AAAA[0m[Pipeline] sh
++ rsync -Lkr /var/lib/jenkins/workspace/ArtifactUpload/DockPreproduction/Core/Player/private/ansible/inventory/DockPreproduction/Core/common.yml /var/lib/jenkins/workspace/ArtifactUpload/DockPreproduction/Core/Player/private/ansible/inventory/DockPreproduction/Core/hosts /var/lib/jenkins/workspace/ArtifactUpload/DockPreproduction/Core/Player/private/ansible/inventory/DockPreproduction/Core/secrets.yml /var/lib/jenkins/workspace/ArtifactUpload/DockPreproduction/Core/Player/ansible/inventory/env/
++ [ -f /var/lib/jenkins/workspace/ArtifactUpload/DockPreproduction/Core/Player/ansible/inventory/env/kubernetes.yaml ]
++ ansible-playbook -i /var/lib/jenkins/workspace/ArtifactUpload/DockPreproduction/Core/Player/ansible/inventory/env/hosts /var/lib/jenkins/workspace/ArtifactUpload/DockPreproduction/Core/Player/ansible/docker_image_push.yml --extra-vars hub_org=bom.ocir.io/bmzbbujw9kal/diksha-odev image_name=creation-player image_tag=oci-510-vdn_f77cda6863_2 --vault-password-file /var/lib/jenkins/secrets/vault-pass
+[1;35m[WARNING]: Invalid characters were found in group names but not replaced, use[0m
+[1;35m-vvvv to see details[0m
+[1;35m[0m
+[1;35m[WARNING]:  * Failed to parse /var/lib/jenkins/workspace/ArtifactUpload/DockPre[0m
+[1;35mproduction/Core/Player/ansible/inventory/env/hosts with yaml plugin: Syntax[0m
+[1;35mError while loading YAML.   did not find expected <document start>  The error[0m
+[1;35mappears to be in '/var/lib/jenkins/workspace/ArtifactUpload/DockPreproduction/C[0m
+[1;35more/Player/ansible/inventory/env/hosts': line 4, column 1, but may be elsewhere[0m
+[1;35min the file depending on the exact syntax problem.  The offending line appears[0m
+[1;35mto be:  [processing-cluster-kafka-1] 11.6.2.8 ^ here[0m
+[1;35m[0m
+[1;35m[WARNING]:  * Failed to parse /var/lib/jenkins/workspace/ArtifactUpload/DockPre[0m
+[1;35mproduction/Core/Player/ansible/inventory/env/hosts with ini plugin: /var/lib/je[0m
+[1;35mnkins/workspace/ArtifactUpload/DockPreproduction/Core/Player/ansible/inventory/[0m
+[1;35menv/hosts:189: Section [env:children] includes undefined group: lp-neo4j-ps[0m
+[1;35m[0m
+[1;35m[WARNING]: Unable to parse /var/lib/jenkins/workspace/ArtifactUpload/DockPrepro[0m
+[1;35mduction/Core/Player/ansible/inventory/env/hosts as an inventory source[0m
+[1;35m[0m
+[1;35m[WARNING]: No inventory was parsed, only implicit localhost is available[0m
+[1;35m[0m
+[1;35m[WARNING]: provided hosts list is empty, only localhost is available. Note that[0m
+[1;35mthe implicit localhost does not match 'all'[0m
+[1;35m[0m
+[1;35m[WARNING]: While constructing a mapping from /var/lib/jenkins/workspace/Artifac[0m
+[1;35mtUpload/DockPreproduction/Core/Player/ansible/docker_image_push.yml, line 2,[0m
+[1;35mcolumn 3, found a duplicate dict key (become). Using last defined value only.[0m
+[1;35m[0m
+
+PLAY [Push docker images to any docker registry] *******************************
+[1;35m[WARNING]: While constructing a mapping from /var/lib/jenkins/workspace/Artifac[0m
+[1;35mtUpload/DockPreproduction/Core/Player/ansible/inventory/env/group_vars/env.yml,[0m
+[1;35mline 3, column 1, found a duplicate dict key (sunbird_ekstep_api_base_url).[0m
+[1;35mUsing last defined value only.[0m
+[1;35m[0m
+[1;35m[WARNING]: While constructing a mapping from /var/lib/jenkins/workspace/Artifac[0m
+[1;35mtUpload/DockPreproduction/Core/Player/ansible/inventory/env/group_vars/env.yml,[0m
+[1;35mline 3, column 1, found a duplicate dict key[0m
+[1;35m(sunbird_installation_display_name). Using last defined value only.[0m
+[1;35m[0m
+[1;35m[WARNING]: While constructing a mapping from /var/lib/jenkins/workspace/Artifac[0m
+[1;35mtUpload/DockPreproduction/Core/Player/ansible/inventory/env/group_vars/env.yml,[0m
+[1;35mline 3, column 1, found a duplicate dict key[0m
+[1;35m(logger_logstash_reservation_memory). Using last defined value only.[0m
+[1;35m[0m
+[1;35m[WARNING]: While constructing a mapping from /var/lib/jenkins/workspace/Artifac[0m
+[1;35mtUpload/DockPreproduction/Core/Player/ansible/inventory/env/group_vars/env.yml,[0m
+[1;35mline 3, column 1, found a duplicate dict key (logger_logstash_limit_memory).[0m
+[1;35mUsing last defined value only.[0m
+[1;35m[0m
+[1;35m[WARNING]: While constructing a mapping from /var/lib/jenkins/workspace/Artifac[0m
+[1;35mtUpload/DockPreproduction/Core/Player/ansible/inventory/env/group_vars/env.yml,[0m
+[1;35mline 3, column 1, found a duplicate dict key (learner_replicas). Using last[0m
+[1;35mdefined value only.[0m
+[1;35m[0m
+[1;35m[WARNING]: While constructing a mapping from /var/lib/jenkins/workspace/Artifac[0m
+[1;35mtUpload/DockPreproduction/Core/Player/ansible/inventory/env/group_vars/env.yml,[0m
+[1;35mline 3, column 1, found a duplicate dict key (learner_reservation_memory).[0m
+[1;35mUsing last defined value only.[0m
+[1;35m[0m
+[1;35m[WARNING]: While constructing a mapping from /var/lib/jenkins/workspace/Artifac[0m
+[1;35mtUpload/DockPreproduction/Core/Player/ansible/inventory/env/group_vars/env.yml,[0m
+[1;35mline 3, column 1, found a duplicate dict key (learner_limit_memory). Using last[0m
+[1;35mdefined value only.[0m
+[1;35m[0m
+[1;35m[WARNING]: While constructing a mapping from /var/lib/jenkins/workspace/Artifac[0m
+[1;35mtUpload/DockPreproduction/Core/Player/ansible/inventory/env/group_vars/env.yml,[0m
+[1;35mline 3, column 1, found a duplicate dict key (sunbird_sso_url). Using last[0m
+[1;35mdefined value only.[0m
+[1;35m[0m
+[1;35m[WARNING]: While constructing a mapping from /var/lib/jenkins/workspace/Artifac[0m
+[1;35mtUpload/DockPreproduction/Core/Player/ansible/inventory/env/group_vars/env.yml,[0m
+[1;35mline 3, column 1, found a duplicate dict key (sunbird_telemetry_kafka_topic).[0m
+[1;35mUsing last defined value only.[0m
+[1;35m[0m
+[1;35m[WARNING]: While constructing a mapping from /var/lib/jenkins/workspace/Artifac[0m
+[1;35mtUpload/DockPreproduction/Core/Player/ansible/inventory/env/group_vars/env.yml,[0m
+[1;35mline 3, column 1, found a duplicate dict key[0m
+[1;35m(sunbird_subdomain_keycloak_base_url). Using last defined value only.[0m
+[1;35m[0m
+[1;35m[WARNING]: While constructing a mapping from /var/lib/jenkins/workspace/Artifac[0m
+[1;35mtUpload/DockPreproduction/Core/Player/ansible/inventory/env/group_vars/env.yml,[0m
+[1;35mline 3, column 1, found a duplicate dict key (storage_class_name). Using last[0m
+[1;35mdefined value only.[0m
+[1;35m[0m
+[1;35m[WARNING]: While constructing a mapping from /var/lib/jenkins/workspace/Artifac[0m
+[1;35mtUpload/DockPreproduction/Core/Player/ansible/inventory/env/group_vars/env.yml,[0m
+[1;35mline 3, column 1, found a duplicate dict key (enc_n_keys). Using last defined[0m
+[1;35mvalue only.[0m
+[1;35m[0m
+[1;35m[WARNING]: While constructing a mapping from /var/lib/jenkins/workspace/Artifac[0m
+[1;35mtUpload/DockPreproduction/Core/Player/ansible/inventory/env/group_vars/env.yml,[0m
+[1;35mline 3, column 1, found a duplicate dict key (enc_n_reserved_keys). Using last[0m
+[1;35mdefined value only.[0m
+[1;35m[0m
+
+TASK [Gathering Facts] *********************************************************
+[0;32mok: [localhost][0m
+
+TASK [login to registry] *******************************************************
+[0;33mchanged: [localhost][0m
+
+TASK [Push image to registry] **************************************************
+[1;35m[WARNING]: The value of the "source" option was determined to be "pull". Please[0m
+[1;35mset the "source" option explicitly. Autodetection will be removed in Ansible[0m
+[1;35m2.12.[0m
+[1;35m[0m
+[0;31mfatal: [localhost]: FAILED! => {[0m
+[0;31m    "changed": false[0m
+[0;31m}[0m
+[0;31m[0m
+[0;31mMSG:[0m
+[0;31m[0m
+[0;31mError pushing image bom.ocir.io/bmzbbujw9kal/diksha-odev/creation-player: denied: User UserId(ocid1.user.oc1..aaaaaaaaet5oahcjavfqxa4w2kojd423knc44kbwmg4vnugr77okd2bz4keq) not authorized[0m
+[0;31m[0m
+
+PLAY RECAP *********************************************************************
+[0;31mlocalhost[0m                  : [0;32mok=2   [0m [0;33mchanged=1   [0m unreachable=0    [0;31mfailed=1   [0m skipped=0    rescued=0    ignored=0   
+
+[8mha:////4A2FrHgfZfismXRL/dXGl1fgtDYp+0xEEITpFINfdqZEAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRCB2iSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BOVhn6uuPy0aJaK+AAAA[0m[Pipeline] }
+[8mha:////4GNMi1/KLP0AqeZQCfcV5A6E4l+6mRZ9TYjzsso8TE52AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRCB2iSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BOWhzlXvPx75fh6+AAAA[0m[Pipeline] // stage
+[8mha:////4HzBbq9ZXh6icUgDyJ5DgT3/xs2wTupbwQ8y9tJcLQ5/AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiRDpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BGVd5zrsPxyYcpq+AAAA[0m[Pipeline] }
+[8mha:////4Bb7QfGrOlhLExysxXxyw8VBUJUnBLu1BW21E3aqdhRqAAAAqx+LCAAAAAAAAP9b85aBtbiIQSujNKU4P0+vIKc0PTOvWC8xrzgzOT8nv0gvMbkkEyjhCKb88ktSdwVsu2efuqidiYHRh4EDIu2ZUsIg5JOVWJaon5OYl64fXFKUmZduXVHEIAU1ODk/rzg/J1XPGUKDDGKAAEYmBoaKghIGFQuLFJMUY4MU3aQkQ0NdE8vURN2kNItk3eTE1ORkA4tUYzMTMwDJLodNrwAAAA==[0m
+[8mha:////4OBPTIn23fVhfoSXwQEzSVna0d81Cf6ZSpVlH3B2L/zTAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Iddu+wEveykmvgAAAA==[0m[Pipeline] // ansiColor
+[8mha:////4KBfQrpwTRobdp0Yl9cjNf8nVCAY0CCQtxkchhUnEB8HAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiSIgGUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkG5P+Sq6w+VW4zlvgAAAA==[0m[Pipeline] }
+[8mha:////4P5PzXRGTjaRJ6AHDFuVFsB8wKQjQ6xpeBSgoDKAj9t6AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICEhIFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryf8i1234AprjXWb4AAAA=[0m[Pipeline] // stage
+[8mha:////4LqTuTOLKwDEviRvMv7iSfI/j0atPCBQyvap7y4TarseAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BKWgpeYTTpEBCVLSWG15gYmOcWHfBvpBUvIiv8QcMkajYamel1TxfUKUIB4pOdBZ7j6n1Ygijy01MFPtLoEl0dBYtYaJghbKTImOPCypiC0uKElYS1hbbQMmjY9jITt91HTS6+sQxb3sJpTc3eEAhs5l15C/MEbbX0STCn+evAOaBoWgYymb3OVZvfElB78EAAAA=[0m[Pipeline] ansiColor
+[8mha:////4I/N3qUYRNE2LX/vvz7fYM7eMU29+wdvQ1Rvy4BnFCqIAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YQAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD56au0DCAAAA[0m[Pipeline] {
+[8mha:////4NTOtBbdmD+JneZPbTAU+qPBGzPvEDY6+k8yqxKspy86AAAAqx+LCAAAAAAAAP9b85aBtbiIQSujNKU4P0+vIKc0PTOvWC8xrzgzOT8nv0gvMbkkEyjhCKb88ktSdwVsu2efuqidiYHRh4EDIu2ZUsIg5JOVWJaon5OYl64fXFKUmZduXVHEIAU1ODk/rzg/J1XPGUKDDGKAAEYmBoaKghIGlTRLAwuDVIsU3VTDJENdE3PzNN0k46RUXVMjA9NEIyMjE8tkSwDeaVpFrwAAAA==[0m
+[8mha:////4OfP14JDvZbEbNKsfy+suB/QIcXGeUsdIXTPMOU874G0AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUAQaEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WfbbT7P6g0iH00AwgAAAA==[0m[Pipeline] stage
+[8mha:////4JnEWqHMI4pWZuV59EhJLAF4dy3zNLkywnR7VMX6TprjAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUBibE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAW2++SvCAAAA[0m[Pipeline] { (slack_notify)
+[8mha:////4FA0gu60Y5jBBn8+bGQvorCJ2Oio9qp+dIAMaZK/PzVsAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN4OkKLa+AAAA[0m[Pipeline] sh
++ git rev-parse --short HEAD
+[8mha:////4EuMW1bSq/ivKgbFpGzz0Q7e6rCpvlaL8/roeIb2k8HmAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN8KVM6++AAAA[0m[Pipeline] sh
++ git name-rev --name-only HEAD
++ rev
++ cut -d / -f1
++ rev
+[8mha:////4Iusnzgzp5H0oiBwdRTCblQvcNc8fOORjzdpUD0H9PNKAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFNwUDcuC+AAAA[0m[Pipeline] sh
++ echo ArtifactUpload/DockPreproduction/Core/Player
+[8mha:////4FzgThQeApdy5b2KYrGgKE1EeBbMf6XE4XKdtw9MovFDAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiilSIitZKwwtMYowd686xHZyKF/E1/kAgEhVbrHa2mecL1jHAkYNGq6g3FFuD3o16Xpg59FfHGS1fsGWK7BQ2KjfcqdOCDScFS4oSVgI2ilrH0ZBOsBVW3mXlJOnqnML8HQSUphvgAYWYzUmG9IUpwO42dpHp5/krgMknKOv9p2r/BkQyafm+AAAA[0m[Pipeline] echo
+[33m[1mCould not find env specific Slack channel. Check for global slack channel..[0m
+[8mha:////4OZGav2JTSeK68o60kcIWCgL2r93DqOi3mFCRwk5nHQqAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCmgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO62n9qHN4dhRNK+AAAA[0m[Pipeline] echo
+[33m[1mCould not find slack environment variable. Skipping slack notification..[0m
+[8mha:////4KmIcBXrx2r+lXG7QyztwXtmsIPzXP7XKoO5eDtQxv0VAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCkSBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgGARsvsvgAAAA==[0m[Pipeline] }
+[8mha:////4ODJSNgVE6VgOYuMGQ6t7Jhj47HqJ68Y/E7DW5E5m171AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCg4SEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgHDxJpqvgAAAA==[0m[Pipeline] // stage
+[8mha:////4I4usj1l4huRiKhXaij20FNXcDMXGYH38j6PRMkQ8jIVAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSQBEhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJygPda59/QGDngHBvgAAAA==[0m[Pipeline] }
+[8mha:////4G8qwqgzlyiSkIDy9mDvgwyfO456pLpuZHSt0dOwrUEEAAAAqx+LCAAAAAAAAP9b85aBtbiIQSujNKU4P0+vIKc0PTOvWC8xrzgzOT8nv0gvMbkkEyjhCKb88ktSdwVsu2efuqidiYHRh4EDIu2ZUsIg5JOVWJaon5OYl64fXFKUmZduXVHEIAU1ODk/rzg/J1XPGUKDDGKAAEYmBoaKghIGFWMTy2QjyyQD3SRTw1RdEwMjC12LVEtz3UTjtLREw+Qko1QzSwC6FY3irwAAAA==[0m
+[8mha:////4PB9BRrthV8bgThU6ObdfuA0LUMpF2gxDZfj4NTsmE5qAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCgRASSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wAQOXhoL4AAAA=[0m[Pipeline] // ansiColor
+[8mha:////4B3BbZeqs1vk0lYI9ea2+3rUpPbNgzN4LfmO5SH25XtJAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjJESDqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFlKHabz7F8A50J0V/BAAAA[0m[Pipeline] ansiColor
+[8mha:////4OyZnsjNrIJQfARiLjcR4DlyIr6QT1lmqkrm2UzWLOwHAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUMLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD27blSrCAAAA[0m[Pipeline] {
+[8mha:////4MFk9U1UXvyZOPQSfmX2j4YjC1s205NeeTp8EYGbQ7YnAAAAqx+LCAAAAAAAAP9b85aBtbiIQSujNKU4P0+vIKc0PTOvWC8xrzgzOT8nv0gvMbkkEyjhCKb88ktSdwVsu2efuqidiYHRh4EDIu2ZUsIg5JOVWJaon5OYl64fXFKUmZduXVHEIAU1ODk/rzg/J1XPGUKDDGKAAEYmBoaKghIGFTOTNEsDI2NzXXODFAtdE2PTZF0Lw6RUXXNLS1NjE9OUJDMzAwDUDfz1rwAAAA==[0m
+[8mha:////4O3APo/8oOeiyrDdh6xEbJKJQhpxYmlpeQLG+McyVtO3AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAokFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfADKbit4wgAAAA==[0m[Pipeline] stage
+[8mha:////4IB8HwnaHiJSCJpCXOCQFhkzxuvliHeLQBC5fm6hei8wAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ALEgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD7KBoKTCAAAA[0m[Pipeline] { (email_notify)
+[8mha:////4G+ysJVUew1fV2IRpbGkN964ZSrEZsojnDXZtEEJJYnsAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSAA2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBlmkmCe+AAAA[0m[Pipeline] sh
++ echo ArtifactUpload/DockPreproduction/Core/Player
+[8mha:////4DkEqjItO4xagbiNHbyE1+mM+f4VKKZ15LkggjZLM+kQAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSoDSIitZKwwtMYowd686xHZyKF/E1/kAgEhVbrHa2mecL1jHAkYNGq6g3FFuD3o16Xpg59FfHGS1fsGWK7BQ2KjfcqdOCDScFS4oSVgI2ilrH0ZBOsBVW3mXlJOnqnML8HQSUphvgAYWYzUmG9IUpwO42dpHp5/krgMknKOv9p2r/Bpr3tQy+AAAA[0m[Pipeline] echo
+[33m[1mCould not find env specific email group. Check for global email group..[0m
+[8mha:////4OsRS/XuJSZi4ZoX1XI1K4Mc8HRyLBOGvgRe4CX7dP//AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSICgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO62n9qHN9vGrhW+AAAA[0m[Pipeline] echo
+[33m[1mCould not find global email group variable. Skipping email notification..[0m
+[8mha:////4LdnLK4KQEvwdTKya9vhieKki4BLn2hAQOczjwrQPOybAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSIISEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgGESTJ3vgAAAA==[0m[Pipeline] }
+[8mha:////4NDfcnP8vO9IRdJht5BmPCy0xChZUqPsIJx2xlTL68eqAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSICEhRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyt//U9g2CDwoivgAAAA==[0m[Pipeline] // stage
+[8mha:////4PJD1tJ+SHySLglkn+Vdf5ogHkdiZxps+2TGz2Xw7DpvAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCKKBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAetrn2uw9oZXXUvgAAAA==[0m[Pipeline] }
+[8mha:////4GNZEnBsjY6PQpOvO++qfTvam7gQp55d7jANh2kqFuZsAAAAqx+LCAAAAAAAAP9b85aBtbiIQSujNKU4P0+vIKc0PTOvWC8xrzgzOT8nv0gvMbkkEyjhCKb88ktSdwVsu2efuqidiYHRh4EDIu2ZUsIg5JOVWJaon5OYl64fXFKUmZduXVHEIAU1ODk/rzg/J1XPGUKDDGKAAEYmBoaKghIGFfMUM3PzNAsT3dSUVBNdEyPDZF1LQ+MkXePUlOREc0tjU1OLFADEl5cnrwAAAA==[0m
+[8mha:////4HHieRVnhObSF82WSc4+515j/cAzITHZ3vHNiqqXVMIbAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiNFAgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJygPda59/QF35yCGvgAAAA==[0m[Pipeline] // ansiColor
+[8mha:////4FqHL8KjnIwq0QzAxIIVMLAXorzAWKW4rZxxrz7lcIVEAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREBIFoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN9vBdnuA/ib3H69AAAA[0m[Pipeline] }
+[8mha:////4JNEl+gs3TY6fPd9loHWbEt4ibCdfX4jvldsz/INZeIFAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIUFBaOlW2GxhNEiDGQ2cVkESpP5NW8g4zMWPmr/17zXm+sU8SRo1Otpc5Tqr3qw+Dmp0aO3TXwqFq+qJopcbCqsmPFjT0tWLFYLMtyrDQ2lurAyZMTbHVrHqYIhlxxlji7g0bumzueyPRcFhPlC1PE7jY0ienX+RvA1PeCfF8KsvID6yfY3b0AAAA=[0m[Pipeline] // node
+[8mha:////4HiLPKG4kuVvl71+aWTXoB0vQngkfoixqE//SOewsq1AAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREBIFoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/vBNn2A23L/xi9AAAA[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 2
+Finished: FAILURE
